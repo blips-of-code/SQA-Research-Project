@@ -1,0 +1,29 @@
+FilePath,FunctionName,Reason
+C:\Users\2021s\Documents\SQA-Research\pilot-repositories\glideapps-quicktype\packages\quicktype-core\src\language\CSharp\utils.ts,noFollow,"41)
+    at run (C:\Users\2021s\Documents\SQA-Research\scripts\scale_worker.cjs:49:52)
+    at Object.<anonymous> (C:\Users\2021s\Documents\SQA-Research\scripts\scale_worker.cjs:62:119)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:i"
+C:\Users\2021s\Documents\SQA-Research\pilot-repositories\glideapps-quicktype\packages\quicktype-core\src\support\Strings.ts,allUpperWordStyle,"41)
+    at run (C:\Users\2021s\Documents\SQA-Research\scripts\scale_worker.cjs:49:52)
+    at Object.<anonymous> (C:\Users\2021s\Documents\SQA-Research\scripts\scale_worker.cjs:62:119)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:i"
+C:\Users\2021s\Documents\SQA-Research\pilot-repositories\Microsoft-vscode-mssql\src\reactviews\pages\QueryResult\table\tableDataView.ts,defaultCellValueGetter,"41)
+    at run (C:\Users\2021s\Documents\SQA-Research\scripts\scale_worker.cjs:49:52)
+    at Object.<anonymous> (C:\Users\2021s\Documents\SQA-Research\scripts\scale_worker.cjs:62:119)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:i"
+C:\Users\2021s\Documents\SQA-Research\pilot-repositories\Microsoft-vscode-spring-boot-dashboard\src\references-view\utils.ts,tail,"41)
+    at run (C:\Users\2021s\Documents\SQA-Research\scripts\scale_worker.cjs:49:52)
+    at Object.<anonymous> (C:\Users\2021s\Documents\SQA-Research\scripts\scale_worker.cjs:62:119)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:i"

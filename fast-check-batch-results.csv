@@ -1,0 +1,5 @@
+FilePath,TestCaseName,FunctionName,Status,ExpectedValue,ProvidedValue,ErrorMessage,FailureCategory,InputParamater
+"sql-formatter-org-sql-formatter/src/lexer/regexUtil.ts","Escaped regex matches literal input","escapeRegExp","Passed","Property holds for generated inputs","100 generated cases passed","","","fast-check generated input"
+"sql-formatter-org-sql-formatter/src/lexer/lineColFromIndex.ts","Line and column match prefix positions","lineColFromIndex","Passed","Property holds for generated inputs","100 generated cases passed","","","fast-check generated input"
+"sql-formatter-org-sql-formatter/src/utils.ts","Deduplication preserves unique first occurrences","dedupe","Passed","Property holds for generated inputs","100 generated cases passed","","","fast-check generated input"
+"sql-formatter-org-sql-formatter/src/expandPhrases.ts","Simple phrases preserve input order","expandPhrases","Passed","Property holds for generated inputs","100 generated cases passed","","","fast-check generated input"

@@ -1,0 +1,900 @@
+Repository,FilePath,Classification,FunctionCount,SelectedFunction,ParameterTypes,Notes
+aaron-bond-better-comments,src/configuration.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+aaron-bond-better-comments,src/extension.ts,RobustnessExceptionNeedsReview,4,updateDecorations,,Generated input runs: 1
+aaron-bond-better-comments,src/parser.ts,UnsupportedSignatureOrMethod,9,,,ClassMethodNeedsInstance
+aaron-bond-better-comments,src/test/index.ts,NoRecognizedFunction,0,,,
+aaron-bond-better-comments,src/test/samples/typescript.ts,UnsupportedSignatureOrMethod,6,,,ClassMethodNeedsInstance
+aaron-bond-better-comments,src/test/samples/typescriptreact.tsx,NoRecognizedFunction,0,,,
+amir9480-vscode-laravel-extra-intellisense,src/AssetProvider.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+amir9480-vscode-laravel-extra-intellisense,src/AuthProvider.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+amir9480-vscode-laravel-extra-intellisense,src/BladeProvider.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+amir9480-vscode-laravel-extra-intellisense,src/ConfigProvider.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+amir9480-vscode-laravel-extra-intellisense,src/EloquentProvider.ts,UnsupportedSignatureOrMethod,6,,,ClassMethodNeedsInstance
+amir9480-vscode-laravel-extra-intellisense,src/EnvProvider.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+amir9480-vscode-laravel-extra-intellisense,src/extension.ts,RobustnessPassed,5,deactivate,,Generated input runs: 20
+amir9480-vscode-laravel-extra-intellisense,src/helpers.ts,UnsupportedSignatureOrMethod,11,,,ClassMethodNeedsInstance
+amir9480-vscode-laravel-extra-intellisense,src/MiddlewareProvider.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+amir9480-vscode-laravel-extra-intellisense,src/MixProvider.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+amir9480-vscode-laravel-extra-intellisense,src/RouteProvider.ts,UnsupportedSignatureOrMethod,5,,,ClassMethodNeedsInstance
+amir9480-vscode-laravel-extra-intellisense,src/TranslationProvider.ts,UnsupportedSignatureOrMethod,5,,,ClassMethodNeedsInstance;ComplexParameters
+amir9480-vscode-laravel-extra-intellisense,src/ValidationProvider.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+amir9480-vscode-laravel-extra-intellisense,src/ViewProvider.ts,UnsupportedSignatureOrMethod,5,,,ClassMethodNeedsInstance
+amir9480-vscode-laravel-extra-intellisense,src/ViteProvider.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+astral-sh-ruff-vscode,src/common/constants.ts,NoRecognizedFunction,0,,,
+astral-sh-ruff-vscode,src/common/logger.ts,UnsupportedSignatureOrMethod,13,,,ClassMethodNeedsInstance
+astral-sh-ruff-vscode,src/common/python.ts,UnsupportedSignatureOrMethod,7,,,AsyncOrGenerator;UnknownOrComplexParameterType
+astral-sh-ruff-vscode,src/common/server.ts,RobustnessExceptionNeedsReview,13,execFileShellModeRequired,string,Generated input runs: 1
+astral-sh-ruff-vscode,src/common/settings.ts,RobustnessExceptionNeedsReview,12,getExtensionSettings,string,Generated input runs: 1
+astral-sh-ruff-vscode,src/common/setup.ts,RobustnessExceptionNeedsReview,1,loadServerDefaults,,Generated input runs: 1
+astral-sh-ruff-vscode,src/common/status.ts,RobustnessExceptionNeedsReview,3,registerLanguageStatusItem,string;string;string,Generated input runs: 1
+astral-sh-ruff-vscode,src/common/utilities.ts,RobustnessExceptionNeedsReview,2,getDocumentSelector,,Generated input runs: 1
+astral-sh-ruff-vscode,src/common/version.ts,UnsupportedSignatureOrMethod,4,,,UnknownOrComplexParameterType
+astral-sh-ruff-vscode,src/common/vscodeapi.ts,RobustnessExceptionNeedsReview,5,isVirtualWorkspace,,Generated input runs: 1
+astral-sh-ruff-vscode,src/extension.ts,UnsupportedSignatureOrMethod,3,,,AsyncOrGenerator
+astral-sh-ruff-vscode,src/test/helper.ts,RobustnessExceptionNeedsReview,5,getDocumentPath,string,Generated input runs: 1
+Azure-vscode-azureterraform,src/baseShell.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Azure-vscode-azureterraform,src/cloudFile.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Azure-vscode-azureterraform,src/cloudShell.ts,UnsupportedSignatureOrMethod,11,,,ClassMethodNeedsInstance
+Azure-vscode-azureterraform,src/constants.ts,RobustnessPassed,3,exportTestScript,string;string;string;string,Generated input runs: 20
+Azure-vscode-azureterraform,src/extension.ts,RobustnessExceptionNeedsReview,3,deactivate,,Generated input runs: 1
+Azure-vscode-azureterraform,src/integratedShell.ts,UnsupportedSignatureOrMethod,6,,,ClassMethodNeedsInstance
+Azure-vscode-azureterraform,src/shared.ts,RobustnessPassed,9,escapeFile,string,Generated input runs: 20
+Azure-vscode-azureterraform,src/terraformChannel.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+Azure-vscode-azureterraform,src/terraformShellManager.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+Azure-vscode-azureterraform,src/test/runTest.ts,UnsupportedSignatureOrMethod,1,,,AsyncOrGenerator
+Azure-vscode-azureterraform,src/test/suite/index.ts,RobustnessExceptionNeedsReview,1,run,,Generated input runs: 1
+Azure-vscode-azureterraform,src/utils/cloudShellUtils.ts,UnsupportedSignatureOrMethod,4,,,AsyncOrGenerator
+Azure-vscode-azureterraform,src/utils/cpUtils.ts,UnsupportedSignatureOrMethod,1,,,AsyncOrGenerator
+Azure-vscode-azureterraform,src/utils/dockerUtils.ts,UnsupportedSignatureOrMethod,5,,,AsyncOrGenerator
+Azure-vscode-azureterraform,src/utils/dotUtils.ts,UnsupportedSignatureOrMethod,2,,,AsyncOrGenerator
+Azure-vscode-azureterraform,src/utils/settingUtils.ts,RobustnessExceptionNeedsReview,9,isTerminalSetToCloudShell,,Generated input runs: 1
+Azure-vscode-azureterraform,src/utils/terraformUtils.ts,UnsupportedSignatureOrMethod,1,,,AsyncOrGenerator
+Azure-vscode-azureterraform,src/utils/uiUtils.ts,UnsupportedSignatureOrMethod,4,,,AsyncOrGenerator
+Azure-vscode-azureterraform,src/utils/workspaceUtils.ts,UnsupportedSignatureOrMethod,1,,,AsyncOrGenerator
+bmewburn-vscode-intelephense,src/embeddedContentUri.ts,RobustnessExceptionNeedsReview,4,getEmbeddedContentUri,string;string,Generated input runs: 1
+bmewburn-vscode-intelephense,src/extension.ts,RobustnessExceptionNeedsReview,9,deactivate,,Generated input runs: 1
+bmewburn-vscode-intelephense,src/middleware.ts,RobustnessExceptionNeedsReview,6,createMiddleware,,Generated input runs: 1
+bmewburn-vscode-intelephense,test/index.ts,NoRecognizedFunction,0,,,
+Borvik-vscode-postgres,src/commands/addConnection.ts,UnsupportedSignatureOrMethod,8,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/commands/copyColumnName.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/commands/copyFunctionName.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/commands/copySchemaName.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/commands/copyTableName.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/commands/deleteConnection.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/commands/editConnection.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/commands/newQuery.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/commands/refresh.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/commands/renameConnection.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/commands/runQuery.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/commands/runSelectTop.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/commands/runSelectTop1000.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/commands/saveResult.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+Borvik-vscode-postgres,src/commands/selectConnection.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/commands/selectDatabase.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/commands/selectTop.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/commands/selectTop1000.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/commands/selectTop1000WithNames.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/commands/selectTopWithNames.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/commands/setActiveConnection.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/common/backwordIterator.ts,UnsupportedSignatureOrMethod,12,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/common/baseCommand.ts,NoRecognizedFunction,0,,,
+Borvik-vscode-postgres,src/common/configFileSystem.ts,UnsupportedSignatureOrMethod,10,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/common/connection.ts,RobustnessExceptionNeedsReview,1,parseStringArray,string,Generated input runs: 1
+Borvik-vscode-postgres,src/common/constants.ts,NoRecognizedFunction,0,,,
+Borvik-vscode-postgres,src/common/database.ts,UnsupportedSignatureOrMethod,5,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/common/editorState.ts,UnsupportedSignatureOrMethod,8,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/common/formatting.ts,RobustnessPassed,6,htmlEntities,string,Generated input runs: 20
+Borvik-vscode-postgres,src/common/global.ts,NoRecognizedFunction,0,,,
+Borvik-vscode-postgres,src/common/IConnection.ts,NoRecognizedFunction,0,,,
+Borvik-vscode-postgres,src/common/IConnQuickPick.ts,NoRecognizedFunction,0,,,
+Borvik-vscode-postgres,src/common/multiStepInput.ts,UnsupportedSignatureOrMethod,5,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/common/outputChannel.ts,UnsupportedSignatureOrMethod,5,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/extension.ts,RobustnessPassed,2,deactivate,,Generated input runs: 20
+Borvik-vscode-postgres,src/language/client.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/language/functionValidator.ts,NoRecognizedFunction,0,,,
+Borvik-vscode-postgres,src/language/server.ts,RobustnessPassed,6,dbConnectionEnded,,Generated input runs: 20
+Borvik-vscode-postgres,src/language/validator.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/queries/index.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/resultsview/common.ts,RobustnessPassed,16,getRowCountResult,number;string;string,Generated input runs: 20
+Borvik-vscode-postgres,src/resultsview/resultsManager.ts,UnsupportedSignatureOrMethod,7,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/resultsview/resultView.ts,UnsupportedSignatureOrMethod,12,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/resultsview/scripts/index.ts,NoRecognizedFunction,0,,,
+Borvik-vscode-postgres,src/resultsview/scripts/settings.ts,RobustnessExceptionNeedsReview,1,getData,string,Generated input runs: 1
+Borvik-vscode-postgres,src/tree/columnNode.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/tree/connectionNode.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/tree/databaseNode.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/tree/funcFolderNode.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/tree/functionNode.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/tree/IColumn.ts,NoRecognizedFunction,0,,,
+Borvik-vscode-postgres,src/tree/infoNode.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/tree/INode.ts,NoRecognizedFunction,0,,,
+Borvik-vscode-postgres,src/tree/schemaNode.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/tree/tableNode.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+Borvik-vscode-postgres,src/tree/treeProvider.ts,UnsupportedSignatureOrMethod,5,,,ClassMethodNeedsInstance
+brapifra-vscode-phpserver,__mocks__/vscode.ts,NoRecognizedFunction,0,,,
+brapifra-vscode-phpserver,src/__mocks__/VSCodeMementoMock.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+brapifra-vscode-phpserver,src/__mocks__/VSCodeOutputChannelMock.ts,NoRecognizedFunction,0,,,
+brapifra-vscode-phpserver,src/__tests__/runTests.ts,UnsupportedSignatureOrMethod,1,,,AsyncOrGenerator
+brapifra-vscode-phpserver,src/BreakingChangesNotifier.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+brapifra-vscode-phpserver,src/browser/Browser.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+brapifra-vscode-phpserver,src/controllers/CommandController.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+brapifra-vscode-phpserver,src/extension.ts,RobustnessExceptionNeedsReview,4,getCommandControllerContext,string,Generated input runs: 1
+brapifra-vscode-phpserver,src/Messages.ts,NoRecognizedFunction,0,,,
+brapifra-vscode-phpserver,src/server/PHPServer.ts,UnsupportedSignatureOrMethod,9,,,ClassMethodNeedsInstance
+brapifra-vscode-phpserver,src/utils.ts,RobustnessExceptionNeedsReview,2,getRootPath,,Generated input runs: 1
+brapifra-vscode-phpserver,src/VSCodeLogger.ts,NoRecognizedFunction,0,,,
+castwide-vscode-solargraph,src/configure-shell.ts,RobustnessExceptionNeedsReview,1,configureShell,,Generated input runs: 1
+castwide-vscode-solargraph,src/extension.ts,RobustnessExceptionNeedsReview,9,haveWorkspace,,Generated input runs: 1
+castwide-vscode-solargraph,src/language-client.ts,RobustnessExceptionNeedsReview,6,convertDocumentation,string,Generated input runs: 1
+castwide-vscode-solargraph,src/SolargraphWebviewProvider.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+castwide-vscode-solargraph,src/test/runTest.ts,UnsupportedSignatureOrMethod,1,,,AsyncOrGenerator
+castwide-vscode-solargraph,src/test/suite/index.ts,RobustnessExceptionNeedsReview,1,run,,Generated input runs: 1
+ChristianKohler-NpmIntellisense,src/command-import.ts,RobustnessExceptionNeedsReview,4,onImportCommand,,Generated input runs: 1
+ChristianKohler-NpmIntellisense,src/config.ts,RobustnessExceptionNeedsReview,1,getConfig,,Generated input runs: 1
+ChristianKohler-NpmIntellisense,src/extension.ts,RobustnessPassed,2,deactivate,,Generated input runs: 20
+ChristianKohler-NpmIntellisense,src/fs-functions.ts,RobustnessPassed,3,isFile,string,Generated input runs: 20
+ChristianKohler-NpmIntellisense,src/NpmIntellisense.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+ChristianKohler-NpmIntellisense,src/PackageCompletionItem.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+ChristianKohler-NpmIntellisense,src/provide.ts,RobustnessExceptionNeedsReview,7,getBuildInModules,,Generated input runs: 1
+ChristianKohler-NpmIntellisense,src/shouldProvide.ts,RobustnessPassed,7,isImportOrRequire,string;number,Generated input runs: 20
+ChristianKohler-NpmIntellisense,src/State.ts,NoRecognizedFunction,0,,,
+ChristianKohler-NpmIntellisense,src/util.ts,ExecutionBlocked,6,readFilesFromDir,string,"src/util.ts:7
+        readdir(dir, (error, files) => {
+        ^
+
+ReferenceError: readdir is not defined
+    at src/util.ts:7:9
+    at new Promise (<anonymous>)
+    at readFilesFromDir (src/util.ts:5:12)
+    at evalmachine.<anonymous>:1:29
+    at Script.runInContext (node:vm:149:12)
+    at C:\Users\2021s\Documents\SQA-Research\scripts\broad_worker.cjs:45:156
+    at Property.predicate (C:\Users\2021s\Documents\SQA-Research\node_modules\fast-check\lib\cjs\fast-check.js:1370:99)
+    at Property.run"
+ChristianKohler-NpmIntellisense,test/runTest.ts,UnsupportedSignatureOrMethod,1,,,AsyncOrGenerator
+ChristianKohler-NpmIntellisense,test/suite/index.ts,RobustnessExceptionNeedsReview,1,run,,Generated input runs: 1
+ChristianKohler-PathIntellisense,src/configuration/configuration.interface.ts,NoRecognizedFunction,0,,,
+ChristianKohler-PathIntellisense,src/configuration/configuration.service.ts,RobustnessExceptionNeedsReview,4,getConfig,string,Generated input runs: 1
+ChristianKohler-PathIntellisense,src/configuration/mapping.service.ts,RobustnessPassed,3,valueContainsWorkspaceFolder,string,Generated input runs: 20
+ChristianKohler-PathIntellisense,src/configuration/tsconfig.service.ts,UnsupportedSignatureOrMethod,9,,,AsyncOrGenerator;UnknownOrComplexParameterType
+ChristianKohler-PathIntellisense,src/extension.ts,RobustnessPassed,2,deactivate,,Generated input runs: 20
+ChristianKohler-PathIntellisense,src/providers/default.provider.ts,NoRecognizedFunction,0,,,
+ChristianKohler-PathIntellisense,src/providers/index.ts,NoRecognizedFunction,0,,,
+ChristianKohler-PathIntellisense,src/providers/javascript/javascript.provider.ts,UnsupportedSignatureOrMethod,3,,,AsyncOrGenerator;UnknownOrComplexParameterType
+ChristianKohler-PathIntellisense,src/providers/nixos/nixos.provider.ts,UnsupportedSignatureOrMethod,3,,,AsyncOrGenerator;UnknownOrComplexParameterType
+ChristianKohler-PathIntellisense,src/providers/provider.interface.ts,NoRecognizedFunction,0,,,
+ChristianKohler-PathIntellisense,src/test/runTest.ts,UnsupportedSignatureOrMethod,1,,,AsyncOrGenerator
+ChristianKohler-PathIntellisense,src/test/suite/index.ts,RobustnessExceptionNeedsReview,1,run,,Generated input runs: 1
+ChristianKohler-PathIntellisense,src/test/utils/delay.ts,UnsupportedSignatureOrMethod,1,,,AsyncOrGenerator
+ChristianKohler-PathIntellisense,src/test/utils/open-document.ts,RobustnessExceptionNeedsReview,3,getAbsoluteUrl,string,Generated input runs: 1
+ChristianKohler-PathIntellisense,src/test/utils/set-config.ts,UnsupportedSignatureOrMethod,2,,,AsyncOrGenerator
+ChristianKohler-PathIntellisense,src/utils/createCompletionItem.ts,RobustnessPassed,5,getFileNameWithoutExtension,string,Generated input runs: 20
+ChristianKohler-PathIntellisense,src/utils/createContext.ts,RobustnessPassed,5,getFromString,string;number,Generated input runs: 20
+ChristianKohler-PathIntellisense,src/utils/file-utills.ts,RobustnessPassed,7,replaceWorkspaceFolderWithRootPath,string;string,Generated input runs: 20
+chrmarti-vscode-regex,src/chat.ts,UnsupportedSignatureOrMethod,3,,,AsyncOrGenerator;ComplexParameters;UnknownOrComplexParameterType
+chrmarti-vscode-regex,src/extension.ts,RobustnessExceptionNeedsReview,20,updateToggleGM,,Generated input runs: 1
+clangd-vscode-clangd,src/api.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+clangd-vscode-clangd,src/ast.ts,RobustnessPassed,12,describe,string;string,Generated input runs: 20
+clangd-vscode-clangd,src/clangd-context.ts,RobustnessPassed,10,quote,string,Generated input runs: 20
+clangd-vscode-clangd,src/config-file-watcher.ts,UnsupportedSignatureOrMethod,9,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+clangd-vscode-clangd,src/config.ts,RobustnessExceptionNeedsReview,4,get,string,Generated input runs: 1
+clangd-vscode-clangd,src/extension.ts,UnsupportedSignatureOrMethod,1,,,AsyncOrGenerator
+clangd-vscode-clangd,src/file-status.ts,UnsupportedSignatureOrMethod,5,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+clangd-vscode-clangd,src/inactive-regions.ts,UnsupportedSignatureOrMethod,8,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+clangd-vscode-clangd,src/inlay-hints.ts,UnsupportedSignatureOrMethod,9,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+clangd-vscode-clangd,src/install.ts,UnsupportedSignatureOrMethod,12,,,AsyncOrGenerator;ClassMethodNeedsInstance
+clangd-vscode-clangd,src/memory-usage.ts,UnsupportedSignatureOrMethod,9,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+clangd-vscode-clangd,src/open-config.ts,RobustnessExceptionNeedsReview,4,getUserConfigDirectory,,Generated input runs: 1
+clangd-vscode-clangd,src/switch-source-header.ts,UnsupportedSignatureOrMethod,2,,,AsyncOrGenerator;UnknownOrComplexParameterType
+clangd-vscode-clangd,src/type-hierarchy.ts,UnsupportedSignatureOrMethod,15,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+clangd-vscode-clangd,test/index.ts,RobustnessExceptionNeedsReview,2,run,,Generated input runs: 1
+clangd-vscode-clangd,test/mocks.ts,UnsupportedSignatureOrMethod,14,,,ClassMethodNeedsInstance
+clinyong-vscode-css-modules,src/CompletionProvider.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+clinyong-vscode-css-modules,src/constants.ts,NoRecognizedFunction,0,,,
+clinyong-vscode-css-modules,src/DefinitionProvider.ts,UnsupportedSignatureOrMethod,8,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+clinyong-vscode-css-modules,src/extension.ts,RobustnessPassed,2,deactivate,,Generated input runs: 20
+clinyong-vscode-css-modules,src/options.ts,RobustnessExceptionNeedsReview,1,readOptions,,Generated input runs: 1
+clinyong-vscode-css-modules,src/path-alias.ts,RobustnessExceptionNeedsReview,5,valueContainsWorkspaceFolder,string,Generated input runs: 1
+clinyong-vscode-css-modules,src/test/constant.ts,NoRecognizedFunction,0,,,
+clinyong-vscode-css-modules,src/test/fixtures/sample.ts,NoRecognizedFunction,0,,,
+clinyong-vscode-css-modules,src/test/fixtures/sample.tsx,NoRecognizedFunction,0,,,
+clinyong-vscode-css-modules,src/test/runTest.ts,UnsupportedSignatureOrMethod,1,,,AsyncOrGenerator
+clinyong-vscode-css-modules,src/test/suite/index.ts,RobustnessExceptionNeedsReview,1,run,,Generated input runs: 1
+clinyong-vscode-css-modules,src/test/utils.ts,UnsupportedSignatureOrMethod,1,,,ComplexParameters
+clinyong-vscode-css-modules,src/utils/index.ts,RobustnessPassed,5,dashesCamelCase,string,Generated input runs: 20
+clinyong-vscode-css-modules,src/utils/path.ts,RobustnessExceptionNeedsReview,5,isPathExist,string,Generated input runs: 1
+clinyong-vscode-css-modules,src/utils/ts-alias.ts,RobustnessPassed,9,removeEndSign,string,Generated input runs: 20
+CodeZombieCH-vscode-gitignore,src/cache.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+CodeZombieCH-vscode-gitignore,src/extension.ts,ExecutionBlocked,7,checkIfFileExists,string,"src/extension.ts:3
+        fs.stat(path, (err) => {
+        ^
+
+ReferenceError: fs is not defined
+    at src/extension.ts:3:9
+    at new Promise (<anonymous>)
+    at checkIfFileExists (src/extension.ts:2:12)
+    at evalmachine.<anonymous>:1:29
+    at Script.runInContext (node:vm:149:12)
+    at C:\Users\2021s\Documents\SQA-Research\scripts\broad_worker.cjs:45:156
+    at Property.predicate (C:\Users\2021s\Documents\SQA-Research\node_modules\fast-check\lib\cjs\fast-check.js:1370:99)
+    at Property."
+CodeZombieCH-vscode-gitignore,src/http-client.ts,RobustnessExceptionNeedsReview,4,getProxyConfig,,Generated input runs: 1
+CodeZombieCH-vscode-gitignore,src/interfaces.ts,NoRecognizedFunction,0,,,
+CodeZombieCH-vscode-gitignore,src/providers/github-gitignore-api.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+CodeZombieCH-vscode-gitignore,src/providers/github-gitignore-repository.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+CodeZombieCH-vscode-gitignore,src/test/runTest.ts,UnsupportedSignatureOrMethod,1,,,AsyncOrGenerator
+CodeZombieCH-vscode-gitignore,src/test/suite/index.ts,RobustnessExceptionNeedsReview,1,run,,Generated input runs: 1
+cs50-extension-uninstaller.vsix,src/extension.ts,RobustnessPassed,3,deactivate,,Generated input runs: 20
+cschlosser-doxdocgen,src/CodeParserController.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+cschlosser-doxdocgen,src/Common/ICodeParser.ts,NoRecognizedFunction,0,,,
+cschlosser-doxdocgen,src/Common/IDocGen.ts,NoRecognizedFunction,0,,,
+cschlosser-doxdocgen,src/Config.ts,UnsupportedSignatureOrMethod,5,,,ClassMethodNeedsInstance
+cschlosser-doxdocgen,src/DoxygenCompletionItemProvider.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+cschlosser-doxdocgen,src/extension.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+cschlosser-doxdocgen,src/GitConfig.ts,NoRecognizedFunction,0,,,
+cschlosser-doxdocgen,src/Lang/Cpp/CppArgument.ts,NoRecognizedFunction,0,,,
+cschlosser-doxdocgen,src/Lang/Cpp/CppDocGen.ts,UnsupportedSignatureOrMethod,19,,,ClassMethodNeedsInstance
+cschlosser-doxdocgen,src/Lang/Cpp/CppParser.ts,UnsupportedSignatureOrMethod,19,,,ClassMethodNeedsInstance
+cschlosser-doxdocgen,src/Lang/Cpp/CppParseTree.ts,UnsupportedSignatureOrMethod,5,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+cschlosser-doxdocgen,src/Lang/Cpp/CppToken.ts,NoRecognizedFunction,0,,,
+cschlosser-doxdocgen,src/templatedString.ts,RobustnessPassed,4,getIndentedTemplate,string,Generated input runs: 20
+cschlosser-doxdocgen,src/test/CppTests/TestSetup.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+cschlosser-doxdocgen,src/test/index.ts,RobustnessExceptionNeedsReview,2,setupNyc,,Generated input runs: 1
+cschlosser-doxdocgen,src/test/runTests.ts,UnsupportedSignatureOrMethod,1,,,AsyncOrGenerator
+cschlosser-doxdocgen,src/test/tools/MockDocument.ts,UnsupportedSignatureOrMethod,8,,,ClassMethodNeedsInstance
+cschlosser-doxdocgen,src/test/tools/MockEditor.ts,UnsupportedSignatureOrMethod,6,,,ClassMethodNeedsInstance
+cschlosser-doxdocgen,src/test/tools/MockLine.ts,NoRecognizedFunction,0,,,
+cschlosser-doxdocgen,src/test/tools/MockPosition.ts,UnsupportedSignatureOrMethod,8,,,ClassMethodNeedsInstance
+cschlosser-doxdocgen,src/test/tools/MockSelection.ts,UnsupportedSignatureOrMethod,5,,,ClassMethodNeedsInstance
+cschlosser-doxdocgen,src/test/tools/MockTextEditorEdit.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+cschlosser-doxdocgen,src/util.ts,RobustnessPassed,3,getEnvVars,string,Generated input runs: 20
+danielpinto8zz6-c-cpp-compile-run,src/compile-run-manager.ts,UnsupportedSignatureOrMethod,5,,,ClassMethodNeedsInstance
+danielpinto8zz6-c-cpp-compile-run,src/compiler.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+danielpinto8zz6-c-cpp-compile-run,src/configuration.ts,UnsupportedSignatureOrMethod,18,,,ClassMethodNeedsInstance
+danielpinto8zz6-c-cpp-compile-run,src/debugger.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+danielpinto8zz6-c-cpp-compile-run,src/enums/file-type.ts,NoRecognizedFunction,0,,,
+danielpinto8zz6-c-cpp-compile-run,src/enums/result.ts,NoRecognizedFunction,0,,,
+danielpinto8zz6-c-cpp-compile-run,src/enums/shell-type.ts,NoRecognizedFunction,0,,,
+danielpinto8zz6-c-cpp-compile-run,src/extension.ts,RobustnessPassed,2,deactivate,,Generated input runs: 20
+danielpinto8zz6-c-cpp-compile-run,src/external-terminal.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+danielpinto8zz6-c-cpp-compile-run,src/models/file.ts,NoRecognizedFunction,0,,,
+danielpinto8zz6-c-cpp-compile-run,src/notification.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+danielpinto8zz6-c-cpp-compile-run,src/output-channel.ts,UnsupportedSignatureOrMethod,5,,,ClassMethodNeedsInstance
+danielpinto8zz6-c-cpp-compile-run,src/runner.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+danielpinto8zz6-c-cpp-compile-run,src/status-bar.ts,UnsupportedSignatureOrMethod,5,,,ClassMethodNeedsInstance
+danielpinto8zz6-c-cpp-compile-run,src/terminal.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+danielpinto8zz6-c-cpp-compile-run,src/utils/common-utils.ts,RobustnessExceptionNeedsReview,3,isWindows,,Generated input runs: 1
+danielpinto8zz6-c-cpp-compile-run,src/utils/cp-utils.ts,UnsupportedSignatureOrMethod,2,,,AsyncOrGenerator
+danielpinto8zz6-c-cpp-compile-run,src/utils/file-type-utils.ts,RobustnessExceptionNeedsReview,1,getFileType,string,Generated input runs: 1
+danielpinto8zz6-c-cpp-compile-run,src/utils/file-utils.ts,UnsupportedSignatureOrMethod,2,,,ComplexParameters;UnknownOrComplexParameterType
+danielpinto8zz6-c-cpp-compile-run,src/utils/prompt-utils.ts,UnsupportedSignatureOrMethod,3,,,AsyncOrGenerator
+danielpinto8zz6-c-cpp-compile-run,src/utils/shell-utils.ts,RobustnessExceptionNeedsReview,8,parseShell,string,Generated input runs: 1
+danielpinto8zz6-c-cpp-compile-run,src/utils/string-utils.ts,RobustnessPassed,2,escapeStringAppleScript,string,Generated input runs: 20
+Dart-Code-Dart-Code,src/debug/dart_debug_impl.ts,UnsupportedSignatureOrMethod,88,,,AsyncOrGenerator;ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/debug/dart_debug_protocol.ts,UnsupportedSignatureOrMethod,28,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/debug/dart_test_debug_impl.ts,UnsupportedSignatureOrMethod,6,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/debug/debug_entry.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/debug/flutter_debug_impl.ts,UnsupportedSignatureOrMethod,21,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/debug/flutter_run.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/debug/flutter_test_debug_impl.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/debug/logging.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/debug/run_daemon_base.ts,UnsupportedSignatureOrMethod,20,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/debug/test_runner.ts,UnsupportedSignatureOrMethod,8,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/debug/threads.ts,UnsupportedSignatureOrMethod,29,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/debug/utils.ts,RobustnessExceptionNeedsReview,1,formatPathForVm,string,Generated input runs: 1
+Dart-Code-Dart-Code,src/debug/web_debug_impl.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/debug/web_run.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/debug/web_test_debug_impl.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/analysis/analyzer.ts,RobustnessExceptionNeedsReview,24,startTimer,string,Generated input runs: 1
+Dart-Code-Dart-Code,src/extension/analysis/analyzer_snippet_text_edits.ts,UnsupportedSignatureOrMethod,8,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/analysis/file_change_warnings.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/analysis/file_tracker.ts,RobustnessExceptionNeedsReview,9,clearCachedPubRunTestData,,Generated input runs: 1
+Dart-Code-Dart-Code,src/extension/analytics.ts,UnsupportedSignatureOrMethod,30,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/extension/api/extension_api.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/extension/code_lens/flutter_dartpad_samples.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/code_lens/main_code_lens_provider.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/code_lens/test_code_lens_provider.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/commands/add_dependency.ts,UnsupportedSignatureOrMethod,16,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/commands/add_sdk_to_path.ts,UnsupportedSignatureOrMethod,7,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/commands/analyzer.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/commands/channels.ts,UnsupportedSignatureOrMethod,2,,,ComplexParameters;UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/extension/commands/dart.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/commands/debug.ts,UnsupportedSignatureOrMethod,15,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/commands/edit.ts,UnsupportedSignatureOrMethod,9,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/commands/flutter.ts,RobustnessExceptionNeedsReview,14,getCurrentFlutterCreateSettings,,Generated input runs: 1
+Dart-Code-Dart-Code,src/extension/commands/flutter_outline.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/commands/logging.ts,UnsupportedSignatureOrMethod,11,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/extension/commands/open_in_other_editors.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/commands/packages.ts,UnsupportedSignatureOrMethod,9,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/commands/sdk.ts,RobustnessExceptionNeedsReview,14,markProjectCreationStarted,,Generated input runs: 1
+Dart-Code-Dart-Code,src/extension/commands/settings.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/commands/test.ts,RobustnessExceptionNeedsReview,14,closestProjectFolder,string,Generated input runs: 1
+Dart-Code-Dart-Code,src/extension/config.ts,UnsupportedSignatureOrMethod,26,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/dart/dart_task_provider.ts,UnsupportedSignatureOrMethod,11,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/dart/hot_reload_save_handler.ts,UnsupportedSignatureOrMethod,6,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/dart/tooling_daemon.ts,UnsupportedSignatureOrMethod,14,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/extension/decorations/flutter_icon_decorations.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/decorations/flutter_ui_guides_decorations.ts,UnsupportedSignatureOrMethod,11,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/diagnostic_report.ts,UnsupportedSignatureOrMethod,7,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/editors.ts,RobustnessExceptionNeedsReview,3,getActiveDartEditor,,Generated input runs: 1
+Dart-Code-Dart-Code,src/extension/experiments.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/extension/extension.ts,RobustnessExceptionNeedsReview,10,rebuildLogHeaders,,Generated input runs: 1
+Dart-Code-Dart-Code,src/extension/flutter/daemon_message_handler.ts,UnsupportedSignatureOrMethod,2,,,UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/extension/flutter/flutter_daemon.ts,UnsupportedSignatureOrMethod,28,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/flutter/flutter_outline_view.ts,UnsupportedSignatureOrMethod,19,,,AsyncOrGenerator;ClassMethodNeedsInstance;UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/extension/flutter/flutter_task_provider.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/flutter/generate_localizations_on_save_handler.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/flutter/vm_service_extensions.ts,UnsupportedSignatureOrMethod,20,,,AsyncOrGenerator;ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/lsp/closing_labels_decorations.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/lsp/go_to.ts,UnsupportedSignatureOrMethod,9,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/lsp/test_discoverer.ts,UnsupportedSignatureOrMethod,11,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/project.ts,UnsupportedSignatureOrMethod,1,,,ComplexParameters
+Dart-Code-Dart-Code,src/extension/providers/add_dependency_code_action_provider.ts,RobustnessExceptionNeedsReview,4,createAction,boolean,Generated input runs: 1
+Dart-Code-Dart-Code,src/extension/providers/dart_language_configuration.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/extension/providers/debug_adapter_descriptor_factory.ts,RobustnessExceptionNeedsReview,3,logDebuggerStart,boolean,Generated input runs: 1
+Dart-Code-Dart-Code,src/extension/providers/debug_adapter_forced_ansi_color_support.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/providers/debug_adapter_forced_debug_mode_factory.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/providers/debug_adapter_forced_single_thread.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/providers/debug_adapter_global_evaluation_context_factory.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/providers/debug_adapter_hex_view_factory.ts,UnsupportedSignatureOrMethod,9,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/providers/debug_adapter_launch_status_factory.ts,UnsupportedSignatureOrMethod,7,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/providers/debug_adapter_logger_factory.ts,UnsupportedSignatureOrMethod,7,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/providers/debug_adapter_remove_error_showUser_factory.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/providers/debug_adapter_support_uris_factory.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/providers/debug_config_provider.ts,RobustnessExceptionNeedsReview,22,exists,string,Generated input runs: 1
+Dart-Code-Dart-Code,src/extension/providers/ranking_code_action_provider.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/extension/providers/snippet_completion_item_provider.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/pub/global.ts,UnsupportedSignatureOrMethod,6,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/pub/webdev.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/recommendations/arb.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/recommendations/recommendations.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/sdk/dart/dart_create.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/sdk/dev_tools/embedded_view.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/sdk/dev_tools/manager.ts,UnsupportedSignatureOrMethod,31,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/sdk/flutter.ts,UnsupportedSignatureOrMethod,1,,,AsyncOrGenerator
+Dart-Code-Dart-Code,src/extension/sdk/flutter_docs_snippets.ts,UnsupportedSignatureOrMethod,1,,,AsyncOrGenerator
+Dart-Code-Dart-Code,src/extension/sdk/sdk_manager.ts,UnsupportedSignatureOrMethod,8,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/sdk/status_bar_version_tracker.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/sdk/update_check.ts,UnsupportedSignatureOrMethod,1,,,AsyncOrGenerator
+Dart-Code-Dart-Code,src/extension/sdk/utils.ts,RobustnessExceptionNeedsReview,27,isBinFolder,string,Generated input runs: 1
+Dart-Code-Dart-Code,src/extension/terminal/file_uri_link_provider.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/terminal/package_uri_link_provider.ts,UnsupportedSignatureOrMethod,7,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/test/vs_test_controller.ts,UnsupportedSignatureOrMethod,30,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/extension/user_prompts.ts,RobustnessExceptionNeedsReview,16,shouldSuppress,string,Generated input runs: 1
+Dart-Code-Dart-Code,src/extension/utils.ts,RobustnessExceptionNeedsReview,26,isPathInsideFlutterProject,string,Generated input runs: 1
+Dart-Code-Dart-Code,src/extension/utils/log.ts,RobustnessExceptionNeedsReview,4,getExtensionLogPath,,Generated input runs: 1
+Dart-Code-Dart-Code,src/extension/utils/misc.ts,UnsupportedSignatureOrMethod,2,,,AsyncOrGenerator;ComplexParameters
+Dart-Code-Dart-Code,src/extension/utils/processes.ts,RobustnessExceptionNeedsReview,6,getToolEnv,,Generated input runs: 1
+Dart-Code-Dart-Code,src/extension/utils/vscode/debug.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/utils/vscode/diagnostics.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/extension/utils/vscode/input.ts,UnsupportedSignatureOrMethod,3,,,AsyncOrGenerator
+Dart-Code-Dart-Code,src/extension/utils/vscode/projects.ts,UnsupportedSignatureOrMethod,2,,,AsyncOrGenerator
+Dart-Code-Dart-Code,src/extension/utils/vscode/terminals.ts,RobustnessExceptionNeedsReview,2,writeToPseudoTerminal,string[],Generated input runs: 1
+Dart-Code-Dart-Code,src/extension/views/devtools/base_view_provider.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/views/devtools/legacy_post_message_sidebar/dart_tooling_api.ts,UnsupportedSignatureOrMethod,20,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/extension/views/devtools/legacy_post_message_sidebar/interface.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/extension/views/devtools/legacy_post_message_sidebar/sidebar.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/views/devtools/property_editor.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/views/devtools/sidebar.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/views/packages_view.ts,UnsupportedSignatureOrMethod,6,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/extension/views/packages_view_legacy.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/shared/analysis/lsp/custom_protocol.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/shared/analyzer.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/shared/capabilities/dart.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/shared/capabilities/dart_test.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/shared/capabilities/devtools_server.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/shared/capabilities/flutter.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/shared/capabilities/vm_service.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/shared/capabilities/vscode.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/shared/constants.contexts.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/shared/constants.ts,RobustnessExceptionNeedsReview,6,getExecutableName,string,Generated input runs: 1
+Dart-Code-Dart-Code,src/shared/debug/interfaces.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/shared/enums.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/shared/events.ts,UnsupportedSignatureOrMethod,6,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/shared/fetch.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/shared/flutter/colors.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/shared/flutter/daemon_interfaces.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/shared/flutter/structured_errors.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/shared/flutter/utils.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/shared/interfaces.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/shared/logging.ts,UnsupportedSignatureOrMethod,21,,,ClassMethodNeedsInstance;ComplexParameters;TooManyParameters;UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/shared/processes.ts,RobustnessExceptionNeedsReview,4,quoteAndEscapeArg,string,Generated input runs: 1
+Dart-Code-Dart-Code,src/shared/pub/api.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/shared/pub/deps.ts,UnsupportedSignatureOrMethod,6,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/shared/pub/package_map.ts,UnsupportedSignatureOrMethod,15,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/shared/pub/pub_add.ts,UnsupportedSignatureOrMethod,5,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/shared/pub/utils.ts,RobustnessPassed,1,cleanPubOutput,string,Generated input runs: 20
+Dart-Code-Dart-Code,src/shared/services/interfaces.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/shared/services/stdio_service.ts,UnsupportedSignatureOrMethod,25,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/shared/services/tooling_daemon.ts,UnsupportedSignatureOrMethod,23,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/shared/services/tooling_daemon_services.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/shared/symbols.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/shared/test/coordinator.ts,UnsupportedSignatureOrMethod,14,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/shared/test/test_model.ts,UnsupportedSignatureOrMethod,35,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/shared/test/version.ts,UnsupportedSignatureOrMethod,1,,,AsyncOrGenerator
+Dart-Code-Dart-Code,src/shared/test_protocol.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/shared/utils.ts,RobustnessPassed,30,filenameSafe,string,Generated input runs: 20
+Dart-Code-Dart-Code,src/shared/utils/array.ts,UnsupportedSignatureOrMethod,6,,,UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/shared/utils/cache.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/shared/utils/colors.ts,RobustnessExceptionNeedsReview,37,defaultForeground,string,Generated input runs: 1
+Dart-Code-Dart-Code,src/shared/utils/dartdocs.ts,RobustnessPassed,4,stripMarkdown,string,Generated input runs: 20
+Dart-Code-Dart-Code,src/shared/utils/debug.ts,RobustnessExceptionNeedsReview,2,getDebugAdapterPort,string,Generated input runs: 1
+Dart-Code-Dart-Code,src/shared/utils/document_cache.ts,UnsupportedSignatureOrMethod,11,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/shared/utils/flutter_outline.ts,UnsupportedSignatureOrMethod,20,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/shared/utils/fs.ts,RobustnessExceptionNeedsReview,33,isWithinPath,string;string,Generated input runs: 1
+Dart-Code-Dart-Code,src/shared/utils/outline.ts,UnsupportedSignatureOrMethod,37,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/shared/utils/projects.ts,RobustnessExceptionNeedsReview,4,writeDartSdkSettingIntoProject,string;string,Generated input runs: 1
+Dart-Code-Dart-Code,src/shared/utils/promises.ts,UnsupportedSignatureOrMethod,1,,,AsyncOrGenerator
+Dart-Code-Dart-Code,src/shared/utils/stack_trace.ts,RobustnessExceptionNeedsReview,2,mayContainStackFrame,string,Generated input runs: 1
+Dart-Code-Dart-Code,src/shared/utils/test.ts,RobustnessPassed,14,getProgramPath,string,Generated input runs: 20
+Dart-Code-Dart-Code,src/shared/utils/workspace.ts,UnsupportedSignatureOrMethod,7,,,ComplexParameters;UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/shared/vscode/constants.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/shared/vscode/dart_text_document_content_provider.ts,UnsupportedSignatureOrMethod,6,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/shared/vscode/debugger.ts,UnsupportedSignatureOrMethod,4,,,UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/shared/vscode/device_manager.ts,RobustnessPassed,34,maySelectThisDevice,,Generated input runs: 20
+Dart-Code-Dart-Code,src/shared/vscode/editors.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/shared/vscode/extension_utils.ts,RobustnessExceptionNeedsReview,9,readJson,string,Generated input runs: 1
+Dart-Code-Dart-Code,src/shared/vscode/flutter_samples.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/shared/vscode/icon_range_computer.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/shared/vscode/interactive_refactors.ts,UnsupportedSignatureOrMethod,12,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/shared/vscode/interfaces.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/shared/vscode/lsp_common_capabilities.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/shared/vscode/lsp_uri_converters.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/shared/vscode/mappings.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/shared/vscode/pub.ts,RobustnessPassed,9,tryMtimeSync,string,Generated input runs: 20
+Dart-Code-Dart-Code,src/shared/vscode/status_bar.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/shared/vscode/terminal_link_provider_utils.ts,UnsupportedSignatureOrMethod,3,,,AsyncOrGenerator;UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/shared/vscode/trackers.ts,UnsupportedSignatureOrMethod,8,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/shared/vscode/uri_handlers/flutter_sample_handler.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/shared/vscode/uri_handlers/uri_handler.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/shared/vscode/user_prompts.ts,UnsupportedSignatureOrMethod,3,,,AsyncOrGenerator
+Dart-Code-Dart-Code,src/shared/vscode/utils.ts,RobustnessExceptionNeedsReview,26,getDartWorkspaceFolders,,Generated input runs: 1
+Dart-Code-Dart-Code,src/shared/vscode/utils_cloud.ts,UnsupportedSignatureOrMethod,4,,,UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/shared/vscode/workspace.ts,UnsupportedSignatureOrMethod,15,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/shared/workspace.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/test/dart/index.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/test/dart_create_tests/index.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/test/dart_debug/index.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/test/dart_debug_client.ts,RobustnessPassed,28,cleanup,,Generated input runs: 20
+Dart-Code-Dart-Code,src/test/dart_nested/index.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/test/dart_nested_flutter/index.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/test/dart_nested_flutter2/index.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/test/debug_client_ms.ts,RobustnessPassed,50,sanitize,string,Generated input runs: 20
+Dart-Code-Dart-Code,src/test/debug_helpers.ts,UnsupportedSignatureOrMethod,19,,,AsyncOrGenerator;ComplexParameters;UnknownOrComplexParameterType
+Dart-Code-Dart-Code,src/test/flutter/index.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/test/flutter_bazel/index.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/test/flutter_create_tests/index.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/test/flutter_debug/index.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/test/flutter_repository/index.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/test/flutter_snap/index.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/test/flutter_test_debug/index.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/test/helpers.ts,RobustnessExceptionNeedsReview,96,currentEditor,,Generated input runs: 1
+Dart-Code-Dart-Code,src/test/mocha_coverage_reporter.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/test/mocha_logging_reporter.ts,RobustnessExceptionNeedsReview,1,getLogger,,Generated input runs: 1
+Dart-Code-Dart-Code,src/test/mocha_multi_reporter.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/test/multi_project_folder/index.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/test/multi_root/index.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/test/not_activated/dart_create/index.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/test/not_activated/flutter_create/index.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/test/services/fake_stdio_service.ts,UnsupportedSignatureOrMethod,8,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/test/shared/debugger_types.ts,UnsupportedSignatureOrMethod,1,,,AsyncOrGenerator
+Dart-Code-Dart-Code,src/test/test_all.ts,UnsupportedSignatureOrMethod,2,,,AsyncOrGenerator
+Dart-Code-Dart-Code,src/test/test_runner.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+Dart-Code-Dart-Code,src/test/web_debug/index.ts,NoRecognizedFunction,0,,,
+Dart-Code-Dart-Code,src/tool/generate_launch_configs.ts,RobustnessExceptionNeedsReview,10,getConfigName,string,Generated input runs: 1
+Dart-Code-Flutter,src/commands/sdk.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+Dart-Code-Flutter,src/constants.ts,NoRecognizedFunction,0,,,
+Dart-Code-Flutter,src/extension.ts,UnsupportedSignatureOrMethod,1,,,AsyncOrGenerator
+denoland-vscode_deno,client/src/commands.ts,RobustnessExceptionNeedsReview,19,getV8Flags,,Generated input runs: 1
+denoland-vscode_deno,client/src/constants.ts,NoRecognizedFunction,0,,,
+denoland-vscode_deno,client/src/content_provider.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+denoland-vscode_deno,client/src/debug_config_provider.ts,UnsupportedSignatureOrMethod,5,,,ClassMethodNeedsInstance
+denoland-vscode_deno,client/src/enable.ts,RobustnessExceptionNeedsReview,7,pathStartsWith,string;string,Generated input runs: 1
+denoland-vscode_deno,client/src/extension.ts,RobustnessExceptionNeedsReview,6,handleChangeWorkspaceFolders,,Generated input runs: 1
+denoland-vscode_deno,client/src/lsp_extensions.ts,NoRecognizedFunction,0,,,
+denoland-vscode_deno,client/src/multi_step_input.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+denoland-vscode_deno,client/src/notification_handlers.ts,RobustnessPassed,1,createRegistryStateHandler,,Generated input runs: 20
+denoland-vscode_deno,client/src/semver.ts,NoRecognizedFunction,0,,,
+denoland-vscode_deno,client/src/server_info.ts,NoRecognizedFunction,0,,,
+denoland-vscode_deno,client/src/status_bar.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+denoland-vscode_deno,client/src/tasks.ts,UnsupportedSignatureOrMethod,7,,,ClassMethodNeedsInstance;TooManyParameters;UnknownOrComplexParameterType
+denoland-vscode_deno,client/src/tasks_sidebar.ts,UnsupportedSignatureOrMethod,16,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+denoland-vscode_deno,client/src/testing.ts,UnsupportedSignatureOrMethod,13,,,AsyncOrGenerator;ClassMethodNeedsInstance;ComplexParameters;UnknownOrComplexParameterType
+denoland-vscode_deno,client/src/ts_api.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+denoland-vscode_deno,client/src/upgrade.ts,UnsupportedSignatureOrMethod,1,,,AsyncOrGenerator
+denoland-vscode_deno,client/src/util.ts,RobustnessExceptionNeedsReview,12,getWorkspaceConfigDenoExePath,,Generated input runs: 1
+denoland-vscode_deno,client/src/welcome.ts,RobustnessPassed,4,getNonce,,Generated input runs: 20
+denoland-vscode_deno,typescript-deno-plugin/src/index.ts,RobustnessExceptionNeedsReview,7,init,,Generated input runs: 1
+dotnet-vscode-csharp,__mocks__/vscode.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,baseJestConfig.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,gulpfile.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,jest.config.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/common.ts,RobustnessExceptionNeedsReview,19,setExtensionPath,string,Generated input runs: 1
+dotnet-vscode-csharp,src/compositeDisposable.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/constants/csharpExtensionId.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/constants/IGetMonoVersion.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/coreclrDebug/activate.ts,RobustnessExceptionNeedsReview,6,showDotnetToolsWarning,string,Generated input runs: 1
+dotnet-vscode-csharp,src/coreclrDebug/debuggerEventsProtocol.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/coreclrDebug/parsedEnvironmentFile.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/coreclrDebug/provisionalDebugSessionTracker.ts,UnsupportedSignatureOrMethod,6,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/coreclrDebug/util.ts,UnsupportedSignatureOrMethod,9,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/createTmpAsset.ts,UnsupportedSignatureOrMethod,2,,,AsyncOrGenerator
+dotnet-vscode-csharp,src/csharpDevKitExports.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/csharpExtensionExports.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/csharpIntelliCodeExports.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/disposable.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/dotnetPack.ts,UnsupportedSignatureOrMethod,1,,,AsyncOrGenerator
+dotnet-vscode-csharp,src/eventStream.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/installRuntimeDependencies.ts,UnsupportedSignatureOrMethod,3,,,AsyncOrGenerator;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/json.ts,RobustnessExceptionNeedsReview,1,tolerantParse,string,Generated input runs: 1
+dotnet-vscode-csharp,src/logger.ts,UnsupportedSignatureOrMethod,7,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/lsptoolshost/activate.ts,RobustnessExceptionNeedsReview,5,scanExtensionPlugins,,Generated input runs: 1
+dotnet-vscode-csharp,src/lsptoolshost/autoInsert/onAutoInsert.ts,RobustnessExceptionNeedsReview,3,getFormattingOptions,,Generated input runs: 1
+dotnet-vscode-csharp,src/lsptoolshost/autoInsert/onAutoInsertFeature.ts,UnsupportedSignatureOrMethod,9,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/lsptoolshost/commands.ts,UnsupportedSignatureOrMethod,2,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/lsptoolshost/copilot/copilot.ts,UnsupportedSignatureOrMethod,2,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/lsptoolshost/debugger/debugger.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/lsptoolshost/debugger/IDotnetDebugConfigurationService.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/lsptoolshost/debugger/roslynWorkspaceDebugConfigurationProvider.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/lsptoolshost/diagnostics/buildDiagnosticsService.ts,UnsupportedSignatureOrMethod,9,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/lsptoolshost/diagnostics/buildResultReporterService.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/lsptoolshost/diagnostics/fixAllCodeAction.ts,RobustnessExceptionNeedsReview,4,uriConverter,string,Generated input runs: 1
+dotnet-vscode-csharp,src/lsptoolshost/diagnostics/nestedCodeAction.ts,RobustnessExceptionNeedsReview,4,uriConverter,string,Generated input runs: 1
+dotnet-vscode-csharp,src/lsptoolshost/dotnetRuntime/dotnetRuntimeExtensionApi.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/lsptoolshost/dotnetRuntime/dotnetRuntimeExtensionResolver.ts,UnsupportedSignatureOrMethod,5,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/lsptoolshost/extensions/builtInComponents.ts,UnsupportedSignatureOrMethod,3,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/lsptoolshost/extensions/roslynLanguageServerExportChannel.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/lsptoolshost/generators/sourceGeneratedFilesContentProvider.ts,UnsupportedSignatureOrMethod,5,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/lsptoolshost/handlers/showToastNotification.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/lsptoolshost/options/configurationMiddleware.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/lsptoolshost/options/optionChanges.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/lsptoolshost/options/optionNameConverter.ts,RobustnessExceptionNeedsReview,4,convertServerOptionNameToClientConfigurationName,string,Generated input runs: 1
+dotnet-vscode-csharp,src/lsptoolshost/options/universalEditorConfigProvider.ts,RobustnessExceptionNeedsReview,7,readEquivalentVsCodeConfiguration,string,Generated input runs: 1
+dotnet-vscode-csharp,src/lsptoolshost/profiling/profiling.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/lsptoolshost/projectContext/projectContextService.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/lsptoolshost/projectContext/projectContextStatus.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/lsptoolshost/projectRestore/restore.ts,UnsupportedSignatureOrMethod,4,,,AsyncOrGenerator;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/lsptoolshost/razor/razorCommands.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/lsptoolshost/server/languageServerEvents.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/lsptoolshost/server/roslynLanguageClient.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/lsptoolshost/server/roslynLanguageServer.ts,RobustnessExceptionNeedsReview,42,fire,boolean,Generated input runs: 1
+dotnet-vscode-csharp,src/lsptoolshost/server/roslynProtocol.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/lsptoolshost/server/serverCommands.ts,UnsupportedSignatureOrMethod,5,,,AsyncOrGenerator;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/lsptoolshost/serviceBroker/brokeredServicesHosting.ts,RobustnessExceptionNeedsReview,3,getBrokeredServiceContainer,,Generated input runs: 1
+dotnet-vscode-csharp,src/lsptoolshost/solutionSnapshot/descriptors.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/lsptoolshost/solutionSnapshot/ISolutionSnapshotProvider.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/lsptoolshost/solutionSnapshot/solutionSnapshotProvider.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/lsptoolshost/testing/unitTesting.ts,UnsupportedSignatureOrMethod,5,,,AsyncOrGenerator;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/lsptoolshost/utils/combineDocumentSelectors.ts,UnsupportedSignatureOrMethod,1,,,ComplexParameters
+dotnet-vscode-csharp,src/lsptoolshost/utils/isString.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/lsptoolshost/utils/uriConverter.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/lsptoolshost/workspace/miscellaneousFileNotifier.ts,RobustnessExceptionNeedsReview,2,createHash,string,Generated input runs: 1
+dotnet-vscode-csharp,src/lsptoolshost/workspace/workspaceCommands.ts,UnsupportedSignatureOrMethod,2,,,AsyncOrGenerator;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/lsptoolshost/workspace/workspaceStatus.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/main.ts,UnsupportedSignatureOrMethod,7,,,AsyncOrGenerator;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/nestedError.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/networkSettings.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/omnisharp/delayTracker.ts,UnsupportedSignatureOrMethod,5,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/dotnetResolver.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/engines/IEngine.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/omnisharp/engines/lspEngine.ts,UnsupportedSignatureOrMethod,33,,,AsyncOrGenerator;ClassMethodNeedsInstance;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/omnisharp/engines/stdioEngine.ts,UnsupportedSignatureOrMethod,12,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/features/abstractProvider.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/features/changeForwarding.ts,UnsupportedSignatureOrMethod,5,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/omnisharp/features/codeActionProvider.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/features/codeLensProvider.ts,UnsupportedSignatureOrMethod,8,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/omnisharp/features/commands.ts,UnsupportedSignatureOrMethod,13,,,AsyncOrGenerator;ClassMethodNeedsInstance;TooManyParameters;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/omnisharp/features/completionProvider.ts,UnsupportedSignatureOrMethod,6,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/omnisharp/features/definitionMetadataDocumentProvider.ts,UnsupportedSignatureOrMethod,8,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/features/definitionProvider.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/features/diagnosticsProvider.ts,UnsupportedSignatureOrMethod,29,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/omnisharp/features/documentation.ts,RobustnessExceptionNeedsReview,3,extractSummaryText,string,Generated input runs: 1
+dotnet-vscode-csharp,src/omnisharp/features/documentHighlightProvider.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/features/documentSymbolProvider.ts,RobustnessExceptionNeedsReview,5,toSymbolKind,string,Generated input runs: 1
+dotnet-vscode-csharp,src/omnisharp/features/dotnetTest.ts,UnsupportedSignatureOrMethod,26,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/features/fileOpenCloseProvider.ts,UnsupportedSignatureOrMethod,5,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/omnisharp/features/fixAll.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/omnisharp/features/fixAllProvider.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/features/formattingEditProvider.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/features/hoverProvider.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/features/implementationProvider.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/features/inlayHintProvider.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/omnisharp/features/launchConfiguration.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/omnisharp/features/referenceProvider.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/features/renameProvider.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/features/semanticTokensProvider.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/features/signatureHelpProvider.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/features/sourceGeneratedDocumentProvider.ts,UnsupportedSignatureOrMethod,7,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/features/structureProvider.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/features/virtualDocumentTracker.ts,UnsupportedSignatureOrMethod,9,,,AsyncOrGenerator;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/omnisharp/features/workspaceSymbolProvider.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/fileOperationsResponseEditBuilder.ts,UnsupportedSignatureOrMethod,1,,,AsyncOrGenerator
+dotnet-vscode-csharp,src/omnisharp/languageMiddlewareFeature.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/launcher.ts,RobustnessExceptionNeedsReview,16,launchWindows,string;string;string[],Generated input runs: 1
+dotnet-vscode-csharp,src/omnisharp/observers/backgroundWorkStatusBarObserver.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/omnisharp/observers/baseStatusBarItemObserver.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/observers/csharpLoggerObserver.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/observers/dotnetChannelObserver.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/omnisharp/observers/dotnetLoggerObserver.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/omnisharp/observers/dotnetTestChannelObserver.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/omnisharp/observers/dotnetTestLoggerObserver.ts,RobustnessPassed,11,processOutcome,string,Generated input runs: 20
+dotnet-vscode-csharp,src/omnisharp/observers/errorMessageObserver.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/observers/informationMessageObserver.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/observers/omnisharpChannelObserver.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/observers/omnisharpDebugModeLoggerObserver.ts,UnsupportedSignatureOrMethod,9,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/observers/omnisharpLoggerObserver.ts,UnsupportedSignatureOrMethod,9,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/observers/omnisharpStatusBarObserver.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/omnisharp/observers/projectStatusBarObserver.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/observers/razorLoggerObserver.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/observers/telemetryObserver.ts,UnsupportedSignatureOrMethod,6,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/observers/warningMessageObserver.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/omnisharpDownloader.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/omnisharpLanguageServer.ts,UnsupportedSignatureOrMethod,2,,,TooManyParameters
+dotnet-vscode-csharp,src/omnisharp/omnisharpLoggingEvents.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/omnisharp/omnisharpManager.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/omniSharpMonoResolver.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/omnisharpOptionChanges.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/omnisharp/omnisharpPackageCreator.ts,UnsupportedSignatureOrMethod,3,,,TooManyParameters;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/omnisharp/omnisharpWorkspaceDebugInformationProvider.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/prioritization.ts,RobustnessExceptionNeedsReview,3,isPriorityCommand,string,Generated input runs: 1
+dotnet-vscode-csharp,src/omnisharp/protocol.ts,UnsupportedSignatureOrMethod,4,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/omnisharp/requestQueue.ts,UnsupportedSignatureOrMethod,12,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/requirementCheck.ts,UnsupportedSignatureOrMethod,4,,,NoGeneratedInputs
+dotnet-vscode-csharp,src/omnisharp/server.ts,UnsupportedSignatureOrMethod,35,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/omnisharp/typeConversion.ts,RobustnessExceptionNeedsReview,12,toVSCodeRange,number;number;number;number,Generated input runs: 1
+dotnet-vscode-csharp,src/omnisharp/utils.ts,UnsupportedSignatureOrMethod,46,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/packageManager/absolutePath.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/packageManager/absolutePathPackage.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/packageManager/downloadAndInstallPackages.ts,UnsupportedSignatureOrMethod,2,,,NoGeneratedInputs;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/packageManager/fileDownloader.ts,UnsupportedSignatureOrMethod,2,,,TooManyParameters;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/packageManager/getAbsolutePathPackagesToInstall.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/packageManager/IInstallDependencies.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/packageManager/IPackage.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/packageManager/isValidDownload.ts,UnsupportedSignatureOrMethod,2,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/packageManager/package.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/packageManager/packageError.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/packageManager/packageFilterer.ts,UnsupportedSignatureOrMethod,3,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/packageManager/proxy.ts,UnsupportedSignatureOrMethod,2,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/packageManager/zipInstaller.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/razor/razor.ts,UnsupportedSignatureOrMethod,1,,,TooManyParameters
+dotnet-vscode-csharp,src/razor/razorOmnisharpDownloader.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/blazorDebug/blazorDebugConfigurationProvider.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/blazorDebug/constants.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/blazorDebug/terminateDebugHandler.ts,RobustnessExceptionNeedsReview,5,isValidEvent,string,Generated input runs: 1
+dotnet-vscode-csharp,src/razor/src/codeActions/codeActionsHandler.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/codeActions/razorCodeAction.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/codeActions/razorCodeActionDataParams.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/codeActions/razorCodeActionResolutionParams.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/codeActions/razorCodeActionRunner.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/codeActions/serializableCodeActionParams.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/codeActions/serializableDelegatedCodeActionParams.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/codeActions/serializableRazorResolveCodeActionParams.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/codeLens/razorCodeLens.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/codeLens/razorCodeLensProvider.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/colorPresentation/colorPresentationContext.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/colorPresentation/colorPresentationHandler.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/colorPresentation/serializableColorPresentation.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/colorPresentation/serializableColorPresentationParams.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/completion/completionHandler.ts,UnsupportedSignatureOrMethod,17,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/completion/serializableDelegatedCompletionItemResolveParams.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/completion/serializableDelegatedCompletionParams.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/csharp/csharpPreviewPanel.ts,UnsupportedSignatureOrMethod,5,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/csharp/csharpProjectedDocument.ts,UnsupportedSignatureOrMethod,14,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/csharp/csharpProjectedDocumentContentProvider.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/csharp/razorCSharpFeature.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/definition/razorDefinitionProvider.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/diagnostics/IReportIssueDataCollectionResult.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/diagnostics/razorDiagnosticHandler.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/diagnostics/razorIssueDataCollector.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/diagnostics/reportIssueCommand.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/diagnostics/reportIssueCreator.ts,UnsupportedSignatureOrMethod,9,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/diagnostics/reportIssueDataCollector.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/diagnostics/reportIssueDataCollectorFactory.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/diagnostics/reportIssuePanel.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/document/IRazorDocument.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/document/IRazorDocumentChangeEvent.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/document/IRazorDocumentManager.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/document/razorDocument.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/document/razorDocumentChangeKind.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/document/razorDocumentFactory.ts,UnsupportedSignatureOrMethod,3,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/razor/src/document/razorDocumentManager.ts,UnsupportedSignatureOrMethod,17,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/document/razorDocumentSynchronizer.ts,UnsupportedSignatureOrMethod,7,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/documentColor/documentColorHandler.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/documentColor/serializableColorInformation.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/documentColor/serializableDocumentColorParams.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/documentHighlight/razorDocumentHighlightProvider.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/documentTelemetryListener.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/razor/src/dynamicFile/dynamicFileInfoHandler.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/dynamicFile/dynamicFileUpdatedParams.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/dynamicFile/provideDynamicFileParams.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/dynamicFile/provideDynamicFileResponse.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/dynamicFile/removeDynamicFileParams.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/extension.ts,UnsupportedSignatureOrMethod,4,,,NoGeneratedInputs;TooManyParameters;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/razor/src/folding/foldingRangeHandler.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/folding/serializableFoldingRangeParams.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/folding/serializableFoldingRangeResponse.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/formatNewFile/razorFormatNewFileHandler.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/formatNewFile/serializableFormatNewFileParams.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/formatting/formattingHandler.ts,UnsupportedSignatureOrMethod,6,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/formatting/serializableFormattingParams.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/formatting/serializableFormattingResponse.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/formatting/serializableOnTypeFormattingParams.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/hostEventStream.ts,UnsupportedSignatureOrMethod,2,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/razor/src/hover/razorHoverProvider.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/html/htmlPreviewPanel.ts,UnsupportedSignatureOrMethod,5,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/html/htmlProjectedDocument.ts,UnsupportedSignatureOrMethod,5,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/html/htmlProjectedDocumentContentProvider.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/html/htmlTagCompletionProvider.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/html/razorHtmlFeature.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/IEventEmitterFactory.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/implementation/razorImplementationProvider.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/inlayHint/inlayHintHandler.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/inlayHint/inlayHintResolveHandler.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/inlayHint/serializableInlayHintParams.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/inlayHint/serializableInlayHintResolveParams.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/IRazorProject.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/IRazorProjectChangeEvent.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/IRazorProjectConfiguration.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/mapping/mappingHelpers.ts,UnsupportedSignatureOrMethod,6,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/projection/IProjectedDocument.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/projection/projectionResult.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/proposedApisFeature.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/razorConventions.ts,UnsupportedSignatureOrMethod,3,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/razor/src/razorCSharpLanguageMiddleware.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/razorExtensionId.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/razorLanguage.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/razorLanguageClient.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/razorLanguageConfiguration.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/razorLanguageFeatureBase.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/razorLanguageServerClient.ts,UnsupportedSignatureOrMethod,13,,,ClassMethodNeedsInstance;NoGeneratedInputs
+dotnet-vscode-csharp,src/razor/src/razorLanguageServerOptions.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/razorLanguageServerOptionsResolver.ts,RobustnessExceptionNeedsReview,4,findLanguageServerExecutable,string,Generated input runs: 1
+dotnet-vscode-csharp,src/razor/src/razorLanguageServiceClient.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/razorLogger.ts,RobustnessExceptionNeedsReview,13,findInDirectoryOrAncestor,string;string,Generated input runs: 1
+dotnet-vscode-csharp,src/razor/src/razorProjectChangeKind.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/reference/razorReferenceProvider.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/rename/razorRenameProvider.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/rename/serializableRenameDocument.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/rpc/languageKind.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/rpc/languageQueryRequest.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/rpc/languageQueryResponse.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/rpc/razorMapToDocumentRangesRequest.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/rpc/razorMapToDocumentRangesResponse.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/rpc/serializableCreateDocument.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/rpc/serializableDeleteDocument.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/rpc/serializablePosition.ts,UnsupportedSignatureOrMethod,2,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/razor/src/rpc/serializableRange.ts,UnsupportedSignatureOrMethod,2,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/razor/src/rpc/serializableTextDocumentEdit.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/rpc/serializableTextDocumentIdentifier.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/rpc/serializableTextEdit.ts,UnsupportedSignatureOrMethod,2,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/razor/src/rpc/serializableWorkspaceEdit.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/razor/src/rpc/serverTextChange.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/rpc/serverTextSpan.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/rpc/updateBufferRequest.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/semantic/provideSemanticTokensResponse.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/semantic/semanticTokens.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/semantic/semanticTokensRangeHandler.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/semantic/serializableSemanticTokensParams.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/signatureHelp/razorSignatureHelpProvider.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/simplify/razorSimplifyMethodHandler.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/simplify/serializableDelegatedSimplifyMethodParams.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/simplify/serializableSimplifyMethodParams.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/simplify/serializableTextDocumentIdentifierAndVersion.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/razor/src/telemetryReporter.ts,UnsupportedSignatureOrMethod,7,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/razor/src/uriPaths.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/razor/src/vscodeAdapter.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/shared/assets.ts,RobustnessExceptionNeedsReview,45,createWebLaunchConfiguration,string;string,Generated input runs: 1
+dotnet-vscode-csharp,src/shared/configurationProvider.ts,UnsupportedSignatureOrMethod,7,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/shared/constants/hostExecutableInformation.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/shared/constants/IHostExecutableResolver.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/shared/dotnetConfigurationProvider.ts,RobustnessExceptionNeedsReview,5,resolveWorkspaceFolderToken,string;string,Generated input runs: 1
+dotnet-vscode-csharp,src/shared/eventType.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/shared/IWorkspaceDebugInformationProvider.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/shared/launchTarget.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/shared/loggingEvents.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/shared/migrateOptions.ts,UnsupportedSignatureOrMethod,5,,,TooManyParameters;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/shared/observables/createOptionStream.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/shared/observers/baseChannelObserver.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/shared/observers/baseLoggerObserver.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/shared/observers/csharpChannelObserver.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/shared/observers/csharpLoggerObserver.ts,UnsupportedSignatureOrMethod,12,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/shared/observers/optionChangeObserver.ts,UnsupportedSignatureOrMethod,2,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/shared/observers/utils/showMessage.ts,UnsupportedSignatureOrMethod,5,,,ComplexParameters
+dotnet-vscode-csharp,src/shared/options.ts,UnsupportedSignatureOrMethod,4,,,ComplexParameters;NoGeneratedInputs;UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/shared/platform.ts,UnsupportedSignatureOrMethod,14,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/shared/processPicker.ts,RobustnessExceptionNeedsReview,26,execChildProcess,string,Generated input runs: 1
+dotnet-vscode-csharp,src/shared/projectConfiguration.ts,RobustnessExceptionNeedsReview,2,createSolutionId,string,Generated input runs: 1
+dotnet-vscode-csharp,src/shared/reportIssue.ts,RobustnessPassed,6,getLogInfo,boolean,Generated input runs: 20
+dotnet-vscode-csharp,src/shared/telemetryEventNames.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/shared/telemetryReporter.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/shared/utils.ts,RobustnessPassed,8,findNetFrameworkTargetFramework,string[],Generated input runs: 20
+dotnet-vscode-csharp,src/shared/utils/dotnetInfo.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/shared/utils/getDotnetInfo.ts,RobustnessExceptionNeedsReview,4,getDotnetInfo,string[],Generated input runs: 1
+dotnet-vscode-csharp,src/shared/workspaceConfigurationProvider.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/statusBarItemAdapter.ts,UnsupportedSignatureOrMethod,3,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,src/textEditorAdapter.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,src/tools/generateOptionsSchema.ts,RobustnessPassed,11,generateCommentArrayForDescription,string,Generated input runs: 20
+dotnet-vscode-csharp,src/tools/runtimeDependencyPackageUtils.ts,UnsupportedSignatureOrMethod,2,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/tools/updatePackageDependencies.ts,RobustnessExceptionNeedsReview,9,downloadAndGetHash,string,Generated input runs: 1
+dotnet-vscode-csharp,src/utils/dotnetDevCertsHttps.ts,UnsupportedSignatureOrMethod,4,,,ComplexParameters;NoGeneratedInputs
+dotnet-vscode-csharp,src/utils/getCSharpDevKit.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,src/utils/getMonoVersion.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,src/utils/getMsBuildInfo.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,src/utils/removeBom.ts,RobustnessExceptionNeedsReview,2,removeBOMFromString,string,Generated input runs: 1
+dotnet-vscode-csharp,src/vscodeAdapter.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,tasks/backcompatTasks.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,tasks/commandLineArguments.ts,RobustnessExceptionNeedsReview,1,makePathAbsolute,string,Generated input runs: 1
+dotnet-vscode-csharp,tasks/createTagsTasks.ts,RobustnessExceptionNeedsReview,3,tagRepoAsync,string;string;string;string;string,Generated input runs: 1
+dotnet-vscode-csharp,tasks/debuggerTasks.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,tasks/localizationTasks.ts,RobustnessExceptionNeedsReview,3,git_diff,string[],Generated input runs: 1
+dotnet-vscode-csharp,tasks/offlinePackagingTasks.ts,RobustnessExceptionNeedsReview,13,restoreNugetPackage,string;string;boolean,Generated input runs: 1
+dotnet-vscode-csharp,tasks/packageJson.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,tasks/profilingTasks.ts,RobustnessExceptionNeedsReview,3,mergeTraces,string,Generated input runs: 1
+dotnet-vscode-csharp,tasks/projectPaths.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,tasks/signingTasks.ts,RobustnessExceptionNeedsReview,5,execDotnet,string[],Generated input runs: 1
+dotnet-vscode-csharp,tasks/snapTasks.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,tasks/spawnNode.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,tasks/testHelpers.ts,RobustnessPassed,4,getJUnitFileName,string,Generated input runs: 20
+dotnet-vscode-csharp,tasks/testTasks.ts,RobustnessExceptionNeedsReview,5,runJestTest,string,Generated input runs: 1
+dotnet-vscode-csharp,tasks/vsceTasks.ts,RobustnessExceptionNeedsReview,2,createPackageAsync,string;boolean;string;string,Generated input runs: 1
+dotnet-vscode-csharp,test/fakes.ts,RobustnessExceptionNeedsReview,14,getOmnisharpServerOnErrorEvent,string;string;number;number,Generated input runs: 1
+dotnet-vscode-csharp,test/lsptoolshost/artifactTests/jest.config.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,test/lsptoolshost/integrationTests/diagnosticsHelpers.ts,UnsupportedSignatureOrMethod,4,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,test/lsptoolshost/integrationTests/expectedCommands.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,test/lsptoolshost/integrationTests/formattingTestHelpers.ts,UnsupportedSignatureOrMethod,4,,,NoGeneratedInputs;UnknownOrComplexParameterType
+dotnet-vscode-csharp,test/lsptoolshost/integrationTests/index.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,test/lsptoolshost/integrationTests/integrationHelpers.ts,RobustnessExceptionNeedsReview,21,openFileInWorkspaceAsync,string,Generated input runs: 1
+dotnet-vscode-csharp,test/lsptoolshost/integrationTests/jest.config.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,test/lsptoolshost/integrationTests/testAssets/razorApp.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,test/lsptoolshost/integrationTests/testAssets/singleCsproj.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,test/lsptoolshost/integrationTests/testAssets/slnFilterWithCsproj.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,test/lsptoolshost/integrationTests/testAssets/slnWithCsproj.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,test/lsptoolshost/integrationTests/testAssets/slnWithGenerator.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,test/lsptoolshost/integrationTests/testAssets/spawnGit.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,test/lsptoolshost/integrationTests/testAssets/testAssets.ts,UnsupportedSignatureOrMethod,5,,,ClassMethodNeedsInstance;NoGeneratedInputs
+dotnet-vscode-csharp,test/lsptoolshost/integrationTests/testAssets/testAssetWorkspace.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,test/lsptoolshost/unitTests/jest.config.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,test/omnisharp/omnisharpIntegrationTests/index.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,test/omnisharp/omnisharpIntegrationTests/integrationHelpers.ts,RobustnessExceptionNeedsReview,7,describeIf,boolean,Generated input runs: 1
+dotnet-vscode-csharp,test/omnisharp/omnisharpIntegrationTests/jest.config.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,test/omnisharp/omnisharpIntegrationTests/poll.ts,UnsupportedSignatureOrMethod,6,,,ComplexParameters;UnknownOrComplexParameterType
+dotnet-vscode-csharp,test/omnisharp/omnisharpIntegrationTests/testAssets/activeTestAssetWorkspace.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,test/omnisharp/omnisharpIntegrationTests/testAssets/omnisharpTestAssetWorkspace.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,test/omnisharp/omnisharpUnitTests/fakes/fakeDotnetResolver.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,test/omnisharp/omnisharpUnitTests/fakes/fakeMonoResolver.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,test/omnisharp/omnisharpUnitTests/jest.config.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,test/omnisharp/omnisharpUnitTests/testAssets/getConfigChangeEvent.ts,RobustnessPassed,1,GetConfigChangeEvent,string,Generated input runs: 20
+dotnet-vscode-csharp,test/omnisharp/omnisharpUnitTests/testAssets/mockHttpsServer.ts,UnsupportedSignatureOrMethod,4,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,test/omnisharp/omnisharpUnitTests/testAssets/testAssets.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,test/omnisharp/omnisharpUnitTests/testAssets/testEventBus.ts,UnsupportedSignatureOrMethod,2,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,test/omnisharp/omnisharpUnitTests/testAssets/testFile.ts,RobustnessPassed,1,createTestFile,string;string,Generated input runs: 20
+dotnet-vscode-csharp,test/omnisharp/omnisharpUnitTests/testAssets/testZip.ts,UnsupportedSignatureOrMethod,1,,,ClassMethodNeedsInstance
+dotnet-vscode-csharp,test/omnisharp/runFeatureTests.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,test/omnisharp/testUtil.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,test/razor/razorIntegrationTests/index.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,test/razor/razorIntegrationTests/jest.config.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,test/razor/razorIntegrationTests/testAssets/testAssetWorkspace.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,test/razor/razorTests/jest.config.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,test/razor/razorTests/Microsoft.AspNetCore.Razor.VSCode.Grammar.Test/tests/addTagHelperDirective.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,test/razor/razorTests/Microsoft.AspNetCore.Razor.VSCode.Grammar.Test/tests/attributeDirective.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,test/razor/razorTests/Microsoft.AspNetCore.Razor.VSCode.Grammar.Test/tests/codeBlock.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,test/razor/razorTests/Microsoft.AspNetCore.Razor.VSCode.Grammar.Test/tests/codeDirective.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,test/razor/razorTests/Microsoft.AspNetCore.Razor.VSCode.Grammar.Test/tests/doStatement.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,test/razor/razorTests/Microsoft.AspNetCore.Razor.VSCode.Grammar.Test/tests/elsePart.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,test/razor/razorTests/Microsoft.AspNetCore.Razor.VSCode.Grammar.Test/tests/explicitExpressionInAttribute.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,test/razor/razorTests/Microsoft.AspNetCore.Razor.VSCode.Grammar.Test/tests/explicitExpressions.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,test/razor/razorTests/Microsoft.AspNetCore.Razor.VSCode.Grammar.Test/tests/foreachStatement.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,test/razor/razorTests/Microsoft.AspNetCore.Razor.VSCode.Grammar.Test/tests/forStatement.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,test/razor/razorTests/Microsoft.AspNetCore.Razor.VSCode.Grammar.Test/tests/functionsDirective.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,test/razor/razorTests/Microsoft.AspNetCore.Razor.VSCode.Grammar.Test/tests/htmlDynamicAttribute.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,test/razor/razorTests/Microsoft.AspNetCore.Razor.VSCode.Grammar.Test/tests/ifStatement.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,test/razor/razorTests/Microsoft.AspNetCore.Razor.VSCode.Grammar.Test/tests/implementsDirective.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,test/razor/razorTests/Microsoft.AspNetCore.Razor.VSCode.Grammar.Test/tests/implicitExpressionInAttribute.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,test/razor/razorTests/Microsoft.AspNetCore.Razor.VSCode.Grammar.Test/tests/implicitExpressions.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,test/razor/razorTests/Microsoft.AspNetCore.Razor.VSCode.Grammar.Test/tests/infrastructure/ITokenizedContent.ts,NoRecognizedFunction,0,,,
+dotnet-vscode-csharp,test/razor/razorTests/Microsoft.AspNetCore.Razor.VSCode.Grammar.Test/tests/infrastructure/snapshotFactory.ts,UnsupportedSignatureOrMethod,1,,,UnknownOrComplexParameterType
+dotnet-vscode-csharp,test/razor/razorTests/Microsoft.AspNetCore.Razor.VSCode.Grammar.Test/tests/infrastructure/testUtilities.ts,RobustnessExceptionNeedsReview,1,assertMatchesSnapshot,string,Generated input runs: 1
+dotnet-vscode-csharp,test/razor/razorTests/Microsoft.AspNetCore.Razor.VSCode.Grammar.Test/tests/infrastructure/tokenizedContentProvider.ts,RobustnessExceptionNeedsReview,6,tokenize,string,Generated input runs: 1
+dotnet-vscode-csharp,test/razor/razorTests/Microsoft.AspNetCore.Razor.VSCode.Grammar.Test/tests/inheritsDirective.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,test/razor/razorTests/Microsoft.AspNetCore.Razor.VSCode.Grammar.Test/tests/injectDirective.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs
+dotnet-vscode-csharp,test/razor/razorTests/Microsoft.AspNetCore.Razor.VSCode.Grammar.Test/tests/layoutDirective.ts,UnsupportedSignatureOrMethod,1,,,NoGeneratedInputs

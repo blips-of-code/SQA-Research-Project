@@ -1,0 +1,75 @@
+FilePath,FunctionName,Kind,Parameters,Exported,SelectionStatus
+src/dialect.ts,createDialect,ArrowFunction,options,Yes,Candidate - not yet tested
+src/expandPhrases.ts,expandPhrases,ArrowFunction,phrases,Yes,Candidate - not yet tested
+src/formatter/ExpressionFormatter.ts,format,MethodDeclaration,nodes,Unknown/No,Candidate - not yet tested
+src/formatter/Formatter.ts,format,MethodDeclaration,query,Unknown/No,Candidate - not yet tested
+src/formatter/Indentation.ts,decreaseBlockLevel,MethodDeclaration,,Unknown/No,Candidate - not yet tested
+src/formatter/InlineLayout.ts,add,MethodDeclaration,items,Unknown/No,Candidate - not yet tested
+src/formatter/Layout.ts,addIndentation,MethodDeclaration,,Unknown/No,Candidate - not yet tested
+src/formatter/Params.ts,getPositionalParameterIndex,MethodDeclaration,,Unknown/No,Candidate - not yet tested
+src/formatter/config.ts,indentString,FunctionDeclaration,cfg,Yes,Candidate - not yet tested
+src/formatter/tabularStyle.ts,isTabularToken,FunctionDeclaration,type,Yes,Candidate - not yet tested
+src/languages/bigquery/bigquery.formatter.ts,combineParameterizedTypes,FunctionDeclaration,tokens,Unknown/No,Candidate - not yet tested
+src/languages/mariadb/likeMariaDb.ts,postProcess,FunctionDeclaration,tokens,Yes,Candidate - not yet tested
+src/languages/plsql/plsql.formatter.ts,postProcess,FunctionDeclaration,tokens,Unknown/No,Candidate - not yet tested
+src/languages/spark/spark.formatter.ts,postProcess,FunctionDeclaration,tokens,Unknown/No,Candidate - not yet tested
+src/lexer/NestedComment.ts,exec,MethodDeclaration,input,Unknown/No,Candidate - not yet tested
+src/lexer/Tokenizer.ts,buildRulesAfterParams,MethodDeclaration,cfg,Unknown/No,Candidate - not yet tested
+src/lexer/TokenizerEngine.ts,createParseError,MethodDeclaration,,Unknown/No,Candidate - not yet tested
+src/lexer/disambiguateTokens.ts,disambiguateTokens,FunctionDeclaration,tokens,Yes,Candidate - not yet tested
+src/lexer/lineColFromIndex.ts,lineColFromIndex,FunctionDeclaration,source; index,Yes,Candidate - not yet tested
+src/lexer/regexFactory.ts,identifier,ArrowFunction,specialChars,Yes,Candidate - not yet tested
+src/lexer/regexUtil.ts,escapeRegExp,ArrowFunction,string,Yes,Candidate - not yet tested
+src/lexer/token.ts,createEofToken,ArrowFunction,index,Yes,Candidate - not yet tested
+src/parser/LexerAdapter.ts,next,MethodDeclaration,,Unknown/No,Candidate - not yet tested
+src/parser/createParser.ts,createParser,FunctionDeclaration,tokenizer,Yes,Candidate - not yet tested
+src/sqlFormatter.ts,format,ArrowFunction,query; cfg,Yes,Candidate - not yet tested
+src/utils.ts,dedupe,ArrowFunction,arr,Yes,Candidate - not yet tested
+src/validateConfig.ts,validateConfig,FunctionDeclaration,cfg,Yes,Candidate - not yet tested
+test/behavesLikeDb2Formatter.ts,behavesLikeDb2Formatter,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/behavesLikeMariaDbFormatter.ts,behavesLikeMariaDbFormatter,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/behavesLikeSqlFormatter.ts,behavesLikeSqlFormatter,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/features/alterTable.ts,supportsAlterTable,FunctionDeclaration,format; cfg,Yes,Candidate - not yet tested
+test/features/arrayAndMapAccessors.ts,supportsArrayAndMapAccessors,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/features/arrayLiterals.ts,supportsArrayLiterals,FunctionDeclaration,format; cfg,Yes,Candidate - not yet tested
+test/features/between.ts,supportsBetween,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/features/case.ts,supportsCase,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/features/commentOn.ts,supportsCommentOn,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/features/comments.ts,supportsComments,FunctionDeclaration,format; opts,Yes,Candidate - not yet tested
+test/features/constraints.ts,supportsConstraints,FunctionDeclaration,format; actions,Yes,Candidate - not yet tested
+test/features/createTable.ts,supportsCreateTable,FunctionDeclaration,format; cfg,Yes,Candidate - not yet tested
+test/features/createView.ts,supportsCreateView,FunctionDeclaration,"format; { orReplace, materialized, ifNotExists }",Yes,Candidate - not yet tested
+test/features/deleteFrom.ts,supportsDeleteFrom,FunctionDeclaration,format; { withoutFrom },Yes,Candidate - not yet tested
+test/features/disableComment.ts,supportsDisableComment,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/features/dropTable.ts,supportsDropTable,FunctionDeclaration,format; { ifExists },Yes,Candidate - not yet tested
+test/features/identifiers.ts,supportsIdentifiers,FunctionDeclaration,format; identifierTypes,Yes,Candidate - not yet tested
+test/features/insertInto.ts,supportsInsertInto,FunctionDeclaration,format; { withoutInto },Yes,Candidate - not yet tested
+test/features/isDistinctFrom.ts,supportsIsDistinctFrom,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/features/join.ts,supportsJoin,FunctionDeclaration,"format; { without, additionally, supportsUsing = true, supportsApply }",Yes,Candidate - not yet tested
+test/features/limiting.ts,supportsLimiting,FunctionDeclaration,format; types,Yes,Candidate - not yet tested
+test/features/mergeInto.ts,supportsMergeInto,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/features/numbers.ts,supportsNumbers,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/features/onConflict.ts,supportsOnConflict,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/features/operators.ts,supportsOperators,FunctionDeclaration,format; operators; cfg,Yes,Candidate - not yet tested
+test/features/returning.ts,supportsReturning,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/features/schema.ts,supportsSchema,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/features/setOperations.ts,supportsSetOperations,FunctionDeclaration,format; operations,Yes,Candidate - not yet tested
+test/features/strings.ts,supportsStrings,FunctionDeclaration,format; stringTypes,Yes,Candidate - not yet tested
+test/features/truncateTable.ts,supportsTruncateTable,FunctionDeclaration,format; { withoutTable },Yes,Candidate - not yet tested
+test/features/update.ts,supportsUpdate,FunctionDeclaration,format; { whereCurrentOf },Yes,Candidate - not yet tested
+test/features/window.ts,supportsWindow,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/features/windowFunctions.ts,supportsWindowFunctions,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/features/with.ts,supportsWith,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/options/dataTypeCase.ts,supportsDataTypeCase,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/options/expressionWidth.ts,supportsExpressionWidth,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/options/functionCase.ts,supportsFunctionCase,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/options/identifierCase.ts,supportsIdentifierCase,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/options/indentStyle.ts,supportsIndentStyle,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/options/keywordCase.ts,supportsKeywordCase,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/options/linesBetweenQueries.ts,supportsLinesBetweenQueries,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/options/logicalOperatorNewline.ts,supportsLogicalOperatorNewline,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/options/newlineBeforeSemicolon.ts,supportsNewlineBeforeSemicolon,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/options/param.ts,supportsParams,FunctionDeclaration,format; params,Yes,Candidate - not yet tested
+test/options/paramTypes.ts,supportsParamTypes,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/options/tabWidth.ts,supportsTabWidth,FunctionDeclaration,format,Yes,Candidate - not yet tested
+test/options/useTabs.ts,supportsUseTabs,FunctionDeclaration,format,Yes,Candidate - not yet tested

@@ -1,0 +1,5 @@
+Repository,RelativePath,FunctionName,Pattern,Parameter,ZipMember
+Microsoft-vscode-pwa,src/common/contributionUtils.ts,asCommand,identity,command,Microsoft-vscode-pwa/src/common/contributionUtils.ts
+Microsoft-vscode-pwa,src/common/objUtils.ts,upcastPartial,identity,v,Microsoft-vscode-pwa/src/common/objUtils.ts
+sql-formatter-org-sql-formatter,src/utils.ts,dedupe,dedupe,arr,sql-formatter-org-sql-formatter/src/utils.ts
+vscode-kubernetes-tools-vscode-kubernetes-tools,src/utils/never.ts,cantHappen,identity,n,vscode-kubernetes-tools-vscode-kubernetes-tools/src/utils/never.ts

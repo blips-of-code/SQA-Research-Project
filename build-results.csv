@@ -1,0 +1,1978 @@
+Repository,PackageManager,BuildCommand,InstallStatus,BuildStatus,EntryPointExists,ExecutionStatus,Error
+42Crunch-vscode-openapi,npm,npm run compile,Success,Failed,Yes,Not tested,"p/config' or its corresponding type declarations.
+src/webapps/views/config/view.ts(15,8): error TS2307: Cannot find module '@xliic/common/config' or its corresponding type declarations.
+src/webapps/views/config/view.ts(46,24): error TS7006: Parameter 'config' implicitly has an 'any' type.
+src/webapps/views/config/view.ts(136,25): error TS7031: Binding element 'id' implicitly has an 'any' type.
+src/webapps/views/config/view.ts(136,29): error TS7031: Binding element 'request' implicitly has an 'any' type.
+src/webapps/views/config/view.ts(136,38): error TS7031: Binding element 'config' implicitly has an 'any' type.
+src/webapps/views/tags/view.ts(8,24): error TS2307: Cannot find module '@xliic/common/webapp/tags' or its corresponding type declarations.
+src/webapps/views/tags/view.ts(14,52): error TS2307: Cannot find module '@xliic/common/http' or its corresponding type declarations.
+src/webapps/views/tags/view.ts(16,50): error TS2307: Cannot find module '@xliic/common/tags' or its corresponding type declarations.
+src/webapps/web-view.ts(9,33): error TS2307: Cannot find module '@xliic/common/message' or its corresponding type declarations.
+src/webapps/web-view.ts(10,36): error TS2307: Cannot find module '@xliic/common/theme' or its corresponding type declarations.
+src/webapps/web-view.ts(16,8): error TS2307: Cannot find module '@xliic/common/theme' or its corresponding type declarations.
+src/webapps/web-view.ts(221,38): error TS7006: Parameter 'name' implicitly has an 'any' type.
+"
+AlexCovizzi-vscode-sqlite,npm,npm run compile,Success,Failed,No,Not tested,"erRunner.js:214:10)
+    at iterateNormalLoaders (/workspace/node_modules/loader-runner/lib/LoaderRunner.js:221:10)
+    at /workspace/node_modules/loader-runner/lib/LoaderRunner.js:236:3
+    at context.callback (/workspace/node_modules/loader-runner/lib/LoaderRunner.js:111:13)
+    at makeSourceMapAndFinish (/workspace/node_modules/ts-loader/dist/index.js:93:5)
+    at successLoader (/workspace/node_modules/ts-loader/dist/index.js:74:9)
+    at Object.loader (/workspace/node_modules/ts-loader/dist/index.js:25:5)
+    at LOADER_EXECUTION (/workspace/node_modules/loader-runner/lib/LoaderRunner.js:119:14)
+    at runSyncOrAsync (/workspace/node_modules/loader-runner/lib/LoaderRunner.js:120:4)
+    at iterateNormalLoaders (/workspace/node_modules/loader-runner/lib/LoaderRunner.js:232:2)
+    at Array.<anonymous> (/workspace/node_modules/loader-runner/lib/LoaderRunner.js:205:4)
+    at Storage.finished (/workspace/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /workspace/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+    at /workspace/node_modules/graceful-fs/graceful-fs.js:115:16
+    at FSReqCallback.readFileAfterClose [as oncomplete] (node:internal/fs/read/context:68:3) {
+  opensslErrorStack: [
+    'error:03000086:digital envelope routines::initialization error',
+    'error:0308010C:digital envelope routines::unsupported'
+  ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v20.20.2
+"
+Azure-vscode-azureterraform,npm,npm run compile,Success,Success,Yes,Not tested,
+BeardedBear-bearded-theme,yarn,corepack yarn build,Success,Failed,Not declared,Not tested,"node_modules/corepack/dist/lib/corepack.cjs:22103:20)
+    ... 5 lines matching cause stack trace ...
+    at async Object.runMain (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:23710:7) {
+  [cause]: TypeError: fetch failed
+      at node:internal/deps/undici/undici:14976:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async fetch (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:22083:16)
+      at async fetchAsJson (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:22103:20)
+      at async fetchLatestStableVersion (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:22025:20)
+      at async fetchLatestStableVersion2 (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:22200:14)
+      at async Engine.getDefaultVersion (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:22881:23)
+      at async Engine.findProjectSpec (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:22950:40)
+      at async Engine.executePackageManagerRequest (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:23004:24)
+      at async Object.runMain (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:23710:7) {
+    [cause]: Error: getaddrinfo EAI_AGAIN registry.npmjs.org
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+      errno: -3001,
+      code: 'EAI_AGAIN',
+      syscall: 'getaddrinfo',
+      hostname: 'registry.npmjs.org'
+    }
+  }
+}
+
+Node.js v20.20.2
+"
+Binaryify-OneDark-Pro,yarn,corepack yarn build,Success,Failed,No,Not tested,"node_modules/corepack/dist/lib/corepack.cjs:22103:20)
+    ... 5 lines matching cause stack trace ...
+    at async Object.runMain (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:23710:7) {
+  [cause]: TypeError: fetch failed
+      at node:internal/deps/undici/undici:14976:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async fetch (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:22083:16)
+      at async fetchAsJson (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:22103:20)
+      at async fetchLatestStableVersion (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:22025:20)
+      at async fetchLatestStableVersion2 (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:22200:14)
+      at async Engine.getDefaultVersion (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:22881:23)
+      at async Engine.findProjectSpec (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:22950:40)
+      at async Engine.executePackageManagerRequest (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:23004:24)
+      at async Object.runMain (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:23710:7) {
+    [cause]: Error: getaddrinfo EAI_AGAIN registry.npmjs.org
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+      errno: -3001,
+      code: 'EAI_AGAIN',
+      syscall: 'getaddrinfo',
+      hostname: 'registry.npmjs.org'
+    }
+  }
+}
+
+Node.js v20.20.2
+"
+Borvik-vscode-postgres,npm,npm run compile,Success,Success,Yes,Not tested,
+Chakroun-Anas-turbo-console-log,npm,npm run vscode:prepublish,Success,Failed,No,Not tested,"
+> turbo-console-log@2.11.5 vscode:prepublish
+> rm -rf out && npm run esbuild-base -- --minify
+
+
+> turbo-console-log@2.11.5 esbuild-base
+> esbuild ./src/extension.ts --bundle --outfile=out/extension.js --external:vscode --format=cjs --platform=node --minify
+
+/workspace/node_modules/esbuild/bin/esbuild:179
+        throw new Error(`The package ""${pkg}"" could not be found, and is needed by esbuild.
+        ^
+
+Error: The package ""@esbuild/linux-x64"" could not be found, and is needed by esbuild.
+
+If you are installing esbuild with npm, make sure that you don't specify the
+""--no-optional"" or ""--omit=optional"" flags. The ""optionalDependencies"" feature
+of ""package.json"" is used by esbuild to install the correct binary executable
+for your current platform.
+    at generateBinPath (/workspace/node_modules/esbuild/bin/esbuild:179:15)
+    at Object.<anonymous> (/workspace/node_modules/esbuild/bin/esbuild:216:27)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at node:internal/main/run_main_module:28:49
+
+Node.js v20.20.2
+"
+ChristianKohler-NpmIntellisense,npm,npm run compile,Success,Success,Yes,Not tested,
+ChristianKohler-PathIntellisense,npm,npm run compile,Success,Success,Yes,Not tested,
+CodeZombieCH-vscode-gitignore,npm,npm run compile,Success,Success,Yes,Not tested,
+CoenraadS-Bracket-Pair-Colorizer-2,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout
+Dart-Code-Dart-Code,npm,npm run build,Success,Success,Yes,Not tested,
+Dart-Code-Flutter,npm,npm run compile,Success,Success,Yes,Not tested,
+DonJayamanne-gitHistoryVSCode,npm,npm run vscode:prepublish,Success,Failed,No,Not tested,"rRunner.js:214:10)
+    at iterateNormalLoaders (/workspace/node_modules/loader-runner/lib/LoaderRunner.js:221:10)
+    at /workspace/node_modules/loader-runner/lib/LoaderRunner.js:236:3
+    at context.callback (/workspace/node_modules/loader-runner/lib/LoaderRunner.js:111:13)
+    at makeSourceMapAndFinish (/workspace/node_modules/ts-loader/dist/index.js:90:5)
+    at successLoader (/workspace/node_modules/ts-loader/dist/index.js:68:9)
+    at Object.loader (/workspace/node_modules/ts-loader/dist/index.js:22:12)
+    at LOADER_EXECUTION (/workspace/node_modules/loader-runner/lib/LoaderRunner.js:119:14)
+    at runSyncOrAsync (/workspace/node_modules/loader-runner/lib/LoaderRunner.js:120:4)
+    at iterateNormalLoaders (/workspace/node_modules/loader-runner/lib/LoaderRunner.js:232:2)
+    at Array.<anonymous> (/workspace/node_modules/loader-runner/lib/LoaderRunner.js:205:4)
+    at Storage.finished (/workspace/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /workspace/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+    at /workspace/node_modules/graceful-fs/graceful-fs.js:115:16
+    at FSReqCallback.readFileAfterClose [as oncomplete] (node:internal/fs/read/context:68:3) {
+  opensslErrorStack: [
+    'error:03000086:digital envelope routines::initialization error',
+    'error:0308010C:digital envelope routines::unsupported'
+  ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v20.20.2
+"
+DonJayamanne-javaVSCode,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout
+DonJayamanne-jquerysnippets,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout
+DonJayamanne-vscode-python-manager,npm,npm run compile,Failed,Not attempted,Not checked,Not tested,"r package.json and package-lock.json or npm-shrinkwrap.json are in sync. Please update your lock file with `npm install` before continuing.
+npm error
+npm error Missing: semver@7.8.6 from lock file
+npm error Missing: semver@7.8.6 from lock file
+npm error Missing: semver@7.8.6 from lock file
+npm error Missing: semver@7.8.6 from lock file
+npm error Missing: semver@7.8.6 from lock file
+npm error
+npm error Clean install a project
+npm error
+npm error Usage:
+npm error npm ci
+npm error
+npm error Options:
+npm error [--install-strategy <hoisted|nested|shallow|linked>] [--legacy-bundling]
+npm error [--global-style] [--omit <dev|optional|peer> [--omit <dev|optional|peer> ...]]
+npm error [--include <prod|dev|optional|peer> [--include <prod|dev|optional|peer> ...]]
+npm error [--strict-peer-deps] [--foreground-scripts] [--ignore-scripts] [--no-audit]
+npm error [--no-bin-links] [--no-fund] [--dry-run]
+npm error [-w|--workspace <workspace-name> [-w|--workspace <workspace-name> ...]]
+npm error [-ws|--workspaces] [--include-workspace-root] [--install-links]
+npm error
+npm error aliases: clean-install, ic, install-clean, isntall-clean
+npm error
+npm error Run ""npm help ci"" for more info
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-11-05T05_22_31_170Z-debug-0.log
+"
+DotJoshJohnson-vscode-xml,npm,npm run compile,Success,Failed,Yes,Not tested,"ata-provider.ts(1,35): error TS2307: Cannot find module 'vscode'.
+src/tree-view/xml-tree-data-provider.ts(5,8): error TS2307: Cannot find module 'vscode'.
+src/tree-view/xml-tree-data-provider.ts(36,44): error TS2304: Cannot find name 'Thenable'.
+src/tree-view/xml-tree-data-provider.ts(87,43): error TS2304: Cannot find name 'Thenable'.
+src/xpath/commands/evaluateXPath.ts(1,24): error TS2307: Cannot find module 'vscode'.
+src/xpath/commands/evaluateXPath.ts(2,56): error TS2307: Cannot find module 'vscode'.
+src/xpath/commands/evaluateXPath.ts(29,21): error TS2347: Untyped function calls may not accept type arguments.
+src/xpath/commands/evaluateXPath.ts(30,29): error TS2347: Untyped function calls may not accept type arguments.
+src/xpath/commands/evaluateXPath.ts(32,36): error TS7006: Parameter 'x' implicitly has an 'any' type.
+src/xpath/commands/evaluateXPath.ts(89,49): error TS7006: Parameter 'x' implicitly has an 'any' type.
+src/xpath/commands/getCurrentXPath.ts(1,24): error TS2307: Cannot find module 'vscode'.
+src/xpath/commands/getCurrentXPath.ts(2,44): error TS2307: Cannot find module 'vscode'.
+src/xpath/xpath-builder.ts(1,26): error TS2307: Cannot find module 'vscode'.
+src/xquery-execution/commands/executeXQuery.ts(1,35): error TS2307: Cannot find module 'vscode'.
+src/xquery-execution/commands/executeXQuery.ts(2,68): error TS2307: Cannot find module 'vscode'.
+src/xquery-execution/commands/executeXQuery.ts(52,24): error TS7006: Parameter 'file' implicitly has an 'any' type.
+"
+EmersonGarrido-bracket-pair-dlw,yarn,corepack yarn compile,Success,Failed,No,Not tested,"node_modules/corepack/dist/lib/corepack.cjs:22103:20)
+    ... 5 lines matching cause stack trace ...
+    at async Object.runMain (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:23710:7) {
+  [cause]: TypeError: fetch failed
+      at node:internal/deps/undici/undici:14976:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async fetch (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:22083:16)
+      at async fetchAsJson (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:22103:20)
+      at async fetchLatestStableVersion (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:22025:20)
+      at async fetchLatestStableVersion2 (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:22200:14)
+      at async Engine.getDefaultVersion (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:22881:23)
+      at async Engine.findProjectSpec (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:22950:40)
+      at async Engine.executePackageManagerRequest (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:23004:24)
+      at async Object.runMain (/usr/local/lib/node_modules/corepack/dist/lib/corepack.cjs:23710:7) {
+    [cause]: Error: getaddrinfo EAI_AGAIN registry.npmjs.org
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26) {
+      errno: -3001,
+      code: 'EAI_AGAIN',
+      syscall: 'getaddrinfo',
+      hostname: 'registry.npmjs.org'
+    }
+  }
+}
+
+Node.js v20.20.2
+"
+FallenMax-mithril-emmet,yarn,corepack yarn compile,Failed,Not attempted,Not checked,Not tested,"yarn install v1.22.22
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+warning mithril-emmet@0.7.7: The engine ""vscode"" appears to be invalid.
+error Error: certificate has expired
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1699:34)
+    at TLSSocket.emit (node:events:524:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1097:8)
+    at ssl.onhandshakedone (node:_tls_wrap:883:12)
+"
+HarshdeepGupta-live-html-preview,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+Huachao-vscode-restclient,npm,npm run vscode:prepublish,Failed,Not attempted,Not checked,Not tested,"npm error code EUSAGE
+npm error
+npm error `npm ci` can only install packages when your package.json and package-lock.json or npm-shrinkwrap.json are in sync. Please update your lock file with `npm install` before continuing.
+npm error
+npm error Missing: restore-cursor@3.1.0 from lock file
+npm error
+npm error Clean install a project
+npm error
+npm error Usage:
+npm error npm ci
+npm error
+npm error Options:
+npm error [--install-strategy <hoisted|nested|shallow|linked>] [--legacy-bundling]
+npm error [--global-style] [--omit <dev|optional|peer> [--omit <dev|optional|peer> ...]]
+npm error [--include <prod|dev|optional|peer> [--include <prod|dev|optional|peer> ...]]
+npm error [--strict-peer-deps] [--foreground-scripts] [--ignore-scripts] [--no-audit]
+npm error [--no-bin-links] [--no-fund] [--dry-run]
+npm error [-w|--workspace <workspace-name> [-w|--workspace <workspace-name> ...]]
+npm error [-ws|--workspaces] [--include-workspace-root] [--install-links]
+npm error
+npm error aliases: clean-install, ic, install-clean, isntall-clean
+npm error
+npm error Run ""npm help ci"" for more info
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-11-05T05_38_40_227Z-debug-0.log
+"
+IHunte-Laravel-Blade-Wrapper,npm,npm run compile,Success,Success,Yes,Not tested,
+JohnstonCode-svn-scm,yarn,corepack yarn compile,Success,Failed,No,Not tested,"yarn run v1.22.22
+$ webpack --mode development --watch
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+warning svn-scm@2.17.0: The engine ""vscode"" appears to be invalid.
+/workspace/node_modules/loader-runner/lib/LoaderRunner.js:146
+		if(isError) throw e;
+		            ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:101:19)
+    at Object.createHash (node:crypto:139:10)
+    at BulkUpdateDecorator.hashFactory (/workspace/node_modules/webpack/lib/util/createHash.js:145:18)
+    at BulkUpdateDecorator.update (/workspace/node_modules/webpack/lib/util/createHash.js:46:50)
+    at SourceMapSource.updateHash (/workspace/node_modules/webpack-sources/lib/SourceMapSource.js:231:8)
+    at NormalModule._initBuildHash (/workspace/node_modules/webpack/lib/NormalModule.js:874:17)
+    at handleParseResult (/workspace/node_modules/webpack/lib/NormalModule.js:940:10)
+    at /workspace/node_modules/webpack/lib/NormalModule.js:1032:4
+    at processResult (/workspace/node_modules/webpack/lib/NormalModule.js:749:11)
+    at /workspace/node_modules/webpack/lib/NormalModule.js:813:5 {
+  opensslErrorStack: [
+    'error:03000086:digital envelope routines::initialization error',
+    'error:0308010C:digital envelope routines::unsupported'
+  ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v20.20.2
+error Command failed with exit code 1.
+"
+KnisterPeter-vscode-github,yarn,corepack yarn compile,Success,Success,Yes,Not tested,
+LeetCode-OpenSource-vscode-leetcode,npm,npm run compile,Failed,Not attempted,Not checked,Not tested,"npm warn deprecated har-validator@5.1.5: this library is no longer supported
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm warn deprecated request@2.88.0: request has been deprecated, see https://github.com/request/request/issues/3142
+npm error code CERT_HAS_EXPIRED
+npm error errno CERT_HAS_EXPIRED
+npm error request to https://r2.cnpmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz failed, reason: certificate has expired
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-11-05T05_40_29_826Z-debug-0.log
+"
+Lonefy-vscode-JS-CSS-HTML-formatter,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+Marus-cortex-debug,npm,npm run compile,Success,Failed,No,Not tested," && node dist/docgen.js
+
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[webpack-cli] Failed to load '/workspace/webpack.config.js' config
+[webpack-cli] Error: Command failed: git status --short
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at checkExecSyncError (node:child_process:891:11)
+    at Object.execSync (node:child_process:963:15)
+    at Object.<anonymous> (/workspace/webpack.config.js:8:6)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19) {
+  status: 128,
+  signal: null,
+  output: [
+    null,
+    <Buffer >,
+    <Buffer 66 61 74 61 6c 3a 20 6e 6f 74 20 61 20 67 69 74 20 72 65 70 6f 73 69 74 6f 72 79 20 28 6f 72 20 61 6e 79 20 70 61 72 65 6e 74 20 75 70 20 74 6f 20 6d ... 89 more bytes>
+  ],
+  pid: 27,
+  stdout: <Buffer >,
+  stderr: <Buffer 66 61 74 61 6c 3a 20 6e 6f 74 20 61 20 67 69 74 20 72 65 70 6f 73 69 74 6f 72 79 20 28 6f 72 20 61 6e 79 20 70 61 72 65 6e 74 20 75 70 20 74 6f 20 6d ... 89 more bytes>
+}
+"
+Microsoft-azure-pipelines-vscode,npm,npm run compile,Success,Success,Yes,Not tested,
+Microsoft-azuredatastudio,yarn,corepack yarn compile,Not attempted,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+Microsoft-vscode-azureappservice,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+Microsoft-vscode-azurearmtools,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+Microsoft-vscode-azurecli,npm,npm run compile,Success,Success,Yes,Not tested,
+Microsoft-vscode-azurefunctions,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+Microsoft-vscode-azureresourcegroups,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+Microsoft-vscode-azurestaticwebapps,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+Microsoft-vscode-chrome-debug-core,npm,npm run build,Success,Success,Yes,Not tested,
+Microsoft-vscode-edge-devtools,npm,npm run build,Success,Success,Yes,Not tested,
+Microsoft-vscode-eslint,npm,npm run compile,Success,Failed,No,Not tested,"ameter 'params' implicitly has an 'any' type.
+server/src/eslintServer.ts(184,34): error TS7006: Parameter '_cancel' implicitly has an 'any' type.
+server/src/eslintServer.ts(184,43): error TS7006: Parameter 'progress' implicitly has an 'any' type.
+server/src/eslintServer.ts(232,40): error TS7006: Parameter '_params' implicitly has an 'any' type.
+server/src/eslintServer.ts(239,53): error TS7006: Parameter '_params' implicitly has an 'any' type.
+server/src/eslintServer.ts(251,44): error TS7006: Parameter 'params' implicitly has an 'any' type.
+server/src/eslintServer.ts(291,43): error TS7006: Parameter 'params' implicitly has an 'any' type.
+server/src/eslintServer.ts(301,46): error TS7006: Parameter 'change' implicitly has an 'any' type.
+server/src/eslintServer.ts(434,12): error TS2353: Object literal may only specify known properties, and 'uri' does not exist in type 'CommandParams'.
+server/src/eslintServer.ts(444,32): error TS7006: Parameter 'params' implicitly has an 'any' type.
+server/src/eslintServer.ts(807,36): error TS7006: Parameter 'params' implicitly has an 'any' type.
+server/src/eslintServer.ts(835,68): error TS7006: Parameter 'response' implicitly has an 'any' type.
+server/src/eslintServer.ts(846,34): error TS7006: Parameter 'params' implicitly has an 'any' type.
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+Microsoft-vscode-java-debug,npm,npm run compile,Success,Success,Yes,Not tested,
+Microsoft-vscode-java-dependency,npm,npm run compile,Success,Success,Yes,Not tested,
+Microsoft-vscode-java-pack,npm,npm run compile,Success,Success,Yes,Not tested,
+Microsoft-vscode-java-test,npm,npm run compile,Success,Success,Yes,Not tested,
+Microsoft-vscode-jshint,npm,npm run compile,Success,Failed,Yes,Not tested,"
+> jshint@0.11.0 compile
+> npm run compile:client && npm run compile:server
+
+
+> jshint@0.11.0 compile:client
+> tsc -p jshint/tsconfig.json
+
+jshint/extension.ts(7,95): error TS2307: Cannot find module 'vscode'.
+jshint/extension.ts(8,114): error TS2307: Cannot find module 'vscode-languageclient'.
+jshint/extension.ts(70,6): error TS2322: Type '({ label: string; kind: ""session""; } | { label: string; kind: ""all""; })[]' is not assignable to type 'JSHintQuickPickItem[]'.
+  Type '{ label: string; kind: ""session""; } | { label: string; kind: ""all""; }' is not assignable to type 'JSHintQuickPickItem'.
+    Type '{ label: string; kind: ""session""; }' is not assignable to type 'JSHintQuickPickItem'.
+      Object literal may only specify known properties, and 'label' does not exist in type 'JSHintQuickPickItem'.
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+Microsoft-vscode-jupyter,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+Microsoft-vscode-jupyter-cell-tags,npm,npm run compile,Success,Success,Yes,Not tested,
+Microsoft-vscode-jupyter-slideshow,npm,npm run compile,Success,Success,Yes,Not tested,
+Microsoft-vscode-makefile-tools,yarn,corepack yarn compile,Success,Success,Yes,Not tested,
+Microsoft-vscode-maven,npm,npm run compile,Success,Success,No,Not tested,
+Microsoft-vscode-mssql,yarn,corepack yarn compile,Success,Success,Yes,Not tested,
+Microsoft-vscode-notebook-renderers,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+Microsoft-vscode-npm-scripts,npm,npm run vscode:prepublish,Failed,Not attempted,Not checked,Not tested,"npm error     node_modules/@typescript-eslint/eslint-plugin
+npm error       dev @typescript-eslint/eslint-plugin@""^2.18.0"" from the root project
+npm error     @typescript-eslint/experimental-utils@""2.18.0"" from @typescript-eslint/parser@2.18.0
+npm error     node_modules/@typescript-eslint/parser
+npm error       dev @typescript-eslint/parser@""^2.18.0"" from the root project
+npm error       1 more (@typescript-eslint/eslint-plugin)
+npm error   1 more (eslint-utils)
+npm error
+npm error Could not resolve dependency:
+npm error peer eslint@""^5.0.0 || ^6.0.0"" from @typescript-eslint/eslint-plugin@2.18.0
+npm error node_modules/@typescript-eslint/eslint-plugin
+npm error   dev @typescript-eslint/eslint-plugin@""^2.18.0"" from the root project
+npm error
+npm error Conflicting peer dependency: eslint@6.8.0
+npm error node_modules/eslint
+npm error   peer eslint@""^5.0.0 || ^6.0.0"" from @typescript-eslint/eslint-plugin@2.18.0
+npm error   node_modules/@typescript-eslint/eslint-plugin
+npm error     dev @typescript-eslint/eslint-plugin@""^2.18.0"" from the root project
+npm error
+npm error Fix the upstream dependency conflict, or retry
+npm error this command with --force or --legacy-peer-deps
+npm error to accept an incorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error /root/.npm/_logs/2026-11-05T06_35_14_897Z-eresolve-report.txt
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-11-05T06_35_14_897Z-debug-0.log
+"
+Microsoft-vscode-postgresql,npm,,Not attempted,No recognized build script,Not checked,Not tested,
+Microsoft-vscode-pull-request-github,yarn,corepack yarn compile,Success,Failed,Yes,Not tested,"w-new.js 1.13 MiB [emitted] (name: webview-create-pr-view-new) 1 related asset
+  runtime modules 2.85 KiB 15 modules
+  orphan modules 15.9 KiB [orphan] 10 modules
+  cacheable modules 1.28 MiB
+    modules by path ./webviews/ 246 KiB 40 modules
+    modules by path ./resources/icons/ 39.1 KiB
+      ./resources/icons/alert.svg 381 bytes [built] [code generated]
+      ./resources/icons/check.svg 311 bytes [built] [code generated]
+      ./resources/icons/skip.svg 337 bytes [built] [code generated]
+      + 29 modules
+    modules by path ./node_modules/ 991 KiB 25 modules
+    modules by path ./src/ 38 KiB
+      modules by path ./src/common/*.ts 34 KiB 5 modules
+      modules by path ./src/github/*.ts 4.06 KiB
+        ./src/github/interface.ts 3.42 KiB [built] [code generated]
+        ./src/github/views.ts 660 bytes [built] [code generated]
+  webviews (webpack 5.94.0) compiled successfully in 67988 ms
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+Warning: fragment with name PullRequestFragment already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names
+Warning: fragment with name PullRequestFragment already exists.
+graphql-tag enforces all fragment names across your application to be unique; read more about
+this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names
+error Command failed with exit code 1.
+"
+Microsoft-vscode-pwa,npm,npm run compile,Success,Success,No,Not tested,
+Microsoft-vscode-python,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+Microsoft-vscode-spring-boot-dashboard,npm,npm run compile,Success,Success,No,Not tested,
+Microsoft-vscode-spring-initializr,npm,npm run compile,Success,Success,Yes,Not tested,
+Microsoft-vscode-sublime-keybindings,npm,npm run compile,Success,Success,Yes,Not tested,
+Microsoft-vscode-tslint,npm,,Not attempted,No recognized build script,Not checked,Not tested,
+Microsoft-vscode-typescript-tslint-plugin,yarn,corepack yarn compile,Success,Failed,Yes,Not tested,"yarn run v1.22.22
+$ tsc -p ./
+node_modules/@types/vscode/index.d.ts(8001,11): error TS2583: Cannot find name 'AsyncIterable'. Do you need to change your target library? Try changing the 'lib' compiler option to 'es2018' or later.
+node_modules/@types/vscode/index.d.ts(20499,11): error TS2583: Cannot find name 'AsyncIterable'. Do you need to change your target library? Try changing the 'lib' compiler option to 'es2018' or later.
+node_modules/@types/vscode/index.d.ts(20506,9): error TS2583: Cannot find name 'AsyncIterable'. Do you need to change your target library? Try changing the 'lib' compiler option to 'es2018' or later.
+src/warningStatusBar.ts(28,65): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | MarkdownString' is not assignable to parameter of type 'string'.
+      Type 'MarkdownString' is not assignable to type 'string'.
+src/warningStatusBar.ts(34,22): error TS2678: Type 'MessageItem' is not comparable to type 'string'.
+src/warningStatusBar.ts(38,22): error TS2678: Type 'MessageItem' is not comparable to type 'string'.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+warning vscode-typescript-tslint-plugin@1.3.4: The engine ""vscode"" appears to be invalid.
+error Command failed with exit code 2.
+"
+NeverCL-vscode-java-run,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+NilsJPWerner-autoDocstring,npm,npm run compile,Success,Success,Yes,Not tested,
+Njanderson-resmon,npm,npm run compile,Success,Success,Yes,Not tested,
+PowerShell-vscode-powershell,npm,npm run compile,Failed,Not attempted,Not checked,Not tested,"npm error code ECONNRESET
+npm error errno ECONNRESET
+npm error network Invalid response body while trying to fetch https://pkgs.dev.azure.com/powershell/PowerShell/_packaging/powershell/npm/registry/lru-cache: aborted
+npm error network This is a problem related to network connectivity.
+npm error network In most cases you are behind a proxy or have bad network settings.
+npm error network
+npm error network If you are behind a proxy, please make sure that the
+npm error network 'proxy' config is set properly.  See: 'npm help config'
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-11-05T06_46_28_777Z-debug-0.log
+"
+REditorSupport-vscode-R,npm,npm run compile,Success,Success,Yes,Not tested,
+RiFi2k-format-html-in-php,npm,npm run compile,Success,Success,Yes,Not tested,
+Sertion-vscode-gitblame,npm,npm run build,Success,Success,Yes,Not tested,
+SimonSiefke-vscode-svg-preview,npm,npm run build,Success,Failed,Not declared,Not tested,"] (plugin rpt2) Error: /workspace/packages/extension/src/extension.ts(1,25): semantic error TS2307: Cannot find module 'vscode' or its corresponding type declarations.
+packages/extension/src/extension.ts
+Error: /workspace/packages/extension/src/extension.ts(1,25): semantic error TS2307: Cannot find module 'vscode' or its corresponding type declarations.
+    at error (/workspace/node_modules/rollup/dist/shared/rollup.js:161:30)
+    at throwPluginError (/workspace/node_modules/rollup/dist/shared/rollup.js:17007:12)
+    at Object.error (/workspace/node_modules/rollup/dist/shared/rollup.js:18038:24)
+    at Object.error (/workspace/node_modules/rollup/dist/shared/rollup.js:17180:38)
+    at RollupContext.error (/workspace/node_modules/rollup-plugin-typescript2/src/rollupcontext.ts:37:18)
+    at /workspace/node_modules/rollup-plugin-typescript2/src/print-diagnostics.ts:41:11
+    at arrayEach (/workspace/node_modules/rollup-plugin-typescript2/node_modules/lodash/lodash.js:516:11)
+    at _.each (/workspace/node_modules/rollup-plugin-typescript2/node_modules/lodash/lodash.js:9342:14)
+    at printDiagnostics (/workspace/node_modules/rollup-plugin-typescript2/src/print-diagnostics.ts:9:2)
+    at Object.transform (/workspace/node_modules/rollup-plugin-typescript2/src/index.ts:242:5)
+
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+SonarSource-sonarlint-vscode,npm,npm run compile,Failed,Not attempted,Not checked,Not tested,"npm error code E401
+npm error Incorrect or missing password.
+npm error If you were trying to login, change your password, create an
+npm error authentication token or enable two-factor authentication then
+npm error that means you likely typed your password in incorrectly.
+npm error Please try again, or recover your password at:
+npm error   https://www.npmjs.com/forgot
+npm error
+npm error If you were doing some other operation then your saved credentials are
+npm error probably out of date. To correct this please try logging in again with:
+npm error   npm login
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-11-05T06_48_02_634Z-debug-0.log
+"
+SudoKillMe-vscode-extensions-open-in-browser,yarn,corepack yarn compile,Success,Failed,Yes,Not tested,"yarn run v1.22.22
+$ tsc -p ./
+src/config.ts(1,31): error TS2307: Cannot find module 'vscode'.
+src/extension.ts(2,25): error TS2307: Cannot find module 'vscode'.
+src/index.ts(3,25): error TS2307: Cannot find module 'vscode'.
+src/util.ts(2,25): error TS2307: Cannot find module 'vscode'.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+warning open-in-browser@2.0.0: The engine ""vscode"" appears to be invalid.
+error Command failed with exit code 2.
+"
+TheColorRed-vscode-laravel-artisan,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+TheRealSyler-vscode-sass-indented,yarn,corepack yarn build,Success,Success,Yes,Not tested,
+TobiahZ-unity-tools,npm,npm run compile,Success,Success,Yes,Not tested,
+Tom-Bonnike-vscode-formatting-toggle,npm,npm run vscode:prepublish,Success,Success,Yes,Not tested,
+Tyriar-vscode-lorem-ipsum,npm,,Not attempted,No recognized build script,Not checked,Not tested,
+Tyriar-vscode-sort-lines,npm,npm run compile,Success,Success,Yes,Not tested,
+VSCodeVim-Vim,yarn,corepack yarn build,Success,Failed,Yes,Not tested,"yarn run v1.22.22
+$ gulp build
+[06:53:19] Using gulpfile /workspace/gulpfile.js
+[06:53:19] Starting 'build'...
+[06:53:19] Starting 'webpack'...
+[06:53:44] asset extension.js 927 KiB [emitted] [minimized] (name: main) 1 related asset
+webpack 5.98.0 compiled successfully
+
+asset extensionWeb.js 2.02 MiB [emitted] [minimized] (name: main) 1 related asset
+webpack 5.98.0 compiled successfully
+[06:53:44] Finished 'webpack' after 25 s
+[06:53:44] Starting 'commit-hash'...
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+warning vim@1.29.0: The engine ""vscode"" appears to be invalid.
+[06:53:44] 'commit-hash' errored after 16 ms
+[06:53:44] TypeError [ERR_INVALID_ARG_TYPE]: The ""data"" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at Object.writeFileSync (node:fs:2388:5)
+    at /workspace/gulpfile.js:127:19
+    at /workspace/node_modules/gulp-git/lib/revParse.js:30:21
+    at ChildProcess.exithandler (node:child_process:430:5)
+    at ChildProcess.emit (node:events:524:28)
+    at ChildProcess.emit (node:domain:552:15)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Socket.<anonymous> (node:internal/child_process:456:11)
+    at Socket.emit (node:events:524:28)
+    at Socket.emit (node:domain:552:15)
+[06:53:44] 'build' errored after 25 s
+error Command failed with exit code 1.
+"
+Wscats-browser-preview,yarn,corepack yarn compile,Success,Success,Yes,Not tested,
+Wscats-compile-hero,npm,npm run compile,Failed,Not attempted,Not checked,Not tested,"ator-functions instead.
+npm warn deprecated glob@7.1.2: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm warn deprecated @babel/plugin-proposal-unicode-property-regex@7.7.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-unicode-property-regex instead.
+npm warn deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm error code E404
+npm error 404 Not Found - GET http://r.tnpm.oa.com/yargs-parser/download/yargs-parser-5.0.0-security.0.tgz
+npm error 404
+npm error 404  'yargs-parser@http://r.tnpm.oa.com/yargs-parser/download/yargs-parser-5.0.0-security.0.tgz' is not in this registry.
+npm error 404
+npm error 404 Note that you can also install from a
+npm error 404 tarball, folder, http url, or git url.
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-11-05T06_53_55_804Z-debug-0.log
+"
+Zignd-HTML-CSS-Class-Completion,npm,npm run compile,Success,Failed,No,Not tested,"k --config ./build/node-extension.webpack.config.js
+
+/workspace/node_modules/loader-runner/lib/LoaderRunner.js:146
+		if(isError) throw e;
+		            ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:101:19)
+    at Object.createHash (node:crypto:139:10)
+    at BulkUpdateDecorator.hashFactory (/workspace/node_modules/webpack/lib/util/createHash.js:138:18)
+    at BulkUpdateDecorator.update (/workspace/node_modules/webpack/lib/util/createHash.js:44:50)
+    at SourceMapSource.updateHash (/workspace/node_modules/webpack-sources/lib/SourceMapSource.js:233:8)
+    at NormalModule._initBuildHash (/workspace/node_modules/webpack/lib/NormalModule.js:737:17)
+    at handleParseResult (/workspace/node_modules/webpack/lib/NormalModule.js:801:10)
+    at /workspace/node_modules/webpack/lib/NormalModule.js:854:4
+    at processResult (/workspace/node_modules/webpack/lib/NormalModule.js:625:11)
+    at /workspace/node_modules/webpack/lib/NormalModule.js:676:5 {
+  opensslErrorStack: [
+    'error:03000086:digital envelope routines::initialization error',
+    'error:0308010C:digital envelope routines::unsupported'
+  ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v20.20.2
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+aaron-bond-better-comments,npm,npm run compile,Success,Success,Yes,Not tested,
+aeschli-vscode-css-formatter,npm,npm run compile,Success,Failed,No,Not tested,"
+> vscode-css-formatter@1.0.2 compile
+> webpack
+
+/workspace/node_modules/loader-runner/lib/LoaderRunner.js:146
+		if(isError) throw e;
+		            ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:101:19)
+    at Object.createHash (node:crypto:139:10)
+    at BulkUpdateDecorator.hashFactory (/workspace/node_modules/webpack/lib/util/createHash.js:145:18)
+    at BulkUpdateDecorator.update (/workspace/node_modules/webpack/lib/util/createHash.js:46:50)
+    at SourceMapSource.updateHash (/workspace/node_modules/webpack-sources/lib/SourceMapSource.js:231:8)
+    at NormalModule._initBuildHash (/workspace/node_modules/webpack/lib/NormalModule.js:888:17)
+    at handleParseResult (/workspace/node_modules/webpack/lib/NormalModule.js:954:10)
+    at /workspace/node_modules/webpack/lib/NormalModule.js:1048:4
+    at processResult (/workspace/node_modules/webpack/lib/NormalModule.js:763:11)
+    at /workspace/node_modules/webpack/lib/NormalModule.js:827:5 {
+  opensslErrorStack: [
+    'error:03000086:digital envelope routines::initialization error',
+    'error:0308010C:digital envelope routines::unsupported'
+  ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v20.20.2
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+akamud-vscode-theme-onedark,npm,,Not attempted,No recognized build script,Not checked,Not tested,
+akamud-vscode-theme-onelight,npm,,Not attempted,No recognized build script,Not checked,Not tested,
+alefragnani-vscode-bookmarks,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+alefragnani-vscode-project-manager,npm,npm run compile,Success,Failed,No,Not tested,"./vscode-project-manager-core/src/autodetect/locators' or its corresponding type declarations.
+src/statusBar.ts(8,32): error TS2307: Cannot find module '../vscode-project-manager-core/src/storage' or its corresponding type declarations.
+src/statusBar.ts(10,29): error TS2307: Cannot find module '../vscode-project-manager-core/src/utils/remote' or its corresponding type declarations.
+src/statusBar.ts(11,35): error TS2307: Cannot find module '../vscode-project-manager-core/src/icons' or its corresponding type declarations.
+src/statusBar.ts(12,25): error TS2307: Cannot find module '../vscode-project-manager-core/src/project' or its corresponding type declarations.
+src/test/suite/stack.test.ts(12,26): error TS2307: Cannot find module '../../../vscode-project-manager-core/src/utils/stack' or its corresponding type declarations.
+src/whats-new/commands.ts(7,27): error TS2307: Cannot find module '../../vscode-project-manager-core/src/container' or its corresponding type declarations.
+src/whats-new/commands.ts(8,33): error TS2307: Cannot find module '../../vscode-whats-new/src/Manager' or its corresponding type declarations.
+src/whats-new/contentProvider.ts(7,126): error TS2307: Cannot find module '../../vscode-whats-new/src/ContentProvider' or its corresponding type declarations.
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+alexkrechik-VSCucumberAutoComplete,npm,npm run compile,Success,Failed,No,Not tested,"odule 'vscode-languageserver' or its corresponding type declarations.
+gserver/src/steps.handler.ts(87,24): error TS7006: Parameter 'f' implicitly has an 'any' type.
+gserver/src/steps.handler.ts(434,37): error TS7006: Parameter 'tag' implicitly has an 'any' type.
+gserver/src/steps.handler.ts(436,37): error TS7006: Parameter 'tag' implicitly has an 'any' type.
+gserver/src/server.ts(1,23): error TS7016: Could not find a declaration file for module 'glob'. '/workspace/node_modules/glob/glob.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/glob` if it exists or add a new declaration (.d.ts) file containing `declare module 'glob';`
+gserver/src/server.ts(24,8): error TS2307: Cannot find module 'vscode-languageserver/node' or its corresponding type declarations.
+gserver/src/server.ts(25,30): error TS2307: Cannot find module 'vscode-languageserver-textdocument' or its corresponding type declarations.
+gserver/src/server.ts(102,58): error TS7006: Parameter '_event' implicitly has an 'any' type.
+gserver/src/server.ts(148,23): error TS7006: Parameter 'f' implicitly has an 'any' type.
+gserver/src/server.ts(202,44): error TS7006: Parameter 'change' implicitly has an 'any' type.
+gserver/src/server.ts(275,44): error TS7006: Parameter 'params' implicitly has an 'any' type.
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+almenon-arepl-vscode,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+amir9480-vscode-laravel-extra-intellisense,npm,npm run compile,Success,Success,Yes,Not tested,
+angular-vscode-ng-language-service,yarn,corepack yarn compile,Success,Failed,No,Not tested,"2aff87b585e8/sandbox/processwrapper-sandbox/224/execroot/__main__/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/esbuild_linux-x64/launcher.sh.runfiles/esbuild_linux-x64/node_modules/.aspect_rules_js/esbuild@0.17.10/node_modules/esbuild/lib/main.js:1073:25
+    at responseCallbacks.<computed> (/root/.cache/bazel/_bazel_root/eab0d61a99b6696edb3d2aff87b585e8/sandbox/processwrapper-sandbox/224/execroot/__main__/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/esbuild_linux-x64/launcher.sh.runfiles/esbuild_linux-x64/node_modules/.aspect_rules_js/esbuild@0.17.10/node_modules/esbuild/lib/main.js:697:9)
+    at Socket.afterClose (/root/.cache/bazel/_bazel_root/eab0d61a99b6696edb3d2aff87b585e8/sandbox/processwrapper-sandbox/224/execroot/__main__/bazel-out/k8-opt-exec-2B5CBBC6/bin/external/esbuild_linux-x64/launcher.sh.runfiles/esbuild_linux-x64/node_modules/.aspect_rules_js/esbuild@0.17.10/node_modules/esbuild/lib/main.js:687:28)
+    at Socket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+Target //:npm failed to build
+Use --verbose_failures to see the command lines of failed build steps.
+INFO: Elapsed time: 74.595s, Critical Path: 4.85s
+INFO: 533 processes: 311 internal, 215 local, 7 processwrapper-sandbox.
+FAILED: Build did NOT complete successfully
+FAILED: Build did NOT complete successfully
+error Command failed with exit code 1.
+error Command failed with exit code 1.
+"
+ansible-vscode-ansible,yarn,corepack yarn compile,Failed,Not attempted,Not checked,Not tested,"Unknown Syntax Error: Unsupported option name (""--ignore-scripts"").
+
+$ yarn install [--json] [--immutable] [--immutable-cache] [--refresh-lockfile] [--check-cache] [--check-resolutions] [--inline-builds] [--mode #0]
+"
+astral-sh-ruff-vscode,npm,npm run compile,Success,Success,Yes,Not tested,
+atlassian-atlascode,npm,npm run compile,Success,Failed,No,Not tested,"late*, char const*, v8::OOMDetails const&) [webpack]
+ 3: 0xee85e7 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [webpack]
+ 4: 0x10fb205  [webpack]
+ 5: 0x10fb794 v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [webpack]
+ 6: 0x1112684 v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::internal::GarbageCollectionReason, char const*) [webpack]
+ 7: 0x1112e9c v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [webpack]
+ 8: 0x10e91f1 v8::internal::HeapAllocator::AllocateRawWithLightRetrySlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [webpack]
+ 9: 0x10ea385 v8::internal::HeapAllocator::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [webpack]
+10: 0x10c78d6 v8::internal::Factory::NewFillerObject(int, v8::internal::AllocationAlignment, v8::internal::AllocationType, v8::internal::AllocationOrigin) [webpack]
+11: 0x15247d6 v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [webpack]
+12: 0x195e476  [webpack]
+Aborted
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+austin------code-gnu-global,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+aws-aws-toolkit-vscode,npm,npm run compile,Success,Failed,Not declared,Not tested,"t.require.extensions.<computed> [as .ts] (/workspace/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1091:12)
+npm error Lifecycle script `copyFiles` failed with error:
+npm error code 1
+npm error path /workspace/packages/toolkit
+npm error workspace aws-toolkit-vscode@3.47.0-SNAPSHOT
+npm error location /workspace/packages/toolkit
+npm error command failed
+npm error command sh -c ts-node ./scripts/build/copyFiles.ts
+npm error Lifecycle script `buildScripts` failed with error:
+npm error code 1
+npm error path /workspace/packages/toolkit
+npm error workspace aws-toolkit-vscode@3.47.0-SNAPSHOT
+npm error location /workspace/packages/toolkit
+npm error command failed
+npm error command sh -c npm run generateNonCodeFiles && npm run copyFiles && npm run generateIcons && npm run generateSettings && npm run generateConfigurationAttributes && tsc -p ./ --noEmit
+npm error Lifecycle script `compile` failed with error:
+npm error code 1
+npm error path /workspace/packages/toolkit
+npm error workspace aws-toolkit-vscode@3.47.0-SNAPSHOT
+npm error location /workspace/packages/toolkit
+npm error command failed
+npm error command sh -c npm run clean && npm run buildScripts && webpack
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+azemoh-vscode-one-monokai,npm,,Not attempted,No recognized build script,Not checked,Not tested,
+bash-lsp-bash-language-server,npm,npm run compile,Success,Failed,Not declared,Not tested,"e 'web-tree-sitter' or its corresponding type declarations.
+server/src/server.ts(5,34): error TS2307: Cannot find module 'turndown' or its corresponding type declarations.
+server/src/shellcheck/types.ts(1,19): error TS2307: Cannot find module 'zod' or its corresponding type declarations.
+server/src/shfmt/index.ts(2,31): error TS2307: Cannot find module 'editorconfig' or its corresponding type declarations.
+server/src/util/declarations.ts(2,25): error TS2307: Cannot find module 'web-tree-sitter' or its corresponding type declarations.
+server/src/util/declarations.ts(109,14): error TS7006: Parameter 'child' implicitly has an 'any' type.
+server/src/util/declarations.ts(232,14): error TS7006: Parameter 'c' implicitly has an 'any' type.
+server/src/util/declarations.ts(233,29): error TS7006: Parameter 'c' implicitly has an 'any' type.
+server/src/util/declarations.ts(234,29): error TS7006: Parameter 'c' implicitly has an 'any' type.
+server/src/util/sourcing.ts(4,25): error TS2307: Cannot find module 'web-tree-sitter' or its corresponding type declarations.
+server/src/util/tree-sitter.ts(2,28): error TS2307: Cannot find module 'web-tree-sitter' or its corresponding type declarations.
+server/src/util/tree-sitter.ts(13,28): error TS7006: Parameter 'n' implicitly has an 'any' type.
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+bmewburn-vscode-intelephense,npm,npm run compile,Success,Success,No,Not tested,
+brapifra-vscode-phpserver,yarn,corepack yarn compile,Success,Success,Yes,Not tested,
+bungcip-better-toml,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+burkeholland-simple-react-snippets,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+castwide-vscode-solargraph,npm,npm run compile,Success,Success,Yes,Not tested,
+certinia-debug-log-analyzer,npm,npm run build,Success,Failed,Not declared,Not tested,"
+> build
+> NODE_ENV=production pnpm run build:dev
+
+sh: 1: pnpm: not found
+"
+chrmarti-vscode-regex,yarn,corepack yarn compile,Success,Success,Yes,Not tested,
+clangd-vscode-clangd,npm,npm run compile,Success,Success,Yes,Not tested,
+clinyong-vscode-css-modules,yarn,corepack yarn compile,Success,Success,Yes,Not tested,
+codingyu-laravel-goto-view,npm,npm run compile,Success,Failed,No,Not tested,"
+> laravel-goto-view@1.3.11 compile
+> tsc -p ./
+
+sh: 1: tsc: not found
+"
+codota-tabnine-vscode,yarn,corepack yarn compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+cs50-extension-uninstaller.vsix,npm,npm run compile,Success,Success,Yes,Not tested,
+cs50-presentation-mode.vsix,npm,npm run compile,Success,Failed,Yes,Not tested,"
+> vscode-presentation-mode@1.0.5 compile
+> tsc -p ./
+
+src/test/suite/index.ts(15,3): error TS2349: This expression is not callable.
+  Type 'typeof import(""/workspace/node_modules/glob/dist/mjs/index"")' has no call signatures.
+src/test/suite/index.ts(15,46): error TS7006: Parameter 'err' implicitly has an 'any' type.
+src/test/suite/index.ts(15,51): error TS7006: Parameter 'files' implicitly has an 'any' type.
+src/test/suite/index.ts(21,18): error TS7006: Parameter 'f' implicitly has an 'any' type.
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+cschlosser-doxdocgen,yarn,corepack yarn compile,Success,Success,Yes,Not tested,
+cweijan-vscode-database-client,npm,npm run build,Success,Failed,No,Not tested,"ptimization FlagIncludedChunksPlugin
+<s> [webpack.Progress] 89% [0] after chunk id optimization
+<s> [webpack.Progress] 90% [0] hashing
+<s> [webpack.Progress] 90% [0] after hashing
+<s> [webpack.Progress] 91% [0] module assets processing
+<s> [webpack.Progress] 91% [0] chunk assets processing
+<s> [webpack.Progress] 91% [0] additional chunk assets processing
+<s> [webpack.Progress] 92% [0] additional asset processing
+<s> [webpack.Progress] 92% [0] chunk asset optimization
+<s> [webpack.Progress] 92% [0] chunk asset optimization TerserPlugin
+<s> [webpack.Progress] 92% [1] after chunk asset optimization
+<s> [webpack.Progress] 93% [1] asset optimization
+<s> [webpack.Progress] 93% [1] after asset optimization
+<s> [webpack.Progress] 93% [1] after seal
+<s> [webpack.Progress] 93% [1] emitting
+<s> [webpack.Progress] 93% [1] emitting HtmlWebpackPlugin
+<s> [webpack.Progress] 93% [1] emitting HtmlWebpackPlugin
+<s> [webpack.Progress] 95% [1] after emitting
+<s> [webpack.Progress] 95% [1] after emitting SizeLimitsPlugin
+<s> [webpack.Progress] 96% [1] 
+<s> [webpack.Progress] 96% [0] after chunk asset optimization
+<s> [webpack.Progress] 96% [0] asset optimization
+<s> [webpack.Progress] 97% [0] after asset optimization
+<s> [webpack.Progress] 97% [0] after seal
+<s> [webpack.Progress] 100% [0] 
+
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+danielpinto8zz6-c-cpp-compile-run,npm,npm run compile,Success,Success,Yes,Not tested,
+deerawan-vscode-dash,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+denoland-vscode_deno,npm,npm run vscode:prepublish,Success,Success,Yes,Not tested,
+dongli0x00-python-preview,yarn,corepack yarn compile,Success,Failed,Yes,Not tested,"yarn run v1.22.22
+$ tsc -p ./
+src/commands/showPreview.ts(1,25): error TS2307: Cannot find module 'vscode'.
+src/commands/showSource.ts(1,25): error TS2307: Cannot find module 'vscode'.
+src/common/commandManager.ts(1,25): error TS2307: Cannot find module 'vscode'.
+src/common/dispose.ts(1,25): error TS2307: Cannot find module 'vscode'.
+src/common/file.ts(1,25): error TS2307: Cannot find module 'vscode'.
+src/common/logger.ts(1,25): error TS2307: Cannot find module 'vscode'.
+src/debugger/debugClients/localDebugClient.ts(3,25): error TS2307: Cannot find module 'vscode'.
+src/debugger/debugServers/localDebugServer.ts(3,25): error TS2307: Cannot find module 'vscode'.
+src/extension.ts(1,25): error TS2307: Cannot find module 'vscode'.
+src/features/preview.ts(1,25): error TS2307: Cannot find module 'vscode'.
+src/features/previewConfig.ts(1,25): error TS2307: Cannot find module 'vscode'.
+src/features/previewContentProvider.ts(1,25): error TS2307: Cannot find module 'vscode'.
+src/features/previewManager.ts(1,25): error TS2307: Cannot find module 'vscode'.
+src/test/extension.test.ts(11,25): error TS2307: Cannot find module 'vscode'.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+warning python-preview@0.0.4: The engine ""vscode"" appears to be invalid.
+error Command failed with exit code 2.
+"
+dotnet-vscode-csharp,npm,npm run compile,Success,Success,No,Not tested,
+dotnet-vscode-dotnet-pack,npm,npm run compile,Success,Success,Yes,Not tested,
+dotnet-vscode-dotnet-runtime,yarn,,Not attempted,No recognized build script,Not checked,Not tested,
+dsznajder-vscode-es7-javascript-react-snippets,yarn,corepack yarn compile,Success,Success,Yes,Not tested,
+dzhavat-bracket-pair-toggler,npm,npm run compile,Success,Success,Yes,Not tested,
+ecmel-vscode-html-css,npm,npm run compile,Success,Success,No,Not tested,
+editorconfig-editorconfig-vscode,npm,npm run build,Success,Success,Yes,Not tested,
+espressif-vscode-esp-idf-extension,yarn,corepack yarn compile,Success,Success,No,Not tested,
+fabric8-analytics-fabric8-analytics-vscode-extension,npm,npm run vscode:prepublish,Failed,Not attempted,Not checked,Not tested,"npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated glob@8.1.0: Glob versions prior to v9 are no longer supported
+npm warn deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
+npm warn deprecated @humanwhocodes/config-array@0.11.14: Use @eslint/config-array instead
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm error code E401
+npm error 401 Unauthorized - GET https://npm.pkg.github.com/download/@RHEcosystemAppEng/exhort-javascript-api/0.1.1-ea.50/5e588f2e92c3d1e8a232333c708ed3f1ba9e2545 - authentication token not provided
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-11-05T17_03_09_341Z-debug-0.log
+"
+felipecaputo-git-project-manager,npm,npm run compile,Success,Success,Yes,Not tested,
+firefox-devtools-vscode-firefox-debug,npm,npm run build,Success,Success,Yes,Not tested,
+firsttris-vscode-jest-runner,npm,npm run build,Success,Success,Yes,Not tested,
+forcedotcom-salesforcedx-vscode,npm,npm run compile,Not attempted,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+forcedotcom-salesforcedx-vscode-slds,npm,npm run compile,Success,Failed,Yes,Not tested,"
+ @ ./client/src/telemetry/index.ts 11:20-42
+ @ ./client/src/extension.ts 46:20-42
+
+ERROR in /workspace/client/src/telemetry/telemetryReporter.ts
+./client/src/telemetry/telemetryReporter.ts 11:24-32
+[tsl] ERROR in /workspace/client/src/telemetry/telemetryReporter.ts(11,25)
+      TS2307: Cannot find module 'vscode' or its corresponding type declarations.
+ @ ./client/src/telemetry/telemetry.ts 26:44-74
+ @ ./client/src/telemetry/index.ts 11:20-42
+ @ ./client/src/extension.ts 46:20-42
+
+ERROR in /workspace/client/src/telemetry/utils.ts
+./client/src/telemetry/utils.ts 8:43-51
+[tsl] ERROR in /workspace/client/src/telemetry/utils.ts(8,44)
+      TS2307: Cannot find module 'vscode' or its corresponding type declarations.
+ @ ./client/src/telemetry/cliConfiguration.ts 45:16-34
+ @ ./client/src/telemetry/telemetry.ts 28:27-56
+ @ ./client/src/telemetry/index.ts 11:20-42
+ @ ./client/src/extension.ts 46:20-42
+
+ERROR in /workspace/client/test/runTest.ts
+11:25-48
+[tsl] ERROR in /workspace/client/test/runTest.ts(11,26)
+      TS2307: Cannot find module '@vscode/test-electron' or its corresponding type declarations.
+
+26 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.90.3 compiled with 26 errors in 3563 ms
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+formulahendry-vscode-auto-close-tag,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+formulahendry-vscode-auto-rename-tag,npm,,Not attempted,No recognized build script,Not checked,Not tested,
+formulahendry-vscode-code-runner,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+formulahendry-vscode-docker-explorer,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+formulahendry-vscode-mysql,npm,npm run compile,Success,Success,Yes,Not tested,
+formulahendry-vscode-terminal,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+foxundermoon-vs-shell-format,yarn,corepack yarn compile,Success,Success,Yes,Not tested,
+franneck94-vscode-c-cpp-runner,npm,npm run compile,Success,Failed,Yes,Not tested,"
+> c-cpp-runner@9.4.10 compile
+> npm run webpack
+
+
+> c-cpp-runner@9.4.10 webpack
+> webpack --mode development
+
+asset main.js 235 KiB [emitted] (name: main) 1 related asset
+cacheable modules 219 KiB
+  modules by path ./src/ 124 KiB 25 modules
+  modules by path ./node_modules/ 94.6 KiB
+    modules by path ./node_modules/json5/lib/*.js 45.1 KiB
+      ./node_modules/json5/lib/index.js 143 bytes [built] [code generated]
+      ./node_modules/json5/lib/parse.js 21.9 KiB [built] [code generated]
+      + 3 modules
+    + 5 modules
+external ""path"" 42 bytes [built] [code generated]
+external ""vscode"" 42 bytes [built] [code generated]
+external ""fs"" 42 bytes [built] [code generated]
+external ""child_process"" 42 bytes [built] [code generated]
+external ""os"" 42 bytes [built] [code generated]
+
+ERROR in /workspace/src/items/statusBarItems.ts
+./src/items/statusBarItems.ts 27:4-26
+[tsl] ERROR in /workspace/src/items/statusBarItems.ts(27,5)
+      TS2322: Type 'string' is not assignable to type 'ThemeColor'.
+ @ ./src/extension.ts 13:25-58
+
+webpack 5.112.2 compiled with 1 error in 2699 ms
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+fwcd-vscode-kotlin,npm,npm run compile,Success,Success,No,Not tested,
+george-alisson-html-preview-vscode,npm,npm run compile,Success,Failed,Yes,Not tested,"
+src/features/previewContentProvider.ts(6,25): error TS2307: Cannot find module 'vscode'.
+src/features/previewContentProvider.ts(70,67): error TS7006: Parameter 'l' implicitly has an 'any' type.
+src/features/previewContentProvider.ts(70,69): error TS7006: Parameter 'i' implicitly has an 'any' type.
+src/features/previewManager.ts(6,25): error TS2307: Cannot find module 'vscode'.
+src/features/previewManager.ts(139,35): error TS7031: Binding element 'webviewPanel' implicitly has an 'any' type.
+src/logger.ts(6,25): error TS2307: Cannot find module 'vscode'.
+src/security.ts(6,25): error TS2307: Cannot find module 'vscode'.
+src/security.ts(24,86): error TS2304: Cannot find name 'Thenable'.
+src/security.ts(30,56): error TS2304: Cannot find name 'Thenable'.
+src/security.ts(57,93): error TS2304: Cannot find name 'Thenable'.
+src/security.ts(70,61): error TS2304: Cannot find name 'Thenable'.
+src/test/inMemoryDocument.ts(6,25): error TS2307: Cannot find module 'vscode'.
+src/util/dispose.ts(6,25): error TS2307: Cannot find module 'vscode'.
+src/util/file.ts(6,25): error TS2307: Cannot find module 'vscode'.
+src/util/topmostLineMonitor.ts(6,25): error TS2307: Cannot find module 'vscode'.
+src/util/topmostLineMonitor.ts(18,52): error TS7006: Parameter 'event' implicitly has an 'any' type.
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+github-vscode-github-actions,npm,npm run build,Success,Failed,No,Not tested,"late*, char const*, v8::OOMDetails const&) [webpack]
+ 3: 0xee85e7 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [webpack]
+ 4: 0x10fb205  [webpack]
+ 5: 0x10fb794 v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [webpack]
+ 6: 0x1112684 v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::internal::GarbageCollectionReason, char const*) [webpack]
+ 7: 0x1112e9c v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [webpack]
+ 8: 0x10e91f1 v8::internal::HeapAllocator::AllocateRawWithLightRetrySlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [webpack]
+ 9: 0x10ea385 v8::internal::HeapAllocator::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [webpack]
+10: 0x10c78d6 v8::internal::Factory::NewFillerObject(int, v8::internal::AllocationAlignment, v8::internal::AllocationType, v8::internal::AllocationOrigin) [webpack]
+11: 0x15247d6 v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [webpack]
+12: 0x195e476  [webpack]
+Aborted
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+gitkraken-vscode-gitlens,npm,npm run build,Failed,Not attempted,Not checked,Not tested,"npm error code ERESOLVE
+npm error ERESOLVE unable to resolve dependency tree
+npm error
+npm error While resolving: gitlens@16.3.0
+npm error Found: typescript@5.8.0-beta
+npm error node_modules/typescript
+npm error   dev typescript@""5.8.0-beta"" from the root project
+npm error
+npm error Could not resolve dependency:
+npm error peer typescript@"">=4.8.4 <5.8.0"" from @typescript-eslint/parser@8.24.0
+npm error node_modules/@typescript-eslint/parser
+npm error   dev @typescript-eslint/parser@""8.24.0"" from the root project
+npm error
+npm error Fix the upstream dependency conflict, or retry
+npm error this command with --force or --legacy-peer-deps
+npm error to accept an incorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error /root/.npm/_logs/2026-11-05T17_26_54_662Z-eresolve-report.txt
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-11-05T17_26_54_662Z-debug-0.log
+"
+gitpod-io-openvscode-server,npm,npm run compile,Not attempted,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+glenn2223-vscode-live-sass-compiler,npm,npm run vscode:prepublish,Success,Success,Yes,Not tested,
+glideapps-quicktype,npm,npm run build,Success,Success,Yes,Not tested,
+glitchbl-laravel-create-view,yarn,corepack yarn compile,Success,Failed,Yes,Not tested,"yarn run v1.22.22
+$ tsc -p ./
+src/extension.ts(3,25): error TS2307: Cannot find module 'vscode'.
+src/extension.ts(24,50): error TS7006: Parameter 'doc' implicitly has an 'any' type.
+src/extension.ts(37,75): error TS7006: Parameter 'view_name' implicitly has an 'any' type.
+src/extension.ts(41,38): error TS7006: Parameter '_value' implicitly has an 'any' type.
+src/providers/actionProvider.ts(10,8): error TS2307: Cannot find module 'vscode'.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+warning package.json: No license field
+warning laravel-create-view@0.0.6: The engine ""vscode"" appears to be invalid.
+error Command failed with exit code 2.
+"
+graphql-graphiql,yarn,corepack yarn build,Success,Success,Not declared,Not tested,
+hashicorp-vscode-terraform,npm,npm run compile,Success,Success,Yes,Not tested,
+hbenl-vscode-test-explorer,npm,npm run build,Success,Success,Yes,Not tested,
+hediet-vscode-drawio,yarn,corepack yarn build,Success,Failed,Yes,Not tested,"s command.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+warning vscode-drawio@1.7.0: The engine ""vscode"" appears to be invalid.
+warning vscode-drawio@1.7.0: The engine ""vscode"" appears to be invalid.
+warning vscode-drawio@1.7.0: The engine ""vscode"" appears to be invalid.
+warning vscode-drawio@1.7.0: The engine ""vscode"" appears to be invalid.
+warning vscode-drawio@1.7.0: The engine ""vscode"" appears to be invalid.
+ ERROR  The following include patterns in the ""files"" property in package.json do not match any files packaged in the extension:
+  - /workspace/drawio/LICENSE
+  - /workspace/drawio/VERSION
+  - /workspace/drawio/src/main/webapp/js/**/*
+  - /workspace/drawio/src/main/webapp/connect/**/*
+  - /workspace/drawio/src/main/webapp/images/**/*
+  - /workspace/drawio/src/main/webapp/img/**/*
+  - /workspace/drawio/src/main/webapp/math/**/*
+  - /workspace/drawio/src/main/webapp/mxgraph/**/*
+  - /workspace/drawio/src/main/webapp/plugins/**/*
+  - /workspace/drawio/src/main/webapp/resources/**/*
+  - /workspace/drawio/src/main/webapp/styles/**/*
+  - /workspace/drawio/src/main/webapp/templates/**/*
+Remove any include pattern which is not needed.
+
+=> Run vsce ls --tree to see all included files.
+=> Use --allow-unused-files-pattern to skip this check
+error Command failed with exit code 1.
+error Command failed with exit code 1.
+error Command failed with exit code 1.
+"
+hellopao-view-in-browser,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+hoovercj-vscode-power-mode,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+humy2833-FTP-Simple,npm,,Not attempted,No recognized build script,Not checked,Not tested,
+iCrawl-discord-vscode,npm,npm run build,Success,Failed,No,Not tested,"
+> discord-vscode@5.8.0 build
+> npm run lint && webpack --mode production
+
+
+> discord-vscode@5.8.0 lint
+> prettier --check . && eslint src --ext mjs,js,ts
+
+Checking formatting...
+All matched files use Prettier code style!
+
+Oops! Something went wrong! :(
+
+ESLint: 8.17.0
+
+ESLint couldn't find the plugin ""eslint-plugin-import"".
+
+(The package ""eslint-plugin-import"" was not found when loaded as a Node module from the directory ""/workspace"".)
+
+It's likely that the plugin isn't installed correctly. Try reinstalling by running the following:
+
+    npm install eslint-plugin-import@latest --save-dev
+
+The plugin ""eslint-plugin-import"" was referenced from the config file in "".eslintrc.json » eslint-config-marine/prettier/node » /workspace/node_modules/eslint-config-marine/node.js » /workspace/node_modules/eslint-config-marine/index.js » eslint-config-aqua"".
+
+If you still can't figure out the problem, please stop by https://eslint.org/chat/help to chat with the team.
+
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+ikappas-vscode-phpcs,npm,npm run compile,Success,Failed,Not declared,Not tested,"
+> phpcs@1.0.5 compile
+> npm-run-all --serial clean:* compile:*
+
+
+> phpcs@1.0.5 clean:server
+> cd phpcs-server && npm run clean
+
+
+> phpcs-server@1.0.5 clean
+> rimraf ../phpcs/server
+
+
+> phpcs@1.0.5 clean:client
+> cd phpcs && npm run clean
+
+
+> phpcs@1.0.5 clean
+> rimraf out
+
+
+> phpcs@1.0.5 compile:server
+> cd phpcs-server && npm run installServer && cd .. && tsc -p phpcs-server/tsconfig.json
+
+
+> phpcs-server@1.0.5 installServer
+> installServerIntoExtension ../phpcs ./package.json ./tsconfig.json
+
+sh: 1: installServerIntoExtension: not found
+ERROR: ""compile:server"" exited with 127.
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+infinity1207-angular2-switcher,npm,npm run compile,Success,Failed,No,Not tested,"
+> angular2-switcher@0.4.0 compile
+> tsc -p ./
+
+sh: 1: tsc: not found
+"
+ivalexa-vscode-angular2-files,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+janisdd-vscode-edit-csv,npm,npm run compile,Success,Success,Yes,Not tested,
+jchannon-csharpextensions,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+jest-community-vscode-jest,yarn,corepack yarn compile,Success,Success,Yes,Not tested,
+jmrog-vscode-nuget-package-manager,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+johnpapa-vscode-angular-snippets,npm,,Not attempted,No recognized build script,Not checked,Not tested,
+johnpapa-vscode-peacock,npm,npm run vscode:prepublish,Success,Success,Yes,Not tested,
+juanfranblanco-vscode-solidity,npm,npm run compile,Success,Success,Yes,Not tested,
+julia-vscode-julia-vscode,npm,npm run compile,Success,Success,No,Not tested,
+junstyle-vscode-php-cs-fixer,npm,npm run build,Success,Success,Yes,Not tested,
+kamikillerto-vscode-colorize,npm,npm run compile,Success,Success,Yes,Not tested,
+kasecato-vscode-docomment,npm,npm run compile,Success,Success,Yes,Not tested,
+kasecato-vscode-intellij-idea-keybindings,npm,npm run compile,Success,Success,Yes,Not tested,
+kbrose-vsc-python-indent,npm,npm run compile,Success,Failed,No,Not tested,"
+> vsc-python-indent@1.19.0 compile
+> npm run wasm-compile && tsc -p ./
+
+
+> vsc-python-indent@1.19.0 wasm-compile
+> npm run wasm-compile-dev && npm run wasm-compile-release
+
+
+> vsc-python-indent@1.19.0 wasm-compile-dev
+> wasm-pack build --release --no-pack --target nodejs --out-dir src/parse-wasm
+
+sh: 1: wasm-pack: not found
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+kisstkondoros-codemetrics,npm,npm run build,Success,Success,Yes,Not tested,
+kisstkondoros-gutter-preview,npm,npm run build,Success,Success,Yes,Not tested,
+kleber-swf-vscode-unity-code-snippets,npm,npm run compile,Success,Success,Yes,Not tested,
+kokororin-vscode-phpfmt,npm,npm run build,Success,Failed,Yes,Not tested,"
+> vscode-phpfmt@1.2.40 prebuild
+> nr build:docs
+
+[?25l[2K[1G? Would you like to globally install pnpm (​https://pnpm.io/installation​)? › (y/N)
+> vscode-phpfmt@1.2.40 build
+> nr clean && tsc && tsup && tsx scripts/copy.mts
+
+[?25l[2K[1G? Would you like to globally install pnpm (​https://pnpm.io/installation​)? › (y/N)CLI Building entry: src/extension.ts
+CLI Using tsconfig: tsconfig.json
+CLI tsup v8.5.1
+CLI Using tsup config: /workspace/tsup.config.ts
+CLI Target: es2020
+CJS Build start
+CJS dist/extension.js 48.65 KB
+CJS ⚡️ Build success in 66ms
+[ni] Detected pnpm but it doesn't seem to be installed.
+
+[ni] Detected pnpm but it doesn't seem to be installed.
+
+Error: ENOENT: no such file or directory, open '/workspace/node_modules/phpfmt/v2/fmt.stub.php'
+    at async open (node:internal/fs/promises:637:25)
+    at async Object.readFile (node:internal/fs/promises:1249:14)
+    at async <anonymous> (/workspace/scripts/copy.mts:13:23) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/workspace/node_modules/phpfmt/v2/fmt.stub.php'
+}
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+kondratyev-nv-vscode-python-test-adapter,npm,npm run build,Success,Success,Yes,Not tested,
+kreativjos-csharpextensions,yarn,corepack yarn compile,Success,Success,No,Not tested,
+leizongmin-vscode-node-module-intellisense,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+lishu-vscode-svg2,npm,npm run compile,Success,Failed,No,Not tested,"
+> svg@1.5.4 compile
+> tsc -b
+
+sh: 1: tsc: not found
+"
+liximomo-vscode-sftp,yarn,corepack yarn compile,Failed,Not attempted,Not checked,Not tested,"yarn install v1.22.22
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+warning sftp@1.12.9: The engine ""vscode"" appears to be invalid.
+error Error: certificate has expired
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1699:34)
+    at TLSSocket.emit (node:events:524:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1097:8)
+    at ssl.onhandshakedone (node:_tls_wrap:883:12)
+"
+lostintangent-gitdoc,npm,npm run compile,Success,Success,Yes,Not tested,
+material-extensions-vscode-material-icon-theme,npm,npm run compile,Success,Failed,No,Not tested,"
+> material-icon-theme@5.19.0 precompile
+> rimraf dist && bun run verify
+
+sh: 1: bun: not found
+"
+mattbierner-vscode-color-info,npm,npm run compile,Success,Failed,No,Not tested,"mpile
+> webpack --config ./build/webpack.config.js
+
+/workspace/node_modules/loader-runner/lib/LoaderRunner.js:146
+		if(isError) throw e;
+		            ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:101:19)
+    at Object.createHash (node:crypto:139:10)
+    at BulkUpdateDecorator.hashFactory (/workspace/node_modules/webpack/lib/util/createHash.js:145:18)
+    at BulkUpdateDecorator.update (/workspace/node_modules/webpack/lib/util/createHash.js:46:50)
+    at SourceMapSource.updateHash (/workspace/node_modules/webpack-sources/lib/SourceMapSource.js:231:8)
+    at NormalModule._initBuildHash (/workspace/node_modules/webpack/lib/NormalModule.js:888:17)
+    at handleParseResult (/workspace/node_modules/webpack/lib/NormalModule.js:954:10)
+    at /workspace/node_modules/webpack/lib/NormalModule.js:1048:4
+    at processResult (/workspace/node_modules/webpack/lib/NormalModule.js:763:11)
+    at /workspace/node_modules/webpack/lib/NormalModule.js:827:5 {
+  opensslErrorStack: [
+    'error:03000086:digital envelope routines::initialization error',
+    'error:0308010C:digital envelope routines::unsupported'
+  ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v20.20.2
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+mhutchie-vscode-git-graph,npm,npm run compile,Success,Failed,Yes,Not tested,"d.ts(1467,15): error TS1110: Type expected.
+node_modules/@types/babel__traverse/index.d.ts(1467,24): error TS1005: '}' expected.
+node_modules/@types/babel__traverse/index.d.ts(1467,26): error TS1005: ';' expected.
+node_modules/@types/babel__traverse/index.d.ts(1467,40): error TS1128: Declaration or statement expected.
+node_modules/@types/babel__traverse/index.d.ts(1475,18): error TS1005: ';' expected.
+node_modules/@types/babel__traverse/index.d.ts(1475,19): error TS1005: ';' expected.
+node_modules/@types/babel__traverse/index.d.ts(1475,26): error TS1005: ';' expected.
+node_modules/@types/babel__traverse/index.d.ts(1475,28): error TS1005: ';' expected.
+node_modules/@types/babel__traverse/index.d.ts(1481,18): error TS1005: ';' expected.
+node_modules/@types/babel__traverse/index.d.ts(1481,19): error TS1005: ';' expected.
+node_modules/@types/babel__traverse/index.d.ts(1481,26): error TS1005: ';' expected.
+node_modules/@types/babel__traverse/index.d.ts(1481,28): error TS1128: Declaration or statement expected.
+node_modules/@types/babel__traverse/index.d.ts(1481,30): error TS1005: ';' expected.
+node_modules/@types/babel__traverse/index.d.ts(1481,37): error TS1005: ';' expected.
+node_modules/@types/babel__traverse/index.d.ts(1507,1): error TS1160: Unterminated template literal.
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+microsoft-playwright-vscode,npm,npm run build,Success,Success,Yes,Not tested,
+microsoft-vscode-autopep8,npm,npm run compile,Success,Success,Yes,Not tested,
+microsoft-vscode-azure-account,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+microsoft-vscode-azurecontainerapps,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+microsoft-vscode-azurestorage,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+microsoft-vscode-azurevirtualmachines,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+microsoft-vscode-black-formatter,npm,npm run compile,Success,Success,Yes,Not tested,
+microsoft-vscode-cmake-tools,yarn,corepack yarn compile,Success,Success,Yes,Not tested,
+microsoft-vscode-cosmosdb,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+microsoft-vscode-docker,npm,npm run build,Success,Success,Yes,Not tested,
+microsoft-vscode-flake8,npm,npm run compile,Success,Success,Yes,Not tested,
+microsoft-vscode-hexeditor,npm,npm run compile,Success,Success,Yes,Not tested,
+microsoft-vscode-isort,npm,npm run compile,Success,Success,Yes,Not tested,
+microsoft-vscode-livepreview,yarn,corepack yarn compile,Success,Success,Yes,Not tested,
+microsoft-vscode-lombok,npm,npm run compile,Success,Success,Yes,Not tested,
+microsoft-vscode-mono-debug,npm,npm run compile,Success,Failed,No,Not tested,"
+> mono-debug@0.16.3 compile
+> make build
+
+msbuild /v:minimal /restore /p:Configuration=Release src/csharp/mono-debug.csproj
+make: msbuild: No such file or directory
+make: *** [Makefile:23: ONO_DEBUG_RELEASE] Error 127
+"
+microsoft-vscode-pylint,npm,npm run compile,Success,Success,Yes,Not tested,
+microsoft-vscode-python-debugger,npm,npm run compile,Success,Success,Yes,Not tested,
+microsoft-vscode-react-native,npm,npm run build,Success,Success,Yes,Not tested,
+microsoft-vscode-test-adapter-converter,yarn,corepack yarn build,Success,Success,Yes,Not tested,
+mihai-vlc-path-autocomplete,npm,npm run compile,Success,Success,Yes,Not tested,
+mike7515-code-beautifier,npm,npm run compile,Failed,Not attempted,Not checked,Not tested,"ted debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm warn deprecated glob@7.1.2: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm warn deprecated request@2.88.0: request has been deprecated, see https://github.com/request/request/issues/3142
+npm error code ENOTFOUND
+npm error syscall getaddrinfo
+npm error errno ENOTFOUND
+npm error network request to http://tierra-nexus:8090/repository/global-npm/typescript/-/typescript-2.9.1.tgz failed, reason: getaddrinfo ENOTFOUND tierra-nexus
+npm error network This is a problem related to network connectivity.
+npm error network In most cases you are behind a proxy or have bad network settings.
+npm error network
+npm error network If you are behind a proxy, please make sure that the
+npm error network 'proxy' config is set properly.  See: 'npm help config'
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-11-05T20_32_46_242Z-debug-0.log
+"
+mintlify-vscode-docs,npm,,Not attempted,No recognized build script,Not checked,Not tested,
+misogi-vscode-ruby-rubocop,yarn,corepack yarn compile,Success,Success,Yes,Not tested,
+mitaki28-vscode-clang,npm,npm run compile,Success,Success,Yes,Not tested,
+mjbvz-vscode-markdown-checkboxes,npm,npm run vscode:prepublish,Success,Success,Yes,Not tested,
+mjbvz-vscode-markdown-emoji,npm,npm run vscode:prepublish,Success,Success,No,Not tested,
+mjbvz-vscode-markdown-mermaid,npm,npm run vscode:prepublish,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+mohd-akram-vscode-html-format,npm,npm run compile,Success,Success,Yes,Not tested,
+mongodb-js-vscode,npm,npm run compile,Success,Failed,No,Not tested,"mongodb-vscode@0.0.0-dev.0 compile
+> npm-run-all compile:*
+
+
+> mongodb-vscode@0.0.0-dev.0 compile:constants
+> ts-node ./scripts/generate-constants.ts
+
+
+> mongodb-vscode@0.0.0-dev.0 compile:resources
+> npm run update-grammar
+
+
+> mongodb-vscode@0.0.0-dev.0 update-grammar
+> ts-node ./scripts/update-grammar.ts
+
+
+> mongodb-vscode@0.0.0-dev.0 compile:extension
+> tsc -p ./
+
+src/views/webview-app/connection-status.tsx(129,15): error TS2322: Type '{ children: Element; target: ""_blank""; rel: string; as: string; href: string; ""aria-label"": string; }' is not assignable to type 'IntrinsicAttributes & (((Omit<Omit<{}, ""as""> & { as: ComponentType<{ children?: ReactNode; }>; }, ""size"" | ""children"" | ... 9 more ... | ""active""> & Either<...>) | ... 5 more ... | Omit<...>) & RefAttributes<...>)'.
+  Property 'as' does not exist on type 'IntrinsicAttributes & (((Omit<Omit<{}, ""as""> & { as: ComponentType<{ children?: ReactNode; }>; }, ""size"" | ""children"" | ... 9 more ... | ""active""> & Either<...>) | ... 5 more ... | Omit<...>) & RefAttributes<...>)'.
+- Generate constants file
+✔ The constants file has been generated
+ℹ Creating the MongoDB injection grammar...
+✔ The '/workspace/syntaxes' folder has been created
+✔ MongoDB injection grammar has been saved
+ERROR: ""compile:extension"" exited with 2.
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+mrcrowl-vscode-easy-less,yarn,corepack yarn compile,Success,Success,Yes,Not tested,
+mrmlnc-vscode-scss,npm,npm run compile,Success,Success,Yes,Not tested,
+ms-iot-vscode-ros,npm,npm run compile,Success,Failed,No,Not tested,"ROR: Reached heap limit Allocation failed - JavaScript heap out of memory
+----- Native stack trace -----
+
+ 1: 0xb78db3 node::OOMErrorHandler(char const*, v8::OOMDetails const&) [webpack]
+ 2: 0xee8300 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [webpack]
+ 3: 0xee85e7 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [webpack]
+ 4: 0x10fb205  [webpack]
+ 5: 0x1113088 v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [webpack]
+ 6: 0x10e91f1 v8::internal::HeapAllocator::AllocateRawWithLightRetrySlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [webpack]
+ 7: 0x10ea385 v8::internal::HeapAllocator::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [webpack]
+ 8: 0x10c78d6 v8::internal::Factory::NewFillerObject(int, v8::internal::AllocationAlignment, v8::internal::AllocationType, v8::internal::AllocationOrigin) [webpack]
+ 9: 0x15247d6 v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [webpack]
+10: 0x195e476  [webpack]
+Aborted
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+mshr-h-vscode-verilog-hdl-support,npm,npm run compile,Success,Success,No,Not tested,
+mtxr-vscode-sqltools,yarn,corepack yarn build,Success,Failed,No,Not tested,"yarn run v1.22.22
+$ yarn --cwd ./build-tools run build
+$ yarn run build:webpack
+$ yarn run clean
+$ rimraf -rf ../packages/extension/dist ../**/*.vsix
+$ node --max_old_space_size=8192 ./node_modules/webpack/bin/webpack.js
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+warning sqltools@1.0.0: The engine ""vscode"" appears to be invalid.
+node:internal/modules/cjs/loader:1210
+  throw err;
+  ^
+
+Error: Cannot find module '/workspace/build-tools/node_modules/webpack/bin/webpack.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v20.20.2
+error Command failed with exit code 1.
+error Command failed with exit code 1.
+error Command failed with exit code 1.
+"
+naoray-laravel-goto-components,npm,npm run compile,Success,Failed,No,Not tested,"k --config ./build/node-extension.webpack.config.js
+
+/workspace/node_modules/loader-runner/lib/LoaderRunner.js:146
+		if(isError) throw e;
+		            ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:101:19)
+    at Object.createHash (node:crypto:139:10)
+    at BulkUpdateDecorator.hashFactory (/workspace/node_modules/webpack/lib/util/createHash.js:138:18)
+    at BulkUpdateDecorator.update (/workspace/node_modules/webpack/lib/util/createHash.js:44:50)
+    at SourceMapSource.updateHash (/workspace/node_modules/webpack-sources/lib/SourceMapSource.js:233:8)
+    at NormalModule._initBuildHash (/workspace/node_modules/webpack/lib/NormalModule.js:737:17)
+    at handleParseResult (/workspace/node_modules/webpack/lib/NormalModule.js:801:10)
+    at /workspace/node_modules/webpack/lib/NormalModule.js:854:4
+    at processResult (/workspace/node_modules/webpack/lib/NormalModule.js:625:11)
+    at /workspace/node_modules/webpack/lib/NormalModule.js:676:5 {
+  opensslErrorStack: [
+    'error:03000086:digital envelope routines::initialization error',
+    'error:0308010C:digital envelope routines::unsupported'
+  ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v20.20.2
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+negokaz-vscode-live-server-preview,npm,npm run compile,Success,Failed,Yes,Not tested,"
+> live-server-preview@0.1.3 compile
+> tsc -p ./
+
+src/extension.ts(4,25): error TS2307: Cannot find module 'vscode'.
+test/extension.test.ts(11,25): error TS2307: Cannot find module 'vscode'.
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+neild3r-vscode-php-docblocker,npm,npm run build,Success,Failed,No,Not tested,"c/extension.js --external:vscode --format=cjs --platform=node --sourcemap
+
+/workspace/node_modules/esbuild/bin/esbuild:2
+throw new Error(`esbuild: Failed to install correctly
+^
+
+Error: esbuild: Failed to install correctly
+
+Make sure you don't have ""ignore-scripts"" set to true. You can check this with
+""npm config get ignore-scripts"". If that returns true you can reset it back to
+false using ""npm config set ignore-scripts false"" and then reinstall esbuild.
+
+If you're using npm v7, make sure your package-lock.json file contains either
+""lockfileVersion"": 1 or the code ""hasInstallScript"": true. If it doesn't have
+either of those, then it is likely the case that a known bug in npm v7 has
+corrupted your package-lock.json file. Regenerating your package-lock.json file
+should fix this issue.
+
+    at Object.<anonymous> (/workspace/node_modules/esbuild/bin/esbuild:2:7)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at node:internal/main/run_main_module:28:49
+
+Node.js v20.20.2
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+njqdev-vscode-python-typehint,npm,npm run compile,Success,Success,Yes,Not tested,
+nrwl-nx-console,yarn,,Not attempted,No recognized build script,Not checked,Not tested,
+oderwat-vscode-indent-rainbow,npm,npm run compile,Success,Success,Yes,Not tested,
+onecentlin-laravel-blade-snippets-vscode,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+peakchen90-vscode-open-in-default-browser,yarn,corepack yarn build,Failed,Not attempted,Not checked,Not tested,"yarn install v1.22.22
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+info There appears to be trouble with your network connection. Retrying...
+info There appears to be trouble with your network connection. Retrying...
+info There appears to be trouble with your network connection. Retrying...
+info There appears to be trouble with your network connection. Retrying...
+warning open-html-in-browser@2.1.11: The engine ""vscode"" appears to be invalid.
+error Error: certificate has expired
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1699:34)
+    at TLSSocket.emit (node:events:524:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1097:8)
+    at ssl.onhandshakedone (node:_tls_wrap:883:12)
+"
+pmneo-ts-importer,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+pranaygp-vscode-css-peek,yarn,corepack yarn compile,Success,Failed,No,Not tested,"nding type declarations.
+server/src/core/findSelector.ts(1,26): error TS2307: Cannot find module 'vscode-languageserver' or its corresponding type declarations.
+server/src/core/findSelector.ts(2,30): error TS2307: Cannot find module 'vscode-languageserver-textdocument' or its corresponding type declarations.
+server/src/core/findSelector.ts(7,8): error TS2307: Cannot find module 'vscode-html-languageservice' or its corresponding type declarations.
+server/src/core/findDefinition.ts(5,8): error TS2307: Cannot find module 'vscode-languageserver/node' or its corresponding type declarations.
+server/src/core/findDefinition.ts(6,30): error TS2307: Cannot find module 'vscode-languageserver-textdocument' or its corresponding type declarations.
+server/src/core/findDefinition.ts(13,8): error TS2307: Cannot find module 'vscode-css-languageservice' or its corresponding type declarations.
+server/src/server.ts(15,8): error TS2307: Cannot find module 'vscode-languageserver/node' or its corresponding type declarations.
+server/src/server.ts(16,30): error TS2307: Cannot find module 'vscode-languageserver-textdocument' or its corresponding type declarations.
+server/src/server.ts(156,37): error TS2304: Cannot find name 'Thenable'.
+server/src/server.ts(167,49): error TS2304: Cannot find name 'Thenable'.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+warning vscode-css-peek@4.4.1: The engine ""vscode"" appears to be invalid.
+error Command failed with exit code 1.
+"
+prettier-prettier-vscode,yarn,corepack yarn vscode:prepublish,Success,Success,Yes,Not tested,
+prisma-language-tools,npm,npm run compile,Success,Failed,Not declared,Not tested,"nd name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node`.
+src/server.ts(33,47): error TS2580: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node`.
+src/server.ts(33,78): error TS2580: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node`.
+src/server.ts(50,3): error TS2584: Cannot find name 'console'. Do you need to change your target library? Try changing the 'lib' compiler option to include 'dom'.
+src/server.ts(51,3): error TS2584: Cannot find name 'console'. Do you need to change your target library? Try changing the 'lib' compiler option to include 'dom'.
+src/server.ts(112,39): error TS2304: Cannot find name 'Thenable'.
+src/server.ts(112,79): error TS2304: Cannot find name 'Thenable'.
+src/server.ts(114,40): error TS7006: Parameter '_change' implicitly has an 'any' type.
+src/server.ts(128,25): error TS7006: Parameter 'e' implicitly has an 'any' type.
+
+ 
+
+ >  Lerna (powered by Nx)   Running target build for 2 projects failed
+
+   Tasks not run because their dependencies failed or --nx-bail=true:
+   
+   - prisma-insider:build
+   
+   Failed tasks:
+   
+   - @prisma/language-server:build
+
+lerna notice cli v6.6.2
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+qjebbs-vscode-plantuml,npm,npm run compile,Success,Success,Yes,Not tested,
+qwtel-sqlite-viewer-vscode,npm,npm run compile,Success,Failed,No,Not tested,"
+> sqlite-viewer@0.10.2 compile
+> npm run clean && npm run compile:bin && npm run compile:ext && npm run compile:app
+
+
+> sqlite-viewer@0.10.2 clean
+> rm -rf out && rm -rf sqlite-viewer-core/vscode/build
+
+
+> sqlite-viewer@0.10.2 compile:bin
+> npm run compile:tjs && bun run scripts/bin.ts
+
+
+> sqlite-viewer@0.10.2 compile:tjs
+> cd sqlite-viewer-core && npm run build-tjs
+
+sh: 1: cd: can't cd to sqlite-viewer-core
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+redhat-developer-vscode-commons,npm,npm run compile,Success,Failed,No,Not tested,"p --config ./build/node-extension.webpack.config.js
+
+/workspace/node_modules/loader-runner/lib/LoaderRunner.js:146
+		if(isError) throw e;
+		            ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:101:19)
+    at Object.createHash (node:crypto:139:10)
+    at BulkUpdateDecorator.hashFactory (/workspace/node_modules/webpack/lib/util/createHash.js:144:18)
+    at BulkUpdateDecorator.update (/workspace/node_modules/webpack/lib/util/createHash.js:46:50)
+    at SourceMapSource.updateHash (/workspace/node_modules/webpack-sources/lib/SourceMapSource.js:233:8)
+    at NormalModule._initBuildHash (/workspace/node_modules/webpack/lib/NormalModule.js:839:17)
+    at handleParseResult (/workspace/node_modules/webpack/lib/NormalModule.js:904:10)
+    at /workspace/node_modules/webpack/lib/NormalModule.js:995:4
+    at processResult (/workspace/node_modules/webpack/lib/NormalModule.js:718:11)
+    at /workspace/node_modules/webpack/lib/NormalModule.js:778:5 {
+  opensslErrorStack: [
+    'error:03000086:digital envelope routines::initialization error',
+    'error:0308010C:digital envelope routines::unsupported'
+  ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v20.20.2
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+redhat-developer-vscode-java,npm,npm run compile,Success,Success,Yes,Not tested,
+redhat-developer-vscode-xml,npm,npm run compile,Success,Success,Yes,Not tested,
+redhat-developer-vscode-yaml,yarn,corepack yarn compile,Success,Success,Yes,Not tested,
+ritwickdey-vscode-live-sass-compiler,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+ritwickdey-vscode-live-server,npm,npm run compile,Success,Success,Yes,Not tested,
+rubyide-vscode-ruby,yarn,corepack yarn build,Success,Failed,Not declared,Not tested,"ation about this command.
+lerna notice cli v3.22.1
+lerna info Executing command in 4 packages: ""yarn run build""
+lerna ERR! yarn run build exited 1 in 'web-tree-sitter-ruby'
+lerna ERR! yarn run build stdout:
+$ tree-sitter build-wasm --docker ../../node_modules/tree-sitter-ruby
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+lerna ERR! yarn run build stderr:
+node:events:502
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: spawn /workspace/node_modules/tree-sitter-cli/tree-sitter ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+Emitted 'error' event on ChildProcess instance at:
+    at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /workspace/node_modules/tree-sitter-cli/tree-sitter',
+  path: '/workspace/node_modules/tree-sitter-cli/tree-sitter',
+  spawnargs: [ 'build-wasm', '--docker', '../../node_modules/tree-sitter-ruby' ]
+}
+
+Node.js v20.20.2
+error Command failed with exit code 1.
+
+lerna ERR! yarn run build exited 1 in 'web-tree-sitter-ruby'
+lerna WARN complete Waiting for 1 child process to exit. CTRL-C to exit immediately.
+error Command failed with exit code 1.
+"
+rust-lang-vscode-rust,npm,npm run compile,Success,Success,Yes,Not tested,
+ryu1kn-vscode-partial-diff,yarn,corepack yarn vscode:prepublish,Success,Failed,No,Not tested,"un for documentation about this command.
+warning partial-diff@1.4.3: The engine ""vscode"" appears to be invalid.
+warning partial-diff@1.4.3: The engine ""vscode"" appears to be invalid.
+/workspace/node_modules/loader-runner/lib/LoaderRunner.js:146
+		if(isError) throw e;
+		            ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:101:19)
+    at Object.createHash (node:crypto:139:10)
+    at BulkUpdateDecorator.hashFactory (/workspace/node_modules/webpack/lib/util/createHash.js:144:18)
+    at BulkUpdateDecorator.update (/workspace/node_modules/webpack/lib/util/createHash.js:46:50)
+    at SourceMapSource.updateHash (/workspace/node_modules/webpack-sources/lib/SourceMapSource.js:233:8)
+    at NormalModule._initBuildHash (/workspace/node_modules/webpack/lib/NormalModule.js:838:17)
+    at handleParseResult (/workspace/node_modules/webpack/lib/NormalModule.js:903:10)
+    at /workspace/node_modules/webpack/lib/NormalModule.js:994:4
+    at processResult (/workspace/node_modules/webpack/lib/NormalModule.js:717:11)
+    at /workspace/node_modules/webpack/lib/NormalModule.js:777:5 {
+  opensslErrorStack: [
+    'error:03000086:digital envelope routines::initialization error',
+    'error:0308010C:digital envelope routines::unsupported'
+  ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v20.20.2
+error Command failed with exit code 1.
+error Command failed with exit code 1.
+"
+serayuzgur-crates,npm,npm run vscode:prepublish,Success,Success,Yes,Not tested,
+shanalikhan-code-settings-sync,npm,npm run compile,Success,Failed,Yes,Not tested,"odules/@types/express-serve-static-core/index.d.ts(1195,17)
+      TS1005: ';' expected.
+
+ERROR in /workspace/node_modules/@types/express-serve-static-core/index.d.ts
+[tsl] ERROR in /workspace/node_modules/@types/express-serve-static-core/index.d.ts(1198,18)
+      TS1005: ';' expected.
+
+ERROR in /workspace/node_modules/@types/express-serve-static-core/index.d.ts
+[tsl] ERROR in /workspace/node_modules/@types/express-serve-static-core/index.d.ts(1202,31)
+      TS1005: ';' expected.
+
+ERROR in /workspace/node_modules/@types/express-serve-static-core/index.d.ts
+[tsl] ERROR in /workspace/node_modules/@types/express-serve-static-core/index.d.ts(1202,48)
+      TS1005: ';' expected.
+
+ERROR in /workspace/node_modules/@types/express-serve-static-core/index.d.ts
+[tsl] ERROR in /workspace/node_modules/@types/express-serve-static-core/index.d.ts(1218,16)
+      TS1005: ';' expected.
+
+ERROR in /workspace/node_modules/@types/express-serve-static-core/index.d.ts
+[tsl] ERROR in /workspace/node_modules/@types/express-serve-static-core/index.d.ts(1219,33)
+      TS1005: ';' expected.
+
+ERROR in /workspace/node_modules/@types/express-serve-static-core/index.d.ts
+[tsl] ERROR in /workspace/node_modules/@types/express-serve-static-core/index.d.ts(1287,1)
+      TS1160: Unterminated template literal.
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+shardulm94-vscode-trailingspaces,npm,npm run compile,Success,Success,Yes,Not tested,
+shd101wyy-vscode-markdown-preview-enhanced,yarn,corepack yarn build,Success,Success,Yes,Not tested,
+shufo-vscode-blade-formatter,yarn,corepack yarn compile,Success,Failed,No,Not tested,"yarn run v1.22.22
+$ webpack --progress
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+warning vscode-blade-formatter@0.24.5: The engine ""vscode"" appears to be invalid.
+Failed to load ./.env.
+[webpack-cli] Error: Missing environment variable: APP_INSIGHT_INSTRUMENT_KEY
+    at /workspace/node_modules/dotenv-webpack/dist/index.js:93:17
+    at Array.forEach (<anonymous>)
+    at Dotenv.gatherVariables (/workspace/node_modules/dotenv-webpack/dist/index.js:88:30)
+    at Dotenv.apply (/workspace/node_modules/dotenv-webpack/dist/index.js:63:28)
+    at createCompiler (/workspace/node_modules/webpack/lib/webpack.js:76:12)
+    at /workspace/node_modules/webpack/lib/webpack.js:44:48
+    at Array.map (<anonymous>)
+    at createMultiCompiler (/workspace/node_modules/webpack/lib/webpack.js:44:33)
+    at create (/workspace/node_modules/webpack/lib/webpack.js:134:16)
+    at webpack (/workspace/node_modules/webpack/lib/webpack.js:151:47)
+error Command failed with exit code 2.
+"
+sibiraj-s-vscode-scss-formatter,npm,npm run compile,Success,Success,Yes,Not tested,
+skyran1278-js-jsx-snippets,npm,npm run build,Success,Success,Yes,Not tested,
+sleistner-vscode-fileutils,npm,npm run vscode:prepublish,Success,Success,Yes,Not tested,
+soates-Auto-Import,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+sql-formatter-org-sql-formatter,yarn,corepack yarn build,Success,Success,Yes,Not tested,
+stef-levesque-vscode-shader,npm,npm run compile,Success,Success,Yes,Not tested,
+streetsidesoftware-vscode-spell-checker,npm,npm run build,Not attempted,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+stringham-move-ts,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+styled-components-vscode-styled-components,npm,npm run compile,Success,Success,Yes,Not tested,
+stylelint-vscode-stylelint,npm,npm run build,Success,Success,No,Not tested,
+sveltejs-language-tools,npm,npm run build,Not attempted,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+tailwindlabs-tailwindcss-intellisense,npm,,Not attempted,No recognized build script,Not checked,Not tested,
+tal7aouy-theme,yarn,corepack yarn build,Success,Success,Not declared,Not tested,
+tht13-Python-vscode,npm,npm run compile,Success,Failed,No,Not tested,"
+> python@0.3.1 compile
+> node_modules/.bin/installServerIntoExtension ./out ./src/server/package.json ./src/server/tsconfig.json && tsc -p ./
+
+Extension directory /workspace/out doesn't exist on disk.
+"
+tht13-html-preview-vscode,npm,npm run compile,Success,Failed,Yes,Not tested,"
+src/features/previewContentProvider.ts(6,25): error TS2307: Cannot find module 'vscode'.
+src/features/previewContentProvider.ts(70,70): error TS7006: Parameter 'l' implicitly has an 'any' type.
+src/features/previewContentProvider.ts(70,72): error TS7006: Parameter 'i' implicitly has an 'any' type.
+src/features/previewManager.ts(6,25): error TS2307: Cannot find module 'vscode'.
+src/features/previewManager.ts(139,35): error TS7031: Binding element 'webviewPanel' implicitly has an 'any' type.
+src/logger.ts(6,25): error TS2307: Cannot find module 'vscode'.
+src/security.ts(6,25): error TS2307: Cannot find module 'vscode'.
+src/security.ts(24,86): error TS2304: Cannot find name 'Thenable'.
+src/security.ts(30,56): error TS2304: Cannot find name 'Thenable'.
+src/security.ts(57,93): error TS2304: Cannot find name 'Thenable'.
+src/security.ts(70,61): error TS2304: Cannot find name 'Thenable'.
+src/test/inMemoryDocument.ts(6,25): error TS2307: Cannot find module 'vscode'.
+src/util/dispose.ts(6,25): error TS2307: Cannot find module 'vscode'.
+src/util/file.ts(6,25): error TS2307: Cannot find module 'vscode'.
+src/util/topmostLineMonitor.ts(6,25): error TS2307: Cannot find module 'vscode'.
+src/util/topmostLineMonitor.ts(18,52): error TS7006: Parameter 'event' implicitly has an 'any' type.
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+tonybaloney-vscode-pets,npm,npm run compile,Success,Success,Yes,Not tested,
+usernamehw-vscode-error-lens,npm,npm run vscode:prepublish,Success,Success,Yes,Not tested,
+vadimcn-codelldb,npm,,Not attempted,No recognized build script,Not checked,Not tested,
+vincaslt-vscode-highlight-matching-tag,yarn,corepack yarn compile,Success,Success,Yes,Not tested,
+vscode-django-vscode-django,npm,npm run compile,Success,Success,Yes,Not tested,
+vscode-icons-vscode-icons,npm,npm run compile,Success,Success,No,Not tested,
+vscode-kubernetes-tools-vscode-kubernetes-tools,npm,npm run compile,Success,Success,Yes,Not tested,
+vscode-shellcheck-vscode-shellcheck,npm,npm run build,Success,Success,Yes,Not tested,
+vuejs-language-tools,npm,npm run build,Success,Failed,Not declared,Not tested,".spec.ts(50,23): error TS2580: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node`.
+packages/tsc/tests/typecheck.spec.ts(51,2): error TS2580: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node`.
+packages/tsc/tests/typecheck.spec.ts(51,25): error TS7006: Parameter 'output' implicitly has an 'any' type.
+packages/tsc/tests/typecheck.spec.ts(55,2): error TS2580: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node`.
+packages/tsc/tests/typecheck.spec.ts(58,16): error TS2304: Cannot find name '__dirname'.
+packages/tsc/tests/typecheck.spec.ts(63,19): error TS2580: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node`.
+packages/tsc/tests/typecheck.spec.ts(65,27): error TS2304: Cannot find name '__dirname'.
+packages/tsc/tests/typecheck.spec.ts(69,2): error TS2580: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node`.
+packages/tsc/tests/typecheck.spec.ts(70,2): error TS2580: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node`.
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+vuejs-vetur,yarn,corepack yarn compile,Success,Failed,Yes,Not tested," ""lodash""[0m
+
+    server/src/modes/style/stylus/completion-item.ts:17:14:
+[37m      17 │ import _ from [32m'lodash'[37m;
+         ╵               [32m~~~~~~~~[0m
+
+  You can mark the path ""lodash"" as external to exclude it from the bundle, which will remove this error.
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve ""lodash""[0m
+
+    server/src/modes/style/stylus/stylus-hover.ts:7:14:
+[37m      7 │ import _ from [32m'lodash'[37m;
+        ╵               [32m~~~~~~~~[0m
+
+  You can mark the path ""lodash"" as external to exclude it from the bundle, which will remove this error.
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve ""sass-formatter""[0m
+
+    server/src/modes/style/sass/sassLanguageMode.ts:8:51:
+[37m      8 │ import { SassFormatter, SassFormatterConfig } from [32m'sass-formatter'[37m;
+        ╵                                                    [32m~~~~~~~~~~~~~~~~[0m
+
+  You can mark the path ""sass-formatter"" as external to exclude it from the bundle, which will remove this error.
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve ""vscode-emmet-helper""[0m
+
+    server/src/modes/style/sass/sassLanguageMode.ts:10:23:
+[37m      10 │ import * as emmet from [32m'vscode-emmet-helper'[37m;
+         ╵                        [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+  You can mark the path ""vscode-emmet-helper"" as external to exclude it from the bundle, which will remove this error.
+
+error Command failed with exit code 1.
+"
+vysker-vscode-php-formatter,npm,npm run build,Success,Failed,Yes,Not tested,"
+> php-formatter@0.2.4 build
+> node ./node_modules/vscode/bin/compile -p ./
+
+src/document_filter.ts(1,25): error TS2307: Cannot find module 'vscode'.
+src/extension.ts(1,75): error TS2307: Cannot find module 'vscode'.
+src/formatter.ts(1,229): error TS2307: Cannot find module 'vscode'.
+src/helper.ts(1,67): error TS2307: Cannot find module 'vscode'.
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+"
+wakatime-vscode-wakatime,npm,npm run compile,Success,Success,Yes,Not tested,
+wesbos-cobalt2-vscode,npm,,Not attempted,No recognized build script,Not checked,Not tested,
+whenSunSet-vscode-chatgpt,yarn,corepack yarn build,Success,Success,Yes,Not tested,
+whizkydee-vscode-palenight-theme,npm,npm run build,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+wijmo-gc-excelviewer,npm,npm run compile,Success,Success,Yes,Not tested,
+withastro-language-tools,npm,npm run build,Success,Failed,Not declared,Not tested,"
+> root@0.0.0 build
+> turbo run build --filter=""@astrojs/**"" --filter=""astro-vscode"" --concurrency=1
+
+• Packages in scope: @astrojs/check, @astrojs/language-server, @astrojs/ts-plugin, @astrojs/yaml2ts, astro-vscode
+• Running build in 5 packages
+• Remote caching disabled
+@astrojs/yaml2ts:build: cache miss, executing d72276607d9ccbc4
+
+Attention:
+Turborepo now collects completely anonymous telemetry regarding usage.
+This information is used to shape the Turborepo roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://turbo.build/repo/docs/telemetry
+
+turbo 2.1.3
+
+  x internal errors encountered: unable to find package manager binary: cannot
+  | find binary path
+
+"
+wix-import-cost,npm,npm run build,Success,Success,Not declared,Not tested,
+wmaurer-vscode-change-case,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+xaverh-vscode-clang-format-provider,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)
+xdebug-vscode-php-debug,npm,npm run build,Success,Success,Yes,Not tested,
+yandeu-five-server-vscode,npm,npm run compile,Failed,Not attempted,Not checked,Not tested,"npm error code EBADPLATFORM
+npm error notsup Unsupported platform for fsevents@2.3.3: wanted {""os"":""darwin""} (current: {""os"":""linux""})
+npm error notsup Valid os:  darwin
+npm error notsup Actual os: linux
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-11-05T22_06_28_182Z-debug-0.log
+"
+yoavbls-pretty-ts-errors,npm,npm run compile,Success,Success,Yes,Not tested,
+yzhang-gh-vscode-markdown,npm,npm run build,Success,Failed,No,Not tested,"
+> markdown-all-in-one@3.6.2 build
+> npm run build-wasm && node ./build/build.js
+
+
+> markdown-all-in-one@3.6.2 build-wasm
+> cd ./src/zola-slug && wasm-pack build --release
+
+sh: 1: wasm-pack: not found
+"
+zabel-xyz-local-history,npm,npm run compile,Success,Success,Yes,Not tested,
+zobo-vscode-php-intellisense,npm,npm run build,Success,Success,Yes,Not tested,
+zxh0-vscode-proto3,npm,npm run compile,Success,Timed out,Not checked,Not tested,Docker operation exceeded timeout (container cleanup attempted)

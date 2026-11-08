@@ -1,0 +1,3 @@
+FilePath,TestCaseName,FunctionName,Status,ExpectedValue,ProvidedValue,ErrorMessage,FailureCategory,InputParamater
+"sql-formatter-org-sql-formatter/src/lexer/regexUtil.ts","Escaped regex matches original string","escapeRegExp","Passed","Property holds for all generated inputs","100 generated test cases passed","","","Random Unicode string"
+"sql-formatter-org-sql-formatter/src/lexer/regexUtil.ts","Alphanumeric input remains unchanged","escapeRegExp","Passed","Property holds for all generated inputs","100 generated test cases passed","","","ASCII alphanumeric string"

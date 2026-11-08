@@ -1,0 +1,49 @@
+# Original datasets and archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Extracted repositories and large datasets
+repositories/
+repos/
+extracted/
+dataset/
+data/
+source-repos/
+
+# Dependencies and build outputs
+node_modules/
+dist/
+build/
+coverage/
+.next/
+
+# Python temporary files
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Temporary files and logs
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local repository copies and build workspaces
+Tom-Bonnike-vscode-formatting-toggle/
+build-candidates/
+pilot-repositories/
+pilot-source/
+
+# Generated logs
+*.log
+
+# Windows leftover text file
+New Text Document.txt

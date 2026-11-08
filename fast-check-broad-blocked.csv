@@ -1,0 +1,37 @@
+Repository,FilePath,FunctionName,Reason
+ChristianKohler-NpmIntellisense,src/util.ts,readFilesFromDir,"src/util.ts:7
+        readdir(dir, (error, files) => {
+        ^
+
+ReferenceError: readdir is not defined
+    at src/util.ts:7:9
+    at new Promise (<anonymous>)
+    at readFilesFromDir (src/util.ts:5:12)
+    at evalmachine.<anonymous>:1:29
+    at Script.runInContext (node:vm:149:12)
+    at C:\Users\2021s\Documents\SQA-Research\scripts\broad_worker.cjs:45:156
+    at Property.predicate (C:\Users\2021s\Documents\SQA-Research\node_modules\fast-check\lib\cjs\fast-check.js:1370:99)
+    at Property.run (C:\Users\2021s\Documents\SQA-Research\node_modules\fast-check\lib\cjs\fast-check.js:1339:24)
+    at propertyExecution (C:\Users\2021s\Documents\SQA-Research\node_modules\fast-check\lib\cjs\fast-check.js:2564:23)
+    at run (C:\Users\2021s\Documents\SQA-Research\node_modules\fast-check\lib\cjs\fast-check.js:2654:91)
+
+Node.js v24.21.0
+"
+CodeZombieCH-vscode-gitignore,src/extension.ts,checkIfFileExists,"src/extension.ts:3
+        fs.stat(path, (err) => {
+        ^
+
+ReferenceError: fs is not defined
+    at src/extension.ts:3:9
+    at new Promise (<anonymous>)
+    at checkIfFileExists (src/extension.ts:2:12)
+    at evalmachine.<anonymous>:1:29
+    at Script.runInContext (node:vm:149:12)
+    at C:\Users\2021s\Documents\SQA-Research\scripts\broad_worker.cjs:45:156
+    at Property.predicate (C:\Users\2021s\Documents\SQA-Research\node_modules\fast-check\lib\cjs\fast-check.js:1370:99)
+    at Property.run (C:\Users\2021s\Documents\SQA-Research\node_modules\fast-check\lib\cjs\fast-check.js:1339:24)
+    at propertyExecution (C:\Users\2021s\Documents\SQA-Research\node_modules\fast-check\lib\cjs\fast-check.js:2564:23)
+    at run (C:\Users\2021s\Documents\SQA-Research\node_modules\fast-check\lib\cjs\fast-check.js:2654:91)
+
+Node.js v24.21.0
+"

@@ -1,0 +1,69 @@
+﻿Repository,FilePath,FunctionName,Kind,Parameters,Exported,TestStatus,Notes
+sql-formatter-org-sql-formatter,src/dialect.ts,createDialect,ArrowFunction,options,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,src/expandPhrases.ts,expandSinglePhrase,ArrowFunction,phrase,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,src/formatter/ExpressionFormatter.ts,(anonymous),ArrowFunction,,Unknown/No,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,src/formatter/Formatter.ts,(anonymous),ArrowFunction,stat,Unknown/No,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,src/formatter/InlineLayout.ts,(anonymous),ArrowFunction,item,Unknown/No,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,src/formatter/Layout.ts,(anonymous),ArrowFunction,item,Unknown/No,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,src/formatter/config.ts,indentString,FunctionDeclaration,cfg,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,src/formatter/tabularStyle.ts,isTabularToken,FunctionDeclaration,type,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,src/languages/bigquery/bigquery.formatter.ts,formatTypeDefToken,ArrowFunction,key,Unknown/No,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,src/languages/mariadb/likeMariaDb.ts,postProcess,FunctionDeclaration,tokens,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,src/languages/plsql/plsql.formatter.ts,(anonymous),ArrowFunction,token,Unknown/No,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,src/languages/spark/spark.formatter.ts,postProcess,FunctionDeclaration,tokens,Unknown/No,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,src/lexer/Tokenizer.ts,key,ArrowFunction,v,Unknown/No,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,src/lexer/disambiguateTokens.ts,disambiguateTokens,FunctionDeclaration,tokens,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,src/lexer/regexFactory.ts,variable,ArrowFunction,varTypes,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,src/lexer/regexUtil.ts,toCaseInsensitivePattern,ArrowFunction,prefix,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,src/lexer/token.ts,isReserved,ArrowFunction,type,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,src/parser/createParser.ts,createParser,FunctionDeclaration,tokenizer,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,src/sqlFormatter.ts,format,ArrowFunction,query; cfg,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,src/utils.ts,equalizeWhitespace,ArrowFunction,s,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,src/validateConfig.ts,validateConfig,FunctionDeclaration,cfg,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/behavesLikeDb2Formatter.ts,behavesLikeDb2Formatter,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/behavesLikeMariaDbFormatter.ts,behavesLikeMariaDbFormatter,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/behavesLikeSqlFormatter.ts,behavesLikeSqlFormatter,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/alterTable.ts,supportsAlterTable,FunctionDeclaration,format; cfg,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/arrayAndMapAccessors.ts,supportsArrayAndMapAccessors,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/arrayLiterals.ts,supportsArrayLiterals,FunctionDeclaration,format; cfg,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/between.ts,supportsBetween,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/case.ts,supportsCase,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/commentOn.ts,supportsCommentOn,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/comments.ts,supportsComments,FunctionDeclaration,format; opts,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/constraints.ts,supportsConstraints,FunctionDeclaration,format; actions,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/createTable.ts,supportsCreateTable,FunctionDeclaration,format; cfg,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/createView.ts,supportsCreateView,FunctionDeclaration,"format; { orReplace, materialized, ifNotExists }",Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/deleteFrom.ts,supportsDeleteFrom,FunctionDeclaration,format; { withoutFrom },Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/disableComment.ts,supportsDisableComment,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/dropTable.ts,supportsDropTable,FunctionDeclaration,format; { ifExists },Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/identifiers.ts,supportsIdentifiers,FunctionDeclaration,format; identifierTypes,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/insertInto.ts,supportsInsertInto,FunctionDeclaration,format; { withoutInto },Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/isDistinctFrom.ts,supportsIsDistinctFrom,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/join.ts,supportsJoin,FunctionDeclaration,"format; { without, additionally, supportsUsing = true, supportsApply }",Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/limiting.ts,supportsLimiting,FunctionDeclaration,format; types,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/mergeInto.ts,supportsMergeInto,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/numbers.ts,supportsNumbers,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/onConflict.ts,supportsOnConflict,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/operators.ts,supportsOperators,FunctionDeclaration,format; operators; cfg,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/returning.ts,supportsReturning,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/schema.ts,supportsSchema,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/setOperations.ts,supportsSetOperations,FunctionDeclaration,format; operations,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/strings.ts,supportsStrings,FunctionDeclaration,format; stringTypes,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/truncateTable.ts,supportsTruncateTable,FunctionDeclaration,format; { withoutTable },Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/update.ts,supportsUpdate,FunctionDeclaration,format; { whereCurrentOf },Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/window.ts,supportsWindow,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/windowFunctions.ts,supportsWindowFunctions,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/features/with.ts,supportsWith,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/options/dataTypeCase.ts,supportsDataTypeCase,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/options/expressionWidth.ts,supportsExpressionWidth,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/options/functionCase.ts,supportsFunctionCase,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/options/identifierCase.ts,supportsIdentifierCase,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/options/indentStyle.ts,supportsIndentStyle,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/options/keywordCase.ts,supportsKeywordCase,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/options/linesBetweenQueries.ts,supportsLinesBetweenQueries,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/options/logicalOperatorNewline.ts,supportsLogicalOperatorNewline,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/options/newlineBeforeSemicolon.ts,supportsNewlineBeforeSemicolon,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/options/param.ts,supportsParams,FunctionDeclaration,format; params,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/options/paramTypes.ts,supportsParamTypes,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/options/tabWidth.ts,supportsTabWidth,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
+sql-formatter-org-sql-formatter,test/options/useTabs.ts,supportsUseTabs,FunctionDeclaration,format,Yes,NeedsProperty,Candidate only; original function has NOT been tested
