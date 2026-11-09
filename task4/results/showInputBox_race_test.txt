@@ -1,0 +1,11 @@
+=== showInputBoxWithSettings Concurrency Test ===
+
+Test 1: Accept followed by Hide
+Expected first result: { value: 'Bhuvana' }
+Observed: { value: 'Bhuvana' }
+
+Test 2: Settings button followed by automatic Hide
+Expected first result: SETTINGS
+Observed: SETTINGS
+
+RESULT: NO HARMFUL RACE REPRODUCED - later Promise resolutions were ignored.

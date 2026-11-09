@@ -1,0 +1,42 @@
+=== Race Condition Dynamic Test ===
+
+Initial state:
+[
+  {
+    "name": "FolderA",
+    "enable": true,
+    "value": "oldA"
+  },
+  {
+    "name": "FolderB",
+    "enable": true,
+    "value": "oldB"
+  }
+]
+
+Launching two concurrent updateSetting() calls...
+
+Final state:
+[
+  {
+    "name": "FolderA",
+    "enable": true,
+    "value": "newA"
+  },
+  {
+    "name": "FolderB",
+    "enable": true,
+    "value": "oldB"
+  }
+]
+
+Expected:
+FolderA = newA
+FolderB = newB
+
+Observed:
+FolderA = newA
+FolderB = oldB
+
+RESULT: RACE REPRODUCED - A concurrent update was lost.
+Lost update: FolderB

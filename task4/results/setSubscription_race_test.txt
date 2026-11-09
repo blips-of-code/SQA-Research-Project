@@ -1,0 +1,13 @@
+=== Azure Shared Subscription Race Test ===
+
+SET active subscription -> SUB-A
+SET active subscription -> SUB-B
+LIST command executing with active subscription -> SUB-B
+LIST command executing with active subscription -> SUB-B
+
+Results:
+Operation-A: expected=SUB-A, actual=SUB-B
+Operation-B: expected=SUB-B, actual=SUB-B
+
+RESULT: RACE REPRODUCED - shared subscription state was changed by another operation.
+Operation-A expected SUB-A but executed using SUB-B

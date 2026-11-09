@@ -1,0 +1,7 @@
+=== openOffsetInput Concurrent Test ===
+
+Concurrent results:
+Call A: { value: '1A2B', validation: null }
+Call B: { value: 'FFEE', validation: null }
+
+RESULT: NO HARMFUL RACE REPRODUCED - concurrent calls remained independent.
