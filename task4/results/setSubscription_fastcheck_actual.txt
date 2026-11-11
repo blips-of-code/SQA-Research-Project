@@ -1,0 +1,12 @@
+==========================================
+Actual repository function tested:
+setSubscriptionAsync
+fast-check runs: 100
+Race observed: Y
+Observed overlapping calls:
+[
+  { subscription: 'PB49f-A`hUz', start: 0, finish: 2 },
+  { subscription: 'IB}', start: 1, finish: 3 }
+]
+Observed consequence: concurrent invocations overlap while changing shared Azure CLI subscription state.
+==========================================

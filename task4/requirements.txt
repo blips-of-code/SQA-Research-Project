@@ -1,0 +1,2 @@
+# Task 4 Python scripts use only Python standard-library modules.
+# JavaScript/TypeScript dependencies are managed through package.json.

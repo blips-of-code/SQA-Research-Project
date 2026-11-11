@@ -1,0 +1,14 @@
+==========================================
+Actual repository function tested:
+showInputBoxWithSettings
+fast-check runs: 100
+Timing-dependent result observed: Y
+Observed event-order example:
+{
+  order1: [ 'accept', 'button' ],
+  result1: { value: 'ABC123' },
+  order2: [ 'button', 'accept' ],
+  result2: 'SETTINGS'
+}
+Observed consequence: when accept and settings-button events occur in different orders, showInputBoxWithSettings returns different results. The result therefore depends on which competing event resolves the Promise first.
+==========================================

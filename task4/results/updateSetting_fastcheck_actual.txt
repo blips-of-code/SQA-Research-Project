@@ -1,0 +1,15 @@
+==========================================
+Actual repository function tested:
+updateSetting
+fast-check runs: 100
+Race observed: Y
+Observed lost-update example:
+{
+  expected: { workspaceA: '\\9QLt9SjZK', workspaceB: '"isProt' },
+  actual: [
+    { name: 'workspace-A', jestCommandLine: '\\9QLt9SjZK' },
+    { name: 'workspace-B', jestCommandLine: 'initial-B' }
+  ]
+}
+Observed consequence: concurrent updateSetting calls can overwrite each other's virtualFolders changes because each call reads a snapshot and later writes the entire array.
+==========================================

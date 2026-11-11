@@ -1,0 +1,6 @@
+FilePath,Found,Location,ObservedConsequence
+vscode-kubernetes-tools-vscode-kubernetes-tools/src/components/clusterprovider/azure/azure.ts,Y,"setSubscriptionAsync line 102","Concurrent invocations overlap while issuing commands that modify the shared Azure CLI subscription state, making the resulting subscription dependent on execution ordering."
+jest-community-vscode-jest/src/Settings/helper.ts,Y,"updateSetting line 44","Concurrent updateSetting calls can overwrite each other's virtualFolders changes because each call reads a snapshot and later writes the entire array."
+microsoft-vscode-hexeditor/src/util.ts,N,"openOffsetInput line 18","Concurrent invocations produced overlapping showInputBox requests, but no incorrect return value or corrupted state was observed during testing."
+Dart-Code-Dart-Code/src/extension/utils/vscode/input.ts,Y,"showInputBoxWithSettings line 4","The return value depends on event ordering: an accept event returns the entered value while a settings-button event returns SETTINGS; whichever competing event resolves the Promise first determines the result."
+dotnet-vscode-csharp/src/shared/assets.ts,Y,"addAssetsIfNecessary line 780","Two concurrent invocations can both pass the assetPromptDisabled check and display duplicate build-assets prompts before either invocation records the Don't Ask Again state."

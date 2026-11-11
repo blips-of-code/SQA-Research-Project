@@ -1,0 +1,12 @@
+==========================================
+Actual repository function tested:
+openOffsetInput
+fast-check runs: 100
+Concurrent UI overlap observed: Y
+Observed overlapping prompt example:
+{
+  prompts: [ { id: 0, start: 0, finish: 3 }, { id: 1, start: 1, finish: 2 } ],
+  results: [ 'ABC123', 'ABC123' ]
+}
+Observed consequence: concurrent openOffsetInput invocations can issue overlapping showInputBox requests because the function contains no serialization or coordination between calls.
+==========================================
