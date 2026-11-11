@@ -1,14 +1,50 @@
 ==========================================
 Actual repository function tested:
 showInputBoxWithSettings
-fast-check runs: 100
+fast-check scheduler runs: 100
+Observed result types: [ 'SETTINGS', 'VALUE' ]
 Timing-dependent result observed: Y
-Observed event-order example:
+Example when value wins:
 {
-  order1: [ 'accept', 'button' ],
-  result1: { value: 'ABC123' },
-  order2: [ 'button', 'accept' ],
-  result2: 'SETTINGS'
+  result: { value: 'ABC123' },
+  schedulerReport: [
+    {
+      status: 'resolved',
+      schedulingType: 'promise',
+      taskId: 1,
+      label: 'accept event',
+      metadata: undefined,
+      outputValue: '"accept"'
+    },
+    {
+      status: 'pending',
+      schedulingType: 'promise',
+      taskId: 2,
+      label: 'settings button event',
+      metadata: undefined
+    }
+  ]
 }
-Observed consequence: when accept and settings-button events occur in different orders, showInputBoxWithSettings returns different results. The result therefore depends on which competing event resolves the Promise first.
+Example when settings wins:
+{
+  result: 'SETTINGS',
+  schedulerReport: [
+    {
+      status: 'resolved',
+      schedulingType: 'promise',
+      taskId: 2,
+      label: 'settings button event',
+      metadata: undefined,
+      outputValue: '"button"'
+    },
+    {
+      status: 'pending',
+      schedulingType: 'promise',
+      taskId: 1,
+      label: 'accept event',
+      metadata: undefined
+    }
+  ]
+}
+Observed consequence: fast-check's scheduler demonstrated that competing accept and settings-button events can produce different return values from the real showInputBoxWithSettings function depending on event resolution order.
 ==========================================

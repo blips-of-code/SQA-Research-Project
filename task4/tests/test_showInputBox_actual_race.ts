@@ -1,13 +1,25 @@
 import fc from "fast-check";
 import mock from "mock-require";
 
-type EventName = "accept" | "button";
+let activeScheduler: any = null;
 
-let requestedOrder: EventName[] = [];
+type ResultType = "SETTINGS" | "VALUE" | "UNDEFINED";
+
+function classifyResult(result: any): ResultType {
+    if (result === "SETTINGS") {
+        return "SETTINGS";
+    }
+
+    if (result && result.value === "ABC123") {
+        return "VALUE";
+    }
+
+    return "UNDEFINED";
+}
 
 function createMockInputBox() {
     let acceptHandler: (() => void) | undefined;
-    let buttonHandler: ((e: any) => void) | undefined;
+    let buttonHandler: ((event: any) => void) | undefined;
     let hideHandler: (() => void) | undefined;
     let changeHandler: ((value: string) => void) | undefined;
 
@@ -25,7 +37,7 @@ function createMockInputBox() {
             return { dispose() {} };
         },
 
-        onDidTriggerButton(handler: (e: any) => void) {
+        onDidTriggerButton(handler: (event: any) => void) {
             buttonHandler = handler;
             return { dispose() {} };
         },
@@ -48,21 +60,30 @@ function createMockInputBox() {
 
         show() {
             /*
-             * Fire the same two user events in the order supplied
-             * by fast-check. The actual repository callback logic
-             * decides which result wins.
+             * Both competing UI events are scheduled by fast-check.
+             * The scheduler determines which one resolves first.
              */
-            setTimeout(() => {
-                for (const event of requestedOrder) {
-                    if (event === "accept" && acceptHandler) {
+            activeScheduler
+                .schedule(
+                    Promise.resolve("accept"),
+                    "accept event"
+                )
+                .then(() => {
+                    if (acceptHandler) {
                         acceptHandler();
                     }
+                });
 
-                    if (event === "button" && buttonHandler) {
+            activeScheduler
+                .schedule(
+                    Promise.resolve("button"),
+                    "settings button event"
+                )
+                .then(() => {
+                    if (buttonHandler) {
                         buttonHandler({});
                     }
-                }
-            }, 0);
+                });
         },
 
         dispose() {}
@@ -77,7 +98,9 @@ const vscodeMock = {
     },
 
     Uri: {
-        file: (path: string) => ({ fsPath: path })
+        file: (filePath: string) => ({
+            fsPath: filePath
+        })
     }
 };
 
@@ -85,9 +108,9 @@ mock("vscode", vscodeMock);
 
 async function executeTest(
     showInputBoxWithSettings: any,
-    order: EventName[]
+    scheduler: any
 ) {
-    requestedOrder = order;
+    activeScheduler = scheduler;
 
     const context: any = {
         asAbsolutePath: (relativePath: string) =>
@@ -103,10 +126,14 @@ async function executeTest(
         validation: (_value: string) => undefined
     };
 
-    return await showInputBoxWithSettings(
+    const call = showInputBoxWithSettings(
         context,
         options
     );
+
+    const result = await scheduler.waitFor(call);
+
+    return result;
 }
 
 async function main() {
@@ -117,63 +144,53 @@ async function main() {
     const showInputBoxWithSettings =
         inputModule.showInputBoxWithSettings;
 
-    if (typeof showInputBoxWithSettings !== "function") {
+    if (
+        typeof showInputBoxWithSettings !==
+        "function"
+    ) {
         throw new Error(
             "Could not load the real showInputBoxWithSettings function."
         );
     }
 
-    let timingDependentResultObserved = false;
-    let example: any = null;
+    const observed = new Set<ResultType>();
+
+    const examples: Record<string, any> = {};
 
     await fc.assert(
         fc.asyncProperty(
-            fc.boolean(),
-            async (buttonFirst) => {
-                const firstOrder: EventName[] =
-                    buttonFirst
-                        ? ["button", "accept"]
-                        : ["accept", "button"];
+            fc.scheduler(),
 
-                const reverseOrder: EventName[] =
-                    buttonFirst
-                        ? ["accept", "button"]
-                        : ["button", "accept"];
+            async (scheduler) => {
+                const result =
+                    await executeTest(
+                        showInputBoxWithSettings,
+                        scheduler
+                    );
 
-                const result1 = await executeTest(
-                    showInputBoxWithSettings,
-                    firstOrder
-                );
+                const type =
+                    classifyResult(result);
 
-                const result2 = await executeTest(
-                    showInputBoxWithSettings,
-                    reverseOrder
-                );
+                observed.add(type);
 
-                const serialized1 =
-                    JSON.stringify(result1);
-
-                const serialized2 =
-                    JSON.stringify(result2);
-
-                if (serialized1 !== serialized2) {
-                    timingDependentResultObserved = true;
-
-                    if (!example) {
-                        example = {
-                            order1: firstOrder,
-                            result1,
-                            order2: reverseOrder,
-                            result2
-                        };
-                    }
+                if (!examples[type]) {
+                    examples[type] = {
+                        result,
+                        schedulerReport:
+                            scheduler.report()
+                    };
                 }
             }
         ),
+
         {
             numRuns: 100
         }
     );
+
+    const timingDependent =
+        observed.has("SETTINGS") &&
+        observed.has("VALUE");
 
     console.log(
         "=========================================="
@@ -183,26 +200,45 @@ async function main() {
         "Actual repository function tested:"
     );
 
-    console.log("showInputBoxWithSettings");
+    console.log(
+        "showInputBoxWithSettings"
+    );
 
-    console.log("fast-check runs: 100");
+    console.log(
+        "fast-check scheduler runs: 100"
+    );
+
+    console.log(
+        "Observed result types:",
+        Array.from(observed)
+    );
 
     console.log(
         "Timing-dependent result observed:",
-        timingDependentResultObserved ? "Y" : "N"
+        timingDependent ? "Y" : "N"
     );
 
-    if (timingDependentResultObserved) {
+    if (timingDependent) {
         console.log(
-            "Observed event-order example:"
+            "Example when value wins:"
         );
 
-        console.dir(example, {
-            depth: null
-        });
+        console.dir(
+            examples["VALUE"],
+            { depth: null }
+        );
 
         console.log(
-            "Observed consequence: when accept and settings-button events occur in different orders, showInputBoxWithSettings returns different results. The result therefore depends on which competing event resolves the Promise first."
+            "Example when settings wins:"
+        );
+
+        console.dir(
+            examples["SETTINGS"],
+            { depth: null }
+        );
+
+        console.log(
+            "Observed consequence: fast-check's scheduler demonstrated that competing accept and settings-button events can produce different return values from the real showInputBoxWithSettings function depending on event resolution order."
         );
     }
 

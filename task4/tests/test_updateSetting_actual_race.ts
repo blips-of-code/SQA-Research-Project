@@ -2,35 +2,39 @@ import fc from "fast-check";
 import mock from "mock-require";
 import path from "path";
 
-// ---------------------------------------------------------
-// Mock ONLY external/environment dependencies.
-// We will still execute the REAL updateSetting function.
-// ---------------------------------------------------------
-
 let committedVirtualFolders: any[] = [];
+let activeScheduler: any = null;
+
+const clone = <T>(value: T): T =>
+    JSON.parse(JSON.stringify(value));
 
 const vscodeMock = {
     workspace: {
         getConfiguration: () => ({
             get: (key: string) => {
                 if (key === "virtualFolders") {
-                    // Return a snapshot, like independently-read configuration state.
-                    return JSON.parse(JSON.stringify(committedVirtualFolders));
+                    return clone(committedVirtualFolders);
                 }
 
                 return undefined;
             },
 
             update: async (key: string, value: any) => {
-                // Introduce async timing so concurrent updates may interleave.
-                await new Promise((resolve) =>
-                    setTimeout(resolve, Math.floor(Math.random() * 5))
-                );
-
-                if (key === "virtualFolders") {
-                    committedVirtualFolders =
-                        JSON.parse(JSON.stringify(value));
+                if (key !== "virtualFolders") {
+                    return;
                 }
+
+                const snapshot = clone(value);
+
+                await activeScheduler
+                    .schedule(
+                        Promise.resolve(snapshot),
+                        "commit virtualFolders"
+                    )
+                    .then((scheduledValue: any[]) => {
+                        committedVirtualFolders =
+                            clone(scheduledValue);
+                    });
             },
 
             inspect: () => undefined
@@ -40,7 +44,6 @@ const vscodeMock = {
 
 mock("vscode", vscodeMock);
 
-// Force the selected workspaces down the virtual-workspace branch.
 const virtualWorkspaceModule = path.resolve(
     process.cwd(),
     "candidate-repositories/jest-community-vscode-jest/src/virtual-workspace-folder.ts"
@@ -52,9 +55,12 @@ mock(virtualWorkspaceModule, {
 
 async function runRaceTest(
     updateSetting: any,
+    scheduler: any,
     firstValue: string,
     secondValue: string
 ) {
+    activeScheduler = scheduler;
+
     committedVirtualFolders = [
         {
             name: "workspace-A",
@@ -76,23 +82,26 @@ async function runRaceTest(
         uri: { fsPath: "/tmp/workspace-B" }
     };
 
-    await Promise.all([
-        updateSetting(
-            workspaceA,
-            "jestCommandLine",
-            firstValue
-        ),
-
-        updateSetting(
-            workspaceB,
-            "jestCommandLine",
-            secondValue
-        )
-    ]);
-
-    return JSON.parse(
-        JSON.stringify(committedVirtualFolders)
+    const firstCall = updateSetting(
+        workspaceA,
+        "jestCommandLine",
+        firstValue
     );
+
+    const secondCall = updateSetting(
+        workspaceB,
+        "jestCommandLine",
+        secondValue
+    );
+
+    await scheduler.waitFor(
+        Promise.all([
+            firstCall,
+            secondCall
+        ])
+    );
+
+    return clone(committedVirtualFolders);
 }
 
 async function main() {
@@ -100,7 +109,8 @@ async function main() {
         "../candidate-repositories/jest-community-vscode-jest/src/Settings/helper"
     );
 
-    const updateSetting = helperModule.updateSetting;
+    const updateSetting =
+        helperModule.updateSetting;
 
     if (typeof updateSetting !== "function") {
         throw new Error(
@@ -113,36 +123,50 @@ async function main() {
 
     await fc.assert(
         fc.asyncProperty(
-            fc.string({
-                minLength: 1,
-                maxLength: 20
-            }),
+            fc.scheduler(),
 
             fc.string({
                 minLength: 1,
                 maxLength: 20
             }),
 
-            async (valueA, valueB) => {
+            fc.string({
+                minLength: 1,
+                maxLength: 20
+            }),
+
+            async (
+                scheduler,
+                valueA,
+                valueB
+            ) => {
                 fc.pre(valueA !== valueB);
 
-                const finalState = await runRaceTest(
-                    updateSetting,
-                    valueA,
-                    valueB
-                );
+                const finalState =
+                    await runRaceTest(
+                        updateSetting,
+                        scheduler,
+                        valueA,
+                        valueB
+                    );
 
-                const folderA = finalState.find(
-                    (v: any) => v.name === "workspace-A"
-                );
+                const folderA =
+                    finalState.find(
+                        (v: any) =>
+                            v.name === "workspace-A"
+                    );
 
-                const folderB = finalState.find(
-                    (v: any) => v.name === "workspace-B"
-                );
+                const folderB =
+                    finalState.find(
+                        (v: any) =>
+                            v.name === "workspace-B"
+                    );
 
                 const bothUpdatesPreserved =
-                    folderA?.jestCommandLine === valueA &&
-                    folderB?.jestCommandLine === valueB;
+                    folderA?.jestCommandLine ===
+                        valueA &&
+                    folderB?.jestCommandLine ===
+                        valueB;
 
                 if (!bothUpdatesPreserved) {
                     raceObserved = true;
@@ -154,12 +178,16 @@ async function main() {
                                 workspaceB: valueB
                             },
 
-                            actual: finalState
+                            actual: finalState,
+
+                            schedulerReport:
+                                scheduler.report()
                         };
                     }
                 }
             }
         ),
+
         {
             numRuns: 100
         }
@@ -175,7 +203,9 @@ async function main() {
 
     console.log("updateSetting");
 
-    console.log("fast-check runs: 100");
+    console.log(
+        "fast-check scheduler runs: 100"
+    );
 
     console.log(
         "Race observed:",
@@ -192,7 +222,7 @@ async function main() {
         });
 
         console.log(
-            "Observed consequence: concurrent updateSetting calls can overwrite each other's virtualFolders changes because each call reads a snapshot and later writes the entire array."
+            "Observed consequence: fast-check's scheduler exposed a lost-update race in which concurrent updateSetting calls read independent virtualFolders snapshots and one complete-array write overwrites the other."
         );
     }
 

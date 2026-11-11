@@ -1,15 +1,33 @@
 ==========================================
 Actual repository function tested:
 updateSetting
-fast-check runs: 100
+fast-check scheduler runs: 100
 Race observed: Y
 Observed lost-update example:
 {
-  expected: { workspaceA: '\\9QLt9SjZK', workspaceB: '"isProt' },
+  expected: { workspaceA: "'Z#jn4?Y", workspaceB: ':> :!%' },
   actual: [
-    { name: 'workspace-A', jestCommandLine: '\\9QLt9SjZK' },
+    { name: 'workspace-A', jestCommandLine: "'Z#jn4?Y" },
     { name: 'workspace-B', jestCommandLine: 'initial-B' }
+  ],
+  schedulerReport: [
+    {
+      status: 'resolved',
+      schedulingType: 'promise',
+      taskId: 2,
+      label: 'commit virtualFolders',
+      metadata: undefined,
+      outputValue: '[{"name":"workspace-A","jestCommandLine":"initial-A"},{"name":"workspace-B","jestCommandLine":":> :!%"}]'
+    },
+    {
+      status: 'resolved',
+      schedulingType: 'promise',
+      taskId: 1,
+      label: 'commit virtualFolders',
+      metadata: undefined,
+      outputValue: `[{"name":"workspace-A","jestCommandLine":"'Z#jn4?Y"},{"name":"workspace-B","jestCommandLine":"initial-B"}]`
+    }
   ]
 }
-Observed consequence: concurrent updateSetting calls can overwrite each other's virtualFolders changes because each call reads a snapshot and later writes the entire array.
+Observed consequence: fast-check's scheduler exposed a lost-update race in which concurrent updateSetting calls read independent virtualFolders snapshots and one complete-array write overwrites the other.
 ==========================================
