@@ -1,0 +1,24 @@
+{
+  "name": "task4",
+  "version": "1.0.0",
+  "description": "**Status: Not yet implemented.**",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "fast-check": "^4.10.2",
+    "tsx": "^4.23.15"
+  },
+  "devDependencies": {
+    "@types/mock-require": "^3.0.0",
+    "mock-require": "^3.0.3"
+  }
+}

@@ -75,7 +75,7 @@ For more information, see [Task 3 Documentation](task3/README.md).
 
 ## Task 4: Race-Condition Detection
 
-**Status: Not yet implemented.**
+**Status: Completed.**
 
 Task 4 involves developing a methodology for detecting race-condition vulnerabilities using the [fast-check race-condition tutorial](https://fast-check.dev/docs/tutorials/detect-race-conditions/wrapping-up/).
 
@@ -90,7 +90,7 @@ The methodology will be applied to the executable repositories identified in Tas
 - **Location:** Line number of the vulnerability, or `NA`
 - **ObservedConsequence:** Observed effect of the vulnerability, or `NA`
 
-Task 4 code, testing results, and documentation will be maintained in `task4/`.
+Task 4 code, fast-check race-condition tests, execution results, and documentation are maintained in `task4/`.
 
 For more information, see [Task 4 Documentation](task4/README.md).
 

@@ -1,0 +1,14 @@
+==========================================
+Actual repository function tested:
+addAssetsIfNecessary
+fast-check runs: 100
+Duplicate prompt race observed: Y
+Observed example:
+{
+  firstDelay: 5,
+  secondDelay: 4,
+  promptCount: 2,
+  workspaceStateDisabled: true
+}
+Observed consequence: two concurrent addAssetsIfNecessary invocations can both pass the assetPromptDisabled check and display duplicate build-assets prompts before either invocation records the Don't Ask Again state.
+==========================================

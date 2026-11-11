@@ -1,0 +1,32 @@
+==========================================
+Actual repository function tested:
+setSubscriptionAsync
+fast-check scheduler runs: 100
+Race observed: Y
+Observed scheduler-controlled overlap:
+{
+  calls: [
+    { subscription: '|ugs', started: 0, finished: 3 },
+    { subscription: "to$'", started: 1, finished: 2 }
+  ],
+  schedulerReport: [
+    {
+      status: 'resolved',
+      schedulingType: 'promise',
+      taskId: 2,
+      label: "set subscription to$'",
+      metadata: undefined,
+      outputValue: `"to$'"`
+    },
+    {
+      status: 'resolved',
+      schedulingType: 'promise',
+      taskId: 1,
+      label: 'set subscription |ugs',
+      metadata: undefined,
+      outputValue: '"|ugs"'
+    }
+  ]
+}
+Observed consequence: fast-check's scheduler exposed overlapping calls to the real setSubscriptionAsync function while both invocations modify the shared Azure CLI subscription state.
+==========================================
