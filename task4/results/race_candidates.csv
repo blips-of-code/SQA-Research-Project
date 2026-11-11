@@ -1,0 +1,218 @@
+Repository,FilePath,FunctionName,Kind,Line,Parameters,ReturnType,Exported,ParseError,RaceCandidateScore
+dotnet-vscode-csharp,src/shared/assets.ts,addAssetsIfNecessary,FunctionDeclaration,780,context; workspaceInformationProvider,Promise<void>,Yes,,9
+jest-community-vscode-jest,src/Settings/helper.ts,updateSetting,ArrowFunction,44,workspaceFolder; key; value,Promise<void>,Yes,,9
+Dart-Code-Dart-Code,src/extension/utils/vscode/input.ts,showInputBoxWithSettings,FunctionDeclaration,4,context; options,Promise<UserInputOrSettings | undefined>,Yes,,8
+microsoft-vscode-hexeditor,src/util.ts,openOffsetInput,FunctionDeclaration,18,,Promise<string | undefined>,Yes,,8
+vscode-kubernetes-tools-vscode-kubernetes-tools,src/components/clusterprovider/azure/azure.ts,setSubscriptionAsync,FunctionDeclaration,102,context; subscription,Promise<Errorable<Diagnostic>>,Yes,,8
+Azure-vscode-azureterraform,src/shared.ts,azFileDelete,FunctionDeclaration,42,workspaceName; storageAccountName; storageAccountKey; fileShareName; localFileUri,Promise<void>,Yes,,7
+Azure-vscode-azureterraform,src/shared.ts,azFilePush,FunctionDeclaration,76,workspaceName; storageAccountName; storageAccountKey; fileShareName; fileName,Promise<void>,Yes,,7
+Dart-Code-Dart-Code,src/extension/sdk/update_check.ts,checkForStandardDartSdkUpdates,FunctionDeclaration,10,logger; workspaceContext,Promise<void>,Yes,,7
+Dart-Code-Dart-Code,src/extension/utils/vscode/input.ts,showSimpleSettingsEditor,FunctionDeclaration,60,title; placeholder; getItems,Promise<void>,Yes,,7
+dotnet-vscode-csharp,src/common.ts,deleteIfExists,FunctionDeclaration,125,filePath,Promise<void>,Yes,,7
+dotnet-vscode-csharp,src/common.ts,deleteInstallFile,FunctionDeclaration,170,folderPath; type,Promise<void>,Yes,,7
+dotnet-vscode-csharp,src/lsptoolshost/projectRestore/restore.ts,restore,FunctionDeclaration,78,languageServer; restoreChannel; projectFiles; showOutput,Promise<void>,Yes,,7
+dotnet-vscode-csharp,src/omnisharp/features/commands.ts,dotnetRestore,FunctionDeclaration,196,cwd; eventStream; filePath,Promise<void>,Yes,,7
+dotnet-vscode-csharp,src/shared/assets.ts,generateAssets,FunctionDeclaration,895,workspaceInformationProvider; selectedIndex,Promise<void>,Yes,,7
+dotnet-vscode-csharp,src/tools/updatePackageDependencies.ts,updatePackageDependencies,FunctionDeclaration,26,,Promise<void>,Yes,,7
+espressif-vscode-esp-idf-extension,src/cdtDebugAdapter/adapter/mi/data.ts,sendDataWriteMemoryBytes,FunctionDeclaration,64,gdb; memoryReference; data,Promise<void>,Yes,,7
+espressif-vscode-esp-idf-extension,src/cdtDebugAdapter/adapter/mi/var.ts,sendVarDelete,FunctionDeclaration,161,gdb; params,Promise<void>,Yes,,7
+espressif-vscode-esp-idf-extension,src/cdtDebugAdapter/adapter/mi/var.ts,sendVarSetFormatToHex,FunctionDeclaration,200,gdb; name,Promise<void>,Yes,,7
+julia-vscode-julia-vscode,src/notebook/helpers.ts,chainWithPendingUpdates,FunctionDeclaration,20,document; update,Promise<void>,Yes,,7
+Microsoft-vscode-chrome-debug-core,testSupport/src/debugClient.ts,setBreakpointOnStart,FunctionDeclaration,14,dc; bps; program; expLine; expCol; expVerified,Promise<void>,Yes,,7
+Microsoft-vscode-chrome-debug-core,testSupport/src/debugClient.ts,setBreakpoint,FunctionDeclaration,21,dc; bps; program; expLine; expCol; expVerified,Promise<void>,Yes,,7
+microsoft-vscode-cmake-tools,src/cmakeExecutable.ts,setCMakeDebuggerAvailableContext,FunctionDeclaration,87,value,Promise<void>,Yes,,7
+microsoft-vscode-cmake-tools,src/ui/util.ts,onConfigureSettingsChange,FunctionDeclaration,4,,Promise<void>,Yes,,7
+microsoft-vscode-cmake-tools,src/ui/util.ts,onBuildSettingsChange,FunctionDeclaration,9,,Promise<void>,Yes,,7
+microsoft-vscode-cmake-tools,src/ui/util.ts,onTestSettingsChange,FunctionDeclaration,14,,Promise<void>,Yes,,7
+microsoft-vscode-cmake-tools,src/ui/util.ts,onPackageSettingsChange,FunctionDeclaration,19,,Promise<void>,Yes,,7
+microsoft-vscode-docker,src/commands/compose/compose.ts,composeUpSubset,FunctionDeclaration,92,context; dockerComposeFileUri; selectedComposeFileUris; preselectedServices; preselectedProfiles,Promise<void>,Yes,,7
+microsoft-vscode-docker,src/commands/images/pushImage/pushImage.ts,pushImage,FunctionDeclaration,18,context; node,Promise<void>,Yes,,7
+microsoft-vscode-docker,src/commands/registries/azure/deleteAzureRegistry.ts,deleteAzureRegistry,FunctionDeclaration,13,context; node,Promise<void>,Yes,,7
+microsoft-vscode-docker,src/commands/registries/azure/deleteAzureRepository.ts,deleteAzureRepository,FunctionDeclaration,13,context; node,Promise<void>,Yes,,7
+microsoft-vscode-docker,src/commands/registries/deleteRemoteImage.ts,deleteRemoteImage,FunctionDeclaration,14,context; node,Promise<void>,Yes,,7
+microsoft-vscode-docker,src/tasks/netcore/updateBlazorManifest.ts,updateBlazorManifest,FunctionDeclaration,38,context; runDefinition,Promise<void>,Yes,,7
+microsoft-vscode-docker,src/utils/migrateOldEnvironmentSettingsIfNeeded.ts,migrateOldEnvironmentSettingsIfNeeded,FunctionDeclaration,18,,Promise<void>,Yes,,7
+microsoft-vscode-hexeditor,src/selectBetweenOffsets.ts,showSelectBetweenOffsets,ArrowFunction,9,messaging; registry,Promise<void>,Yes,,7
+Microsoft-vscode-java-dependency,src/explorerCommands/delete.ts,deleteFiles,FunctionDeclaration,9,node; useTrash,Promise<void>,Yes,,7
+Microsoft-vscode-java-dependency,src/tasks/buildArtifact/migration/utils.ts,updateExportTaskType,FunctionDeclaration,10,document; range,Promise<void>,Yes,,7
+Microsoft-vscode-java-dependency,src/tasks/buildArtifact/migration/utils.ts,setContextForDeprecatedTasks,FunctionDeclaration,17,,Promise<void>,Yes,,7
+Microsoft-vscode-makefile-tools,src/configuration.ts,setCurrentMakefileConfiguration,FunctionDeclaration,82,configuration,Promise<void>,Yes,,7
+Microsoft-vscode-makefile-tools,src/configuration.ts,setCurrentLaunchConfiguration,FunctionDeclaration,883,configuration,Promise<void>,Yes,,7
+Microsoft-vscode-makefile-tools,src/configuration.ts,readSaveBeforeBuildOrConfigure,FunctionDeclaration,1617,,Promise<void>,Yes,,7
+Microsoft-vscode-makefile-tools,src/configuration.ts,initFromSettings,FunctionDeclaration,1712,activation,Promise<void>,Yes,,7
+Microsoft-vscode-makefile-tools,src/configuration.ts,setConfigurationByName,FunctionDeclaration,2300,configurationName,Promise<void>,Yes,,7
+Microsoft-vscode-makefile-tools,src/configuration.ts,setNewConfiguration,FunctionDeclaration,2340,,Promise<void>,Yes,,7
+Microsoft-vscode-makefile-tools,src/configuration.ts,setTargetByName,FunctionDeclaration,2410,targetName,Promise<void>,Yes,,7
+Microsoft-vscode-makefile-tools,src/configuration.ts,setLaunchConfigurationByName,FunctionDeclaration,2518,launchConfigurationName,Promise<void>,Yes,,7
+Microsoft-vscode-maven,src/handlers/dependency/setDependencyVersionHandler.ts,setDependencyVersionHandler,FunctionDeclaration,17,selectedItem,Promise<void>,Yes,,7
+Microsoft-vscode-maven,src/utils/contextUtils.ts,loadMavenSettingsFilePath,FunctionDeclaration,40,,Promise<void>,Yes,,7
+Microsoft-vscode-maven,src/utils/historyUtils.ts,updateLRUCommands,FunctionDeclaration,19,command; pomPath,Promise<void>,Yes,,7
+Microsoft-vscode-maven,src/utils/mavenUtils.ts,promptToSettingMavenExecutable,FunctionDeclaration,245,,Promise<void>,Yes,,7
+microsoft-vscode-python-debugger,src/extension/common/settings.ts,verifySetting,FunctionDeclaration,119,configSection; target; settingName; value,Promise<void>,Yes,,7
+microsoft-vscode-react-native,src/extension/android/androidContainerUtility.ts,push,FunctionDeclaration,44,adbHelper; deviceId; app; filepath; contents; logger,Promise<void>,Yes,,7
+microsoft-vscode-react-native,src/extension/android/androidContainerUtility.ts,pushFile,FunctionDeclaration,80,adbHelper; deviceId; app; destFilepath; sourceFilepath; logger,Promise<void>,Yes,,7
+microsoft-vscode-react-native,src/extension/exponent/xdlInterface.ts,setOptions,FunctionDeclaration,99,projectRoot; options,Promise<void>,Yes,,7
+Microsoft-vscode-spring-initializr,src/Utils/index.ts,writeFileToExtensionRoot,FunctionDeclaration,91,relateivePath; data,Promise<void>,Yes,,7
+REditorSupport-vscode-R,src/liveShare/shareSession.ts,updateGuestRequest,FunctionDeclaration,84,file; force,Promise<void>,Yes,,7
+REditorSupport-vscode-R,src/liveShare/shareSession.ts,updateGuestPlot,FunctionDeclaration,179,file,Promise<void>,Yes,,7
+REditorSupport-vscode-R,src/rstudioapi.ts,setSelections,FunctionDeclaration,176,ranges; id,Promise<void>,Yes,,7
+REditorSupport-vscode-R,src/rstudioapi.ts,documentSave,FunctionDeclaration,211,id,Promise<void>,Yes,,7
+REditorSupport-vscode-R,src/rstudioapi.ts,documentSaveAll,FunctionDeclaration,217,,Promise<void>,Yes,,7
+REditorSupport-vscode-R,src/session.ts,writeResponse,FunctionDeclaration,717,responseData; responseSessionDir,Promise<void>,Yes,,7
+REditorSupport-vscode-R,src/session.ts,writeSuccessResponse,FunctionDeclaration,735,responseSessionDir,Promise<void>,Yes,,7
+REditorSupport-vscode-R,src/util.ts,setContext,FunctionDeclaration,411,key; value,Promise<void>,Yes,,7
+vscode-kubernetes-tools-vscode-kubernetes-tools,src/components/config/config.ts,setConfigValue,FunctionDeclaration,28,configKey; value,Promise<void>,Yes,,7
+vscode-kubernetes-tools-vscode-kubernetes-tools,src/components/config/config.ts,setActiveKubeconfig,FunctionDeclaration,97,kubeconfig,Promise<void>,Yes,,7
+vscode-kubernetes-tools-vscode-kubernetes-tools,src/components/config/config.ts,setAlwaysCleanUp,FunctionDeclaration,198,,Promise<void>,Yes,,7
+astral-sh-ruff-vscode,src/common/settings.ts,getExtensionSettings,FunctionDeclaration,69,namespace,Promise<ISettings[]>,Yes,,6
+astral-sh-ruff-vscode,src/common/settings.ts,getWorkspaceSettings,FunctionDeclaration,122,namespace; workspace,Promise<ISettings>,Yes,,6
+astral-sh-ruff-vscode,src/common/settings.ts,getGlobalSettings,FunctionDeclaration,192,namespace,Promise<ISettings>,Yes,,6
+Dart-Code-Dart-Code,src/shared/utils/fs.ts,readDirAsync,FunctionDeclaration,130,logger; folder,Promise<fs.Dirent[]>,Yes,,6
+espressif-vscode-esp-idf-extension,src/cdtDebugAdapter/adapter/mi/breakpoint.ts,sendBreakDelete,FunctionDeclaration,146,gdb; request,Promise<MIBreakDeleteResponse>,Yes,,6
+espressif-vscode-esp-idf-extension,src/cdtDebugAdapter/adapter/mi/var.ts,sendVarUpdate,FunctionDeclaration,137,gdb; params,Promise<MIVarUpdateResponse>,Yes,,6
+jest-community-vscode-jest,src/setup-wizard/tasks/setup-jest-cmdline.ts,setupJestCmdLine,ArrowFunction,30,context,Promise<WizardStatus>,Yes,,6
+jest-community-vscode-jest,src/setup-wizard/tasks/setup-jest-debug.ts,setupJestDebug,ArrowFunction,26,context,Promise<WizardStatus>,Yes,,6
+jest-community-vscode-jest,src/setup-wizard/tasks/setup-monorepo.ts,setupMonorepo,ArrowFunction,25,context,Promise<WizardStatus>,Yes,,6
+kondratyev-nv-vscode-python-test-adapter,src/testplan/testplanJunitTestStatesParser.ts,parseTestStates,FunctionDeclaration,49,outputXmlDir,Promise<TestEvent[]>,Yes,,6
+microsoft-vscode-autopep8,src/common/settings.ts,getExtensionSettings,FunctionDeclaration,20,namespace; includeInterpreter,Promise<ISettings[]>,Yes,,6
+microsoft-vscode-autopep8,src/common/settings.ts,getWorkspaceSettings,FunctionDeclaration,79,namespace; workspace; includeInterpreter,Promise<ISettings>,Yes,,6
+microsoft-vscode-autopep8,src/common/settings.ts,getGlobalSettings,FunctionDeclaration,125,namespace; includeInterpreter,Promise<ISettings>,Yes,,6
+microsoft-vscode-black-formatter,src/common/settings.ts,getExtensionSettings,FunctionDeclaration,28,namespace; includeInterpreter,Promise<ISettings[]>,Yes,,6
+microsoft-vscode-black-formatter,src/common/settings.ts,getWorkspaceSettings,FunctionDeclaration,100,namespace; workspace; includeInterpreter,Promise<ISettings>,Yes,,6
+microsoft-vscode-black-formatter,src/common/settings.ts,getGlobalSettings,FunctionDeclaration,149,namespace; includeInterpreter,Promise<ISettings>,Yes,,6
+Microsoft-vscode-chrome-debug-core,src/utils.ts,promiseTimeout,FunctionDeclaration,83,p; timeoutMs; timeoutMsg,Promise<any>,Yes,,6
+Microsoft-vscode-chrome-debug-core,src/utils.ts,writeFileP,FunctionDeclaration,372,filePath; data,Promise<string>,Yes,,6
+Microsoft-vscode-chrome-debug-core,testSupport/src/testSetup.ts,setup,FunctionDeclaration,97,opts,Promise<ExtendedDebugClient>,Yes,,6
+microsoft-vscode-cmake-tools,src/config.ts,getSettingsChangePromise,FunctionDeclaration,708,,Promise<any[]>,Yes,,6
+microsoft-vscode-cmake-tools,src/installs/visualStudio.ts,enumerateMsvcToolsets,FunctionDeclaration,195,vsInstallRoot; vsVersion,Promise<string[] | undefined>,Yes,,6
+microsoft-vscode-cmake-tools,src/presets/preset.ts,getConfigurePresetInherits,FunctionDeclaration,1181,folder; name; allowUserPreset; usePresetsPlusIncluded; errorHandler,Promise<ConfigurePreset | null>,Yes,,6
+microsoft-vscode-cmake-tools,src/presets/preset.ts,expandConfigurePresetVariables,FunctionDeclaration,1295,preset; folder; name; workspaceFolder; sourceDir; allowUserPreset; usePresetsPlusIncluded; errorHandler,Promise<ConfigurePreset>,Yes,,6
+microsoft-vscode-cmake-tools,src/presets/preset.ts,getBuildPresetInherits,FunctionDeclaration,1551,folder; name; workspaceFolder; sourceDir; parallelJobs; preferredGeneratorName; allowUserPreset; configurePreset; usePresetsPlusIncluded; errorHandler; inheritedByPreset,Promise<BuildPreset | null>,Yes,,6
+microsoft-vscode-cmake-tools,src/presets/preset.ts,expandBuildPresetVariables,FunctionDeclaration,1678,preset; name; workspaceFolder; sourceDir; errorHandler,Promise<BuildPreset>,Yes,,6
+microsoft-vscode-cmake-tools,src/presets/preset.ts,getTestPresetInherits,FunctionDeclaration,1730,folder; name; workspaceFolder; sourceDir; preferredGeneratorName; allowUserPreset; configurePreset; usePresetsPlusIncluded; errorHandler; inheritedByPreset,Promise<TestPreset | null>,Yes,,6
+microsoft-vscode-cmake-tools,src/presets/preset.ts,expandTestPresetVariables,FunctionDeclaration,1854,preset; name; workspaceFolder; sourceDir; errorHandler,Promise<TestPreset>,Yes,,6
+microsoft-vscode-cmake-tools,src/presets/preset.ts,getPackagePresetInherits,FunctionDeclaration,1944,folder; name; workspaceFolder; sourceDir; preferredGeneratorName; allowUserPreset; configurePreset; usePresetsPlusIncluded; errorHandler; inheritedByPreset,Promise<PackagePreset | null>,Yes,,6
+microsoft-vscode-cmake-tools,src/presets/preset.ts,expandPackagePresetVariables,FunctionDeclaration,2068,preset; name; workspaceFolder; sourceDir; errorHandler,Promise<PackagePreset>,Yes,,6
+microsoft-vscode-cmake-tools,src/presets/preset.ts,getWorkflowPresetInherits,FunctionDeclaration,2101,folder; name; workspaceFolder; sourceDir; allowUserPreset; configurePreset; usePresetsPlusIncluded; errorHandler,Promise<WorkflowPreset | null>,Yes,,6
+microsoft-vscode-flake8,src/common/settings.ts,getExtensionSettings,FunctionDeclaration,30,namespace; includeInterpreter,Promise<ISettings[]>,Yes,,6
+microsoft-vscode-flake8,src/common/settings.ts,getWorkspaceSettings,FunctionDeclaration,84,namespace; workspace; includeInterpreter,Promise<ISettings>,Yes,,6
+microsoft-vscode-flake8,src/common/settings.ts,getGlobalSettings,FunctionDeclaration,133,namespace; includeInterpreter,Promise<ISettings>,Yes,,6
+microsoft-vscode-isort,src/common/settings.ts,getExtensionSettings,FunctionDeclaration,24,namespace; includeInterpreter,Promise<ISettings[]>,Yes,,6
+microsoft-vscode-isort,src/common/settings.ts,getWorkspaceSettings,FunctionDeclaration,88,namespace; workspace; includeInterpreter,Promise<ISettings>,Yes,,6
+microsoft-vscode-isort,src/common/settings.ts,getGlobalSettings,FunctionDeclaration,138,namespace; includeInterpreter,Promise<ISettings>,Yes,,6
+Microsoft-vscode-java-debug,src/languageServerPlugin.ts,checkProjectSettings,FunctionDeclaration,79,className; projectName; inheritedOptions; expectedOptions,Promise<boolean>,Yes,,6
+Microsoft-vscode-java-pack,src/utils/adoptiumApi.ts,latestAssets,FunctionDeclaration,90,featureVersion; jvmImpl,Promise<AdoptiumAsset[]>,Yes,,6
+Microsoft-vscode-java-pack,src/utils/adoptiumApi.ts,latestCompatibleAsset,FunctionDeclaration,96,featureVersion; jvmImpl,Promise<AdoptiumAsset | undefined>,Yes,,6
+Microsoft-vscode-java-test,src/controller/utils.ts,updateItemForDocumentWithDebounce,FunctionDeclaration,191,uri; testTypes,Promise<TestItem[]>,Yes,,6
+Microsoft-vscode-java-test,src/controller/utils.ts,updateItemForDocument,FunctionDeclaration,214,uri; testTypes,Promise<TestItem[]>,Yes,,6
+Microsoft-vscode-makefile-tools,src/parser.ts,parseTargets,FunctionDeclaration,66,cancel; verboseLog; statusCallback; foundTargetCallback,Promise<number>,Yes,,6
+Microsoft-vscode-makefile-tools,src/telemetry.ts,analyzeSettings,FunctionDeclaration,210,setting; key; propSchema; ignoreDefault; telemetryProperties,Promise<Properties | null>,Yes,,6
+Microsoft-vscode-makefile-tools,src/util.ts,getExpandedSetting,FunctionDeclaration,974,settingId; propSchema,Promise<T | undefined>,Yes,,6
+Microsoft-vscode-makefile-tools,src/util.ts,getExpandedSettingVal,FunctionDeclaration,1015,settingId; settingVal; propSchema,Promise<T | undefined>,Yes,,6
+Microsoft-vscode-makefile-tools,src/util.ts,expandVariablesInSetting,FunctionDeclaration,1122,settingId; settingVal,Promise<string>,Yes,,6
+Microsoft-vscode-mssql,src/schemaCompare/schemaCompareUtils.ts,saveScmp,FunctionDeclaration,172,payload; schemaCompareService,Promise<mssql.ResultStatus>,Yes,,6
+microsoft-vscode-pylint,src/common/settings.ts,getExtensionSettings,FunctionDeclaration,32,namespace; includeInterpreter,Promise<ISettings[]>,Yes,,6
+microsoft-vscode-pylint,src/common/settings.ts,getWorkspaceSettings,FunctionDeclaration,104,namespace; workspace; includeInterpreter,Promise<ISettings>,Yes,,6
+microsoft-vscode-pylint,src/common/settings.ts,getGlobalSettings,FunctionDeclaration,155,namespace; includeInterpreter,Promise<ISettings>,Yes,,6
+microsoft-vscode-python-debugger,src/extension/common/python.ts,getSettingsPythonPath,FunctionDeclaration,69,resource,Promise<string[] | undefined>,Yes,,6
+microsoft-vscode-python-debugger,src/extension/common/settings.ts,getExtensionSettings,FunctionDeclaration,16,namespace; includeInterpreter,Promise<ISettings[]>,Yes,,6
+microsoft-vscode-python-debugger,src/extension/common/settings.ts,getWorkspaceSettings,FunctionDeclaration,42,namespace; workspace; includeInterpreter,Promise<ISettings>,Yes,,6
+REditorSupport-vscode-R,src/rTerminal.ts,chooseTerminal,FunctionDeclaration,176,,Promise<vscode.Terminal | undefined>,Yes,,6
+REditorSupport-vscode-R,src/util.ts,saveDocument,FunctionDeclaration,215,document,Promise<boolean>,Yes,,6
+vscode-kubernetes-tools-vscode-kubernetes-tools,src/image/imageUtils.ts,buildAndPushImage,FunctionDeclaration,15,shellOpts; imagePrefix,Promise<string>,Yes,,6
+vscode-kubernetes-tools-vscode-kubernetes-tools,src/image/imageUtils.ts,getPushCommand,FunctionDeclaration,38,image,Promise<string>,Yes,,6
+vscode-kubernetes-tools-vscode-kubernetes-tools,src/kubectlUtils.ts,deleteCluster,FunctionDeclaration,135,kubectl; context,Promise<boolean>,Yes,,6
+vscode-shellcheck-vscode-shellcheck,src/settings.ts,getWorkspaceSettings,FunctionDeclaration,64,context; scope,Promise<ShellCheckSettings>,Yes,,6
+Azure-vscode-azureterraform,src/utils/uiUtils.ts,promptForOpenOutputChannel,FunctionDeclaration,44,message; type,Promise<void>,Yes,,5
+firefox-devtools-vscode-firefox-debug,src/extension/addPathMapping.ts,addPathMapping,FunctionDeclaration,16,treeNode,Promise<void>,Yes,,5
+firefox-devtools-vscode-firefox-debug,src/extension/addPathMapping.ts,addNullPathMapping,FunctionDeclaration,45,treeNode,Promise<void>,Yes,,5
+graphql-graphiql,packages/graphql-language-service-server/src/startServer.ts,addHandlers,FunctionDeclaration,190,"{
+  connection,
+  logger,
+  config,
+  parser,
+  fileExtensions,
+  graphqlFileExtensions,
+  tmpDir,
+  loadConfigOptions,
+}",Promise<void>,Yes,,5
+microsoft-vscode-docker,src/commands/containers/removeContainer.ts,removeContainer,FunctionDeclaration,12,context; node; nodes,Promise<void>,Yes,,5
+microsoft-vscode-docker,src/commands/containers/removeContainerGroup.ts,removeContainerGroup,FunctionDeclaration,12,context; node; nodes,Promise<void>,Yes,,5
+microsoft-vscode-docker,src/commands/context/removeDockerContext.ts,removeDockerContext,FunctionDeclaration,11,actionContext; node,Promise<void>,Yes,,5
+microsoft-vscode-docker,src/commands/images/removeImage.ts,removeImage,FunctionDeclaration,12,context; node; nodes,Promise<void>,Yes,,5
+microsoft-vscode-docker,src/commands/images/removeImageGroup.ts,removeImageGroup,FunctionDeclaration,12,context; node; nodes,Promise<void>,Yes,,5
+microsoft-vscode-docker,src/commands/networks/removeNetwork.ts,removeNetwork,FunctionDeclaration,12,context; node; nodes,Promise<void>,Yes,,5
+microsoft-vscode-docker,src/commands/registries/genericV2/addTrackedGenericV2Registry.ts,addTrackedGenericV2Registry,FunctionDeclaration,10,context; node,Promise<void>,Yes,,5
+microsoft-vscode-docker,src/commands/registries/genericV2/removeTrackedGenericV2Registry.ts,removeTrackedGenericV2Registry,FunctionDeclaration,12,context; node,Promise<void>,Yes,,5
+microsoft-vscode-docker,src/commands/volumes/removeVolume.ts,removeVolume,FunctionDeclaration,12,context; node; nodes,Promise<void>,Yes,,5
+Microsoft-vscode-java-pack,src/formatter-settings/utils.ts,addDefaultProfile,FunctionDeclaration,43,context,Promise<void>,Yes,,5
+Microsoft-vscode-java-test,src/commands/askForOptionCommands.ts,registerAskForInputCommand,FunctionDeclaration,92,context,Promise<void>,Yes,,5
+Microsoft-vscode-java-test,src/commands/testExplorerCommands.ts,refreshExplorer,FunctionDeclaration,40,,Promise<void>,Yes,,5
+Microsoft-vscode-makefile-tools,src/configuration.ts,readExtensionOutputFolder,FunctionDeclaration,395,,Promise<void>,Yes,,5
+Microsoft-vscode-makefile-tools,src/configuration.ts,readConfigurationCachePath,FunctionDeclaration,640,,Promise<void>,Yes,,5
+Microsoft-vscode-makefile-tools,src/configuration.ts,readAdditionalCompilerNames,FunctionDeclaration,708,,Promise<void>,Yes,,5
+Microsoft-vscode-makefile-tools,src/configuration.ts,readDryrunSwitches,FunctionDeclaration,782,,Promise<void>,Yes,,5
+Microsoft-vscode-makefile-tools,src/configuration.ts,readDefaultLaunchConfiguration,FunctionDeclaration,973,,Promise<void>,Yes,,5
+Microsoft-vscode-makefile-tools,src/configuration.ts,readClearOutputBeforeBuild,FunctionDeclaration,1657,,Promise<void>,Yes,,5
+Microsoft-vscode-maven,src/handlers/dependency/addDependencyHandler.ts,addDependencyHandler,FunctionDeclaration,16,options,Promise<void>,Yes,,5
+microsoft-vscode-react-native,src/extension/rn-extension.ts,onFolderAdded,FunctionDeclaration,286,folder,Promise<void>,Yes,,5
+REditorSupport-vscode-R,src/rstudioapi.ts,replaceTextInCurrentSelection,FunctionDeclaration,149,text; id,Promise<void>,Yes,,5
+REditorSupport-vscode-R,src/rstudioapi.ts,launchAddinPicker,FunctionDeclaration,323,,Promise<void>,Yes,,5
+vscode-kubernetes-tools-vscode-kubernetes-tools,src/components/clusterprovider/common/explorer.ts,refreshExplorer,FunctionDeclaration,3,,Promise<void>,Yes,,5
+vscode-kubernetes-tools-vscode-kubernetes-tools,src/components/config/config.ts,addPathToConfig,FunctionDeclaration,24,configKey; value,Promise<void>,Yes,,5
+Dart-Code-Dart-Code,src/shared/utils.ts,flatMapAsync,FunctionDeclaration,19,input; f,Promise<T2[]>,Yes,,4
+Dart-Code-Dart-Code,src/shared/utils/fs.ts,hasPubspecAsync,FunctionDeclaration,154,folder,Promise<boolean>,Yes,,4
+Dart-Code-Dart-Code,src/shared/utils/fs.ts,hasCreateTriggerFileAsync,FunctionDeclaration,158,folder,Promise<boolean>,Yes,,4
+Dart-Code-Dart-Code,src/shared/utils/fs.ts,isFlutterRepoAsync,FunctionDeclaration,162,folder,Promise<boolean>,Yes,,4
+dotnet-vscode-csharp,src/common.ts,mapAsync,FunctionDeclaration,39,array; selector,Promise<T2[]>,Yes,,4
+dotnet-vscode-csharp,src/common.ts,filterAsync,FunctionDeclaration,46,array; predicate,Promise<T[]>,Yes,,4
+dotnet-vscode-csharp,tasks/vsceTasks.ts,createPackageAsync,FunctionDeclaration,13,outputFolder; prerelease; packageName; vscodePlatformId,Promise<string>,Yes,,4
+espressif-vscode-esp-idf-extension,src/cdtDebugAdapter/adapter/mi/breakpoint.ts,sendBreakpointInsert,FunctionDeclaration,122,gdb; location; options,Promise<MIBreakInsertResponse>,Yes,,4
+espressif-vscode-esp-idf-extension,src/cdtDebugAdapter/adapter/mi/breakpoint.ts,sendFunctionBreakpointInsert,FunctionDeclaration,159,gdb; fn; options,Promise<MIBreakInsertResponse>,Yes,,4
+espressif-vscode-esp-idf-extension,src/cdtDebugAdapter/adapter/mi/breakpoint.ts,sendSourceBreakpointInsert,FunctionDeclaration,168,gdb; source; line; options,Promise<MIBreakInsertResponse>,Yes,,4
+firefox-devtools-vscode-firefox-debug,src/adapter/util/misc.ts,findAddonId,FunctionDeclaration,85,addonPath,Promise<string | undefined>,Yes,,4
+firefox-devtools-vscode-firefox-debug,src/extension/addPathMapping.ts,addPathMappingToLaunchConfig,FunctionDeclaration,102,launchConfigReference; url; path,Promise<boolean>,Yes,,4
+graphql-graphiql,packages/graphql-language-service-server/src/GraphQLCache.ts,getGraphQLCache,FunctionDeclaration,81,"{
+  parser,
+  logger,
+  loadConfigOptions,
+  config,
+  onSchemaChange,
+  schemaCacheTTL,
+}",Promise<GraphQLCache>,Yes,,4
+jest-community-vscode-jest,src/setup-wizard/wizard-helper.ts,showActionInputBox,ArrowFunction,157,options,Promise<ActionInputResult<T>>,Yes,,4
+johnpapa-vscode-peacock,src/live-share/integration.ts,refreshLiveShareSessionColor,FunctionDeclaration,37,isHostRole,Promise<boolean>,Yes,,4
+Microsoft-azure-pipelines-vscode,src/helpers/controlProvider.ts,showInputBox,FunctionDeclaration,20,inputName; options,Promise<string | undefined>,Yes,,4
+Microsoft-azure-pipelines-vscode,src/schema-association-service-1espt.ts,getCached1ESPTSchema,FunctionDeclaration,55,context; organizationName; session; lastUpdated1ESPTSchema,Promise<URI | undefined>,Yes,,4
+microsoft-playwright-vscode,src/utils.ts,spawnAsync,FunctionDeclaration,43,executable; args; cwd; settingsEnv,Promise<string>,Yes,,4
+Microsoft-vscode-chrome-debug-core,src/utils.ts,existsAsync,FunctionDeclaration,61,path,Promise<boolean>,Yes,,4
+Microsoft-vscode-chrome-debug-core,src/utils.ts,retryAsync,FunctionDeclaration,103,fn; timeoutMs; intervalDelay,Promise<any>,Yes,,4
+Microsoft-vscode-chrome-debug-core,src/utils.ts,fsReadDirP,FunctionDeclaration,348,path,Promise<string[]>,Yes,,4
+microsoft-vscode-cmake-tools,src/debug/debugger.ts,getDebugConfigurationFromCache,FunctionDeclaration,208,cache; target; platform; modeOverride; debuggerPathOverride,Promise<VSCodeDebugConfiguration | null>,Yes,,4
+microsoft-vscode-cmake-tools,src/drivers/cmakeFileApi.ts,loadCacheContent,FunctionDeclaration,297,filename,"Promise<Map<string, cache.CacheEntry>>",Yes,,4
+microsoft-vscode-cmake-tools,src/kits/kit.ts,getAdditionalKits,FunctionDeclaration,1379,project,Promise<Kit[]>,Yes,,4
+microsoft-vscode-cmake-tools,src/util.ts,readDir,FunctionDeclaration,955,dirPath,Promise<string[]>,Yes,,4
+microsoft-vscode-cmake-tools,src/util.ts,scheduleAsyncTask,FunctionDeclaration,1280,task,Promise<T>,Yes,,4
+microsoft-vscode-docker,src/commands/images/tagImage.ts,getTagFromUserInput,FunctionDeclaration,35,context; fullTag; baseImagePath,Promise<string>,Yes,,4
+microsoft-vscode-docker,src/debugging/DebugHelper.ts,addDebugConfiguration,FunctionDeclaration,66,newConfig; folder; overwrite,Promise<boolean>,Yes,,4
+microsoft-vscode-docker,src/tasks/TaskHelper.ts,addTask,FunctionDeclaration,120,newTask; folder; overwrite,Promise<boolean>,Yes,,4
+microsoft-vscode-docker,src/utils/execAsync.ts,execAsync,FunctionDeclaration,18,command; options; progress,Promise<ExecAsyncOutput>,Yes,,4
+Microsoft-vscode-java-dependency,src/java/jdtls.ts,refreshLibraries,FunctionDeclaration,27,params,Promise<boolean | undefined>,Yes,,4
+Microsoft-vscode-makefile-tools,src/make.ts,loadConfigurationFromCache,FunctionDeclaration,2077,progress; cancel,Promise<ConfigureSubphaseStatus>,Yes,,4
+Microsoft-vscode-makefile-tools,src/parser.ts,preprocessDryRunOutput,FunctionDeclaration,153,cancel; dryRunOutputStr; statusCallback,Promise<PreprocessDryRunOutputReturnType>,Yes,,4
+Microsoft-vscode-makefile-tools,src/util.ts,replaceCommands,FunctionDeclaration,469,x; safeCommands; opt,Promise<string>,Yes,,4
+Microsoft-vscode-makefile-tools,src/util.ts,scheduleAsyncTask,FunctionDeclaration,1332,task,Promise<T>,Yes,,4
+Microsoft-vscode-pwa,src/common/fsUtils.ts,readdir,FunctionDeclaration,107,path,Promise<string[]>,Yes,,4
+Microsoft-vscode-pwa,src/common/objUtils.ts,bisectArrayAsync,FunctionDeclaration,341,items; predicate,"Promise<[T[], T[]]>",Yes,,4
+Microsoft-vscode-pwa,src/common/processUtils.ts,spawnAsync,FunctionDeclaration,37,command; args; options,Promise<{ stdout: string; stderr: string }>,Yes,,4
+Microsoft-vscode-pwa,src/common/promiseUtil.ts,findIndexAsync,FunctionDeclaration,49,array; predicate,Promise<number>,Yes,,4
+Microsoft-vscode-pwa,src/common/sourceMaps/sourceMapResolutionUtils.ts,getComputedSourceRoot,FunctionDeclaration,29,sourceRoot; generatedPath; pathMapping; resolver; logger,Promise<string>,Yes,,4
+microsoft-vscode-python-debugger,src/extension/common/utilities.ts,asyncFilter,FunctionDeclaration,8,arr; asyncPredicate,Promise<T[]>,Yes,,4
+Microsoft-vscode-spring-initializr,src/handler/utils.ts,createInputBox,FunctionDeclaration,111,inputMetaData,Promise<boolean>,Yes,,4
+Microsoft-vscode-spring-initializr,src/Utils/VSCodeUI.ts,getFromInputBox,FunctionDeclaration,95,options,Promise<string>,Yes,,4
+Microsoft-vscode-sublime-keybindings,src/fsWrapper.ts,readFileAsync,FunctionDeclaration,21,filePath; encoding,Promise<string>,Yes,,4
+Microsoft-vscode-sublime-keybindings,src/sublimeFolderFinder.ts,filterForExistingDirsAsync,FunctionDeclaration,34,paths,Promise<vscode.Uri | undefined>,Yes,,4
+REditorSupport-vscode-R,src/rstudioapi.ts,getAddinPickerItems,FunctionDeclaration,290,,Promise<AddinItem[]>,Yes,,4
+REditorSupport-vscode-R,src/util.ts,spawnAsync,FunctionDeclaration,495,command; args; options; onDisposed,Promise<cp.SpawnSyncReturns<string>>,Yes,,4
+stylelint-vscode-stylelint,src/utils/functions/lazy-call.ts,lazyCallAsync,FunctionDeclaration,26,inner,() => Promise<R>,Yes,,4
+vscode-kubernetes-tools-vscode-kubernetes-tools,src/helm.exec.ts,helmExecAsync,FunctionDeclaration,707,args,Promise<ShellResult | undefined>,Yes,,4
