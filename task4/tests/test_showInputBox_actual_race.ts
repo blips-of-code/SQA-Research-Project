@@ -237,9 +237,17 @@ async function main() {
             { depth: null }
         );
 
-        console.log(
-            "Observed consequence: fast-check's scheduler demonstrated that competing accept and settings-button events can produce different return values from the real showInputBoxWithSettings function depending on event resolution order."
-        );
+console.log(
+    "Confirmed harmful race-condition vulnerability: N"
+);
+
+console.log(
+    "Observed behavior: competing accept and settings-button events can produce different legitimate return values depending on event resolution order."
+);
+
+console.log(
+    "Final conclusion: no harmful state corruption, lost update, duplicate side effect, invalid value, or crash was demonstrated. The behavior is treated as expected first-event-wins behavior."
+);
     }
 
     console.log(

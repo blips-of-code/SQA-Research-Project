@@ -1,14 +1,14 @@
 {
   "name": "task4",
   "version": "1.0.0",
-  "description": "**Status: Not yet implemented.**",
+  "description": "Task 4 fast-check race-condition validation for executable TypeScript repositories.",
   "main": "index.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "test": "tsx tests/test_setSubscription_actual_race.ts && tsx tests/test_updateSetting_actual_race.ts && tsx tests/test_openOffsetInput_actual_race.ts && tsx tests/test_showInputBox_actual_race.ts && tsx tests/test_addAssets_actual_race.ts"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",

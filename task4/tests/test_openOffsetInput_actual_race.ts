@@ -117,24 +117,32 @@ async function main() {
 
     console.log("fast-check runs: 100");
 
+console.log(
+    "Concurrent UI overlap observed:",
+    overlapObserved ? "Y" : "N"
+);
+
+console.log(
+    "Confirmed harmful race-condition vulnerability: N"
+);
+
+if (overlapObserved) {
     console.log(
-        "Concurrent UI overlap observed:",
-        overlapObserved ? "Y" : "N"
+        "Observed overlapping prompt example:"
     );
 
-    if (overlapObserved) {
-        console.log(
-            "Observed overlapping prompt example:"
-        );
+    console.dir(example, {
+        depth: null
+    });
 
-        console.dir(example, {
-            depth: null
-        });
+    console.log(
+        "Observed behavior: concurrent openOffsetInput invocations can issue overlapping showInputBox requests."
+    );
 
-        console.log(
-            "Observed consequence: concurrent openOffsetInput invocations can issue overlapping showInputBox requests because the function contains no serialization or coordination between calls."
-        );
-    }
+    console.log(
+        "Final conclusion: no incorrect return value, corrupted state, lost update, duplicate persistent side effect, or crash was demonstrated."
+    );
+}
 
     console.log(
         "=========================================="

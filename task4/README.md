@@ -93,4 +93,45 @@ Testing Principle
 Static analysis is used only to identify candidates.
 A function is marked Found=Y only when dynamic execution provides evidence of a race-related consequence.
 Mocks are limited to external environment dependencies and asynchronous timing control. The actual repository functions are imported and executed during the tests.
+## Authoritative Results
 
+The final authoritative Task 4 results are stored in:
+
+`results/race_condition_results.csv`
+
+The newer dynamic tests under `tests/*_actual_race.ts` supersede the earlier exploratory or simulation-based tests.
+
+The final tests execute the actual repository functions. External systems such as VS Code APIs, shell commands, filesystem behavior, and UI components are mocked only where necessary to execute the repository code in an isolated testing environment.
+
+## Candidate Repository Setup
+
+The candidate repositories are not committed to this GitHub repository because of their size.
+
+From the project root, create the candidate repository directory:
+
+mkdir -p task4/candidate-repositories
+cd task4/candidate-repositories
+
+Clone the repositories used for dynamic validation:
+
+git clone https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools.git vscode-kubernetes-tools-vscode-kubernetes-tools
+git clone https://github.com/jest-community/vscode-jest.git jest-community-vscode-jest
+git clone https://github.com/microsoft/vscode-hexeditor.git microsoft-vscode-hexeditor
+git clone https://github.com/Dart-Code/Dart-Code.git Dart-Code-Dart-Code
+git clone https://github.com/dotnet/vscode-csharp.git dotnet-vscode-csharp
+
+Install dependencies inside each candidate repository using:
+
+npm install
+
+Then return to the Task 4 directory:
+
+cd ..
+
+Install Task 4 dependencies:
+
+npm install
+
+Run all Task 4 dynamic tests with:
+
+npm test
