@@ -1,0 +1,7 @@
+# Task 3 Python dependencies
+# Tested with Python 3.15.0.
+# All primary Python testing scripts use the Python standard library.
+# No third-party Python packages are required.
+#
+# Node.js dependencies are managed separately through the
+# package.json and package-lock.json files in the repository root.
