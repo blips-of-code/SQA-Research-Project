@@ -39,22 +39,33 @@ For more information, see [Task 2 Documentation](task2/README.md).
 
 ## Task 3: Generic Defect Detection
 
-**Status: In progress.**
+**Status: Completed, with documented testing coverage limitations.**
 
-Task 3 uses [fast-check](https://fast-check.dev/) to perform property-based testing on the executable repositories identified in Task 2.
+Task 3 uses [fast-check](https://fast-check.dev/) to perform automated property-based testing on the executable repositories identified in Task 2.
 
-The goal is to test at least one function in every TypeScript file across the executable repositories.
+The testing methodology combines behavioral property testing, broad automated function execution, dependency handling, and expected-output verification using existing repository assertions.
 
-### Current Progress
+### Results
 
-- Identified **5,858** TypeScript/TSX files across the 140 successfully built repositories.
-- Created a function inventory that discovered functions in **4,925** files.
-- Developed scripts for automated function discovery and testing.
-- Executed initial behavioral property tests.
-- Developed broader robustness tests using generated inputs.
-- Recorded testing results, coverage, and execution limitations.
+| Category | Count |
+|---|---:|
+| Executable repositories | 140 |
+| TypeScript/TSX files identified | 5,858 |
+| Eligible files containing functions | 4,925 |
+| Files without discovered functions | 933 |
+| Functions classified as executed | 5,191 |
+| Exploratory execution records | 38,766 |
+| Successful executions with unverified correctness | 13,245 |
+| Exceptions requiring review | 9,769 |
+| Blocked execution records | 15,752 |
+| Dependency attempt records | 35,202 |
+| Verified passing test records | 66 |
+| Verified failing test records | 0 |
+| Blocked repository assertion cases | 3 |
 
-Complete per-file testing coverage has not yet been achieved. Some functions require external dependencies, class instances, or application-specific environments.
+All 4,925 eligible files were accounted for during automated processing and classification. However, complete function execution and correctness-testing coverage could not be achieved due to dependency, parameter-generation, and application-context limitations.
+
+Successful execution is distinguished from verified correctness. Exceptions are documented as potential defect indicators rather than automatically classified as confirmed defects.
 
 ### Required CSV Format
 
@@ -62,16 +73,25 @@ Complete per-file testing coverage has not yet been achieved. Some functions req
 
 The spelling `InputParamater` follows the assignment instructions.
 
+The final assignment-format CSV contains 66 passing records with established expected outcomes. Exploratory execution results and blocked cases are retained separately to preserve all testing evidence.
+
 ### Relevant Files
 
-- `scripts/` — Automated testing scripts
-- `tests/` — Existing test cases
-- `fast-check-results.csv` — Initial testing results
-- `fast-check-broad-results.csv` — Automated robustness-testing results
-- `fast-check-broad-classification.csv` — File classifications and testing limitations
-- `typescript-function-inventory.csv` — Discovered TypeScript functions
+| File | Description |
+|---|---|
+| `scripts/` | Automated testing and verification programs |
+| `fast-check-results.csv` | Final assignment-format testing results |
+| `fast-check-initial-property-results.csv` | Original behavioral property results |
+| `fast-check-review-results.csv` | Broad automated execution results |
+| `fast-check-review-classification.csv` | Function and file classifications |
+| `fast-check-review-blocked.csv` | Execution limitations |
+| `fast-check-review-dependencies.csv` | Dependency attempt records |
+| `fast-check-oracle-cases.csv` | Extracted repository assertions |
+| `fast-check-verified-results.csv` | Detailed expected-output verification results |
+| `typescript-function-inventory.csv` | Discovered TypeScript functions |
+| `task3/requirements.txt` | Python dependency requirements |
 
-For more information, see [Task 3 Documentation](task3/README.md).
+For detailed methodology, setup instructions, execution commands, results, and limitations, see [Task 3 Documentation](task3/README.md).
 
 ## Task 4: Race-Condition Detection
 
@@ -126,17 +146,19 @@ npm install
 
 The original repository dataset and extracted repository copies are not included in GitHub because of their size. Some scripts require access to these files and may need local path configuration.
 
-Task-specific setup instructions and Python dependency files will be finalized as the testing workflows are completed.
+Task-specific setup instructions and dependency requirements are available in the [Task 3 Documentation](task3/README.md) and [Task 4 Documentation](task4/README.md).
 
 ## Collaboration
 
-Task 3 and Task 4 are being developed separately so both can progress in parallel.
+Task 3 and Task 4 were developed separately to allow both testing workflows to progress in parallel.
 
-Task 4 development should take place in the `task4/` directory. Please coordinate before modifying shared scripts or configuration files.
+Task 3 testing programs are maintained in `scripts/`, with documentation in `task3/` and results in the repository root.
+
+Task 4 testing programs, results, dependencies, and documentation are maintained in `task4/`.
 
 ## Important Notes
 
-This project is still in development.
+The project documents automated testing results, observed findings, and methodological limitations. Results should be interpreted within the scope of the implemented testing workflows.
 
 - Passing a robustness test does not necessarily mean that a function produces the correct output.
 - An execution error caused by missing dependencies does not automatically indicate a software defect.
