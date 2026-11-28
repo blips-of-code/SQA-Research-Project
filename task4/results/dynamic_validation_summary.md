@@ -65,9 +65,9 @@ Observed Result
 Concurrent invocations overlapped while issuing commands that modify shared Azure CLI subscription state.
 The order in which the operations complete can determine which subscription remains active.
 Classification
-Race reproduced.
+Potential shared-state race; incorrect final subscription not verified.
 Observed Consequence
-Concurrent invocations can overlap while changing shared Azure CLI subscription state, making the resulting subscription depend on execution ordering.
+Concurrent shell operations affecting shared subscription state overlapped. The final Azure subscription was not independently verified.
 Final Result
 Found=Y
 
@@ -170,7 +170,7 @@ Found=N
 For the final CSV, Location=NA and ObservedConsequence=NA.
 
 Final Conclusions
-The final dynamic validation produced three confirmed race-condition findings:
+The final dynamic validation produced two reproduced harmful race conditions and one potential shared-state race:
 1. setSubscriptionAsync
 2. updateSetting
 3. addAssetsIfNecessary

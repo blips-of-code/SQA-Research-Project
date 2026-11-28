@@ -25,7 +25,7 @@ The primary testing dependencies are:
 * mock-require
 The dependencies of each selected repository must also be installed before its test is executed.
 Dynamic Race-Condition Tests
-Five functions from the Task 2 executable repositories were dynamically tested.
+Static screening identified 201 candidates across 38 repositories. The high-priority results contain 65 candidates across 18 repositories. Five selected functions were dynamically tested. The remaining candidates were not dynamically validated.
 1. setSubscriptionAsync
 Repository:
 vscode-kubernetes-tools-vscode-kubernetes-tools
@@ -33,7 +33,7 @@ Run:
 npx tsx tests/test_setSubscription_actual_race.ts
 The test executes the actual setSubscriptionAsync implementation while mocking the external shell interface.
 Concurrent invocations were observed issuing operations that modify shared Azure CLI subscription state.
-Result: Race-related concurrency issue observed.
+Result: Potential shared-state race observed through overlapping shell operations. An incorrect final Azure subscription was not independently verified.
 2. updateSetting
 Repository:
 jest-community-vscode-jest
@@ -59,7 +59,7 @@ The actual function registers multiple event handlers that can resolve the same 
 Testing showed that event ordering changes the observed result:
 accept first -> { value: "ABC123" }
 settings button first -> "SETTINGS"
-Result: Timing-dependent race/event-order behavior observed.
+Result: Expected first-event-wins behavior; no harmful race demonstrated (Found=N).
 5. addAssetsIfNecessary
 Repository:
 dotnet-vscode-csharp
@@ -87,11 +87,11 @@ The final results file is:
 results/race_condition_results.csv
 It uses the required columns:
 FilePath,Found,Location,ObservedConsequence
-Found=Y means dynamic testing observed a race-related consequence.
+Found=Y identifies a race-related finding supported by dynamic evidence. The Azure finding represents a potential shared-state race rather than a verified incorrect final subscription.
 Found=N means the candidate was dynamically tested but no harmful race consequence was confirmed.
 Testing Principle
 Static analysis is used only to identify candidates.
-A function is marked Found=Y only when dynamic execution provides evidence of a race-related consequence.
+Dynamic evidence is required for positive findings. Observed behavior is distinguished from inferred downstream consequences.
 Mocks are limited to external environment dependencies and asynchronous timing control. The actual repository functions are imported and executed during the tests.
 ## Authoritative Results
 
@@ -135,3 +135,30 @@ npm install
 Run all Task 4 dynamic tests with:
 
 npm test
+
+
+## Reproducibility and Coverage Limitations
+
+The static screening script reads the existing
+`typescript-function-inventory.csv` generated from Task 2
+repository analysis. It automatically filters and ranks
+asynchronous exported functions using mutation-related
+function names and return types.
+
+The high-priority CSV records the prioritized candidate
+subset. The final results CSV summarizes the five
+selected dynamic tests; it is not an exhaustive
+classification of every static candidate.
+
+Run the static screening and dynamic tests from the
+`task4` directory.
+
+For faithful reproduction, use the corresponding source
+repositories from the original course dataset whenever
+available. Cloning the latest upstream versions may
+introduce source, dependency, and line-number differences.
+
+Dynamic results are limited to the tested functions,
+generated inputs, schedules, and mocked environments.
+Negative findings do not establish that a repository
+is free of race conditions.

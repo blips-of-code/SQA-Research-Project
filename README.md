@@ -99,7 +99,7 @@ For detailed methodology, setup instructions, execution commands, results, and l
 
 Task 4 involves developing a methodology for detecting race-condition vulnerabilities using the [fast-check race-condition tutorial](https://fast-check.dev/docs/tutorials/detect-race-conditions/wrapping-up/).
 
-The methodology will be applied to the executable repositories identified in Task 2.
+The methodology uses the Task 2 function inventory for static screening. It identified 201 candidates across 38 repositories, with 65 prioritized candidates across 18 repositories. Five selected functions were dynamically tested using fast-check. Two harmful race conditions and one potential shared-state race were reported. Two tests did not demonstrate harmful race conditions. Dynamic validation was limited to these five functions.
 
 ### Required CSV Format
 
